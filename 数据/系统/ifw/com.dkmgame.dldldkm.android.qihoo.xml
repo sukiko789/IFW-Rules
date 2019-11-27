@@ -1,0 +1,39 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.dkmgame.dldldkm.android.qihoo.analytics.AnalyticsHome"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.tencent.tauth.AuthActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.dkmgame.dldldkm.android.qihoo.analytics.FragmentStack"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.dkmgame.dldldkm.android.qihoo.analytics.FragmentTabs"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.dkmgame.dldldkm.android.qihoo.game.GameAnalyticsHome"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.heepay.plugin.activity.HyNotityActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoopp.qcoinpay.QcoinActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.dkm.sdk.wxapi.WXEntryActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.ipaynow.wechatpay.plugin.inner_plugin.wechat_plugin.activity.WeChatNotifyActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.iapppay.alpha.sdk.main.WebActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.dkmgame.dldldkm.android.qihoo.analytics.WebviewAnalytic"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.gameunionforsdk.SimpleWebView"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.gamecenter.sdk.activity.QhDeepLinkActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.updatesdk.lib.UpdateTipDialogActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.keepalive.PushWakeUpReceiver"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/org.cocos2dx.lua.Cocos2dxBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.keepalive.account.AuthenticationService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.appstore.updatelib.CheckUpdateService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.sdkplugging.host.service.CommonHostProxyService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.gamecenter.sdk.hook.DownloadService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.keepalive.NotificationService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.keepalive.PushJobSerivce"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.cx.PushLocalService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.cx.PushService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.cx.PushService$InnerService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.QPushHandleService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.qihoo.pushsdk.keepalive.account.SyncService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/com.yunva.im.sdk.lib.service.VioceService"/>
+      <component-filter name="com.dkmgame.dldldkm.android.qihoo/org.cocos2dx.lua.pushServer"/>
+   </service>
+</rules>

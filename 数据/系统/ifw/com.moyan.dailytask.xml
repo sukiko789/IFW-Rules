@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.moyan.dailytask/com.moyan.dailytask.ui.CrashActivity"/>
+      <component-filter name="com.moyan.dailytask/com.moyan.dailytask.ui.FeedbackActivity"/>
+      <component-filter name="com.moyan.dailytask/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.moyan.dailytask/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.moyan.dailytask/com.base.bj.paysdk.TrPayAcitivity"/>
+      <component-filter name="com.moyan.dailytask/com.base.bj.paysdk.TrPayUnionAcitivity"/>
+      <component-filter name="com.moyan.dailytask/com.base.bj.paysdk.TrSelectListActivity"/>
+      <component-filter name="com.moyan.dailytask/com.moyan.dailytask.ui.PayActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.moyan.dailytask/com.moyan.dailytask.net.update.ApkInstallReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.moyan.dailytask/com.moyan.dailytask.service.AidService"/>
+   </service>
+</rules>

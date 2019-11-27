@@ -1,0 +1,30 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.qihoo.srouter.n300/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.qihoo.srouter.n300/com.tencent.tauth.AuthActivity"/>
+      <component-filter name="com.qihoo.srouter.n300/com.facebook.FacebookActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.commonlib.utils.appupgrade.AppUpgradeReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.commoncd.keepalive.CDKeepAliveReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.yunbi.ui.manage.NetChangeBroadcastReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.superapp.model.main.message.push.receiver.SABootReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.superapp.model.main.message.push.receiver.SAMessageProcessReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.superapp.model.main.message.push.receiver.SANotificationReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.srouter.common.util.SRNetworkStateReceiver"/>
+      <component-filter name="com.qihoo.srouter.n300/com.stub.plugin.Stub03"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.qihoo.srouter.n300/com.amap.api.location.APSService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ryg.dynamicload.DLProxyService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.srouter.tool.backup.download.ghdownload.core.DownloadService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.commonlib.utils.monitor.FLCMonitorService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.superapp.model.main.message.push.SAMessageService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.superapp.model.main.user.SAUpdateService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.srouter.tool.backup.service.SRBackupReplaceService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.ifenglian.srouter.tool.clouddisk.service.SRCloudDiskService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.stub.plugin.Stub02"/>
+      <component-filter name="com.qihoo.srouter.n300/com.qihoo.sdk.report.network.SurvivalService"/>
+      <component-filter name="com.qihoo.srouter.n300/com.qihoo.sdk.report.network.NetworkService"/>
+   </service>
+</rules>

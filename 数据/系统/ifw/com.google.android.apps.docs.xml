@@ -1,0 +1,9 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.google.android.apps.docs/com.google.android.gms.analytics.AnalyticsReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.google.android.apps.docs/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.google.android.apps.docs/com.google.android.gms.analytics.AnalyticsService"/>
+   </service>
+</rules>

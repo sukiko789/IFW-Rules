@@ -1,0 +1,30 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.tauth.AuthActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.ysdk.module.user.impl.wx.qrcode.QRActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.ysdk.module.realName.impl.RegisterRealNameActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.papegames.sdk.weibo.WBShareActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.tmgp.evol.wxapi.WXEntryActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.tmgp.evol.wxapi.WXPayEntryActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.android.tpush.XGPushActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.msdk.dns.HttpDnsCache$ConnectivityChangeReceiver"/>
+      <component-filter name="com.tencent.tmgp.evol/com.papegames.androidplugin.UnityNotificationManager"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.ysdk.module.push.XGPushModule"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.tencent.tmgp.evol/com.appsflyer.SingleInstallBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.android.tpush.service.XGDaemonService"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.tencent.tmgp.evol/com.tencent.android.tpush.rpc.XGRemoteService"/>
+   </service>
+</rules>

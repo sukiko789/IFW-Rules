@@ -1,0 +1,29 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.levelup.palabre/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.levelup.palabre/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.levelup.palabre/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="com.levelup.palabre/com.nhaarman.listviewanimations.itemmanipulation.dragdrop.DynamicListViewTestActivity"/>
+      <component-filter name="com.levelup.palabre/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.levelup.palabre/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.levelup.palabre/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.levelup.palabre/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.levelup.palabre/com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeTouchListenerTestActivity"/>
+      <component-filter name="com.levelup.palabre/com.levelup.palabre.ui.widgets.Widget44Activity"/>
+      <component-filter name="com.levelup.palabre/com.levelup.palabre.ui.widgets.Widget42Activity"/>
+      <component-filter name="com.levelup.palabre/com.levelup.palabre.ui.widgets.Widget11Activity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.levelup.palabre/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.levelup.palabre/com.levelup.palabre.receiver.AppInstallReceiver"/>
+      <component-filter name="com.levelup.palabre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.levelup.palabre/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.levelup.palabre/com.google.android.gms.analytics.CampaignTrackingReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.levelup.palabre/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.levelup.palabre/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.levelup.palabre/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.levelup.palabre/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

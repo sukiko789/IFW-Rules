@@ -1,0 +1,38 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.nexelon.fishinglife/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.applovin.adview.AppLovinConfirmationActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.applovin.impl.adview.AppLovinOrientationAwareInterstitialActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.AppInviteDialogActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityAppLinkActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityCreateGameGroupActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityDeepLinkingActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityDialogsActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityGameRequestActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityJoinGameGroupActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.unity.FBUnityLoginActivity"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.FacebookActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.nexelon.fishinglife/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.nexelon.fishinglife/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.nexelon.fishinglife/com.hippogames.simpleandroidnotifications.Controller"/>
+      <component-filter name="com.nexelon.fishinglife/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.nexelon.fishinglife/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.nexelon.fishinglife/com.hippogames.simpleandroidnotifications.RebootManager"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.nexelon.fishinglife/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+      <component-filter name="com.nexelon.fishinglife/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.nexelon.fishinglife/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.nexelon.fishinglife/com.google.android.gms.measurement.AppMeasurementJobService"/>
+   </service>
+</rules>

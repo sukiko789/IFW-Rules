@@ -1,0 +1,49 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.chinamworld.bocmbci/com.albert.xchatkit.BlankActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.donkingliang.imageselector.ClipImageActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/hc.mhis.paic.com.essclibrary.activity.ESSCFaceDetectActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/hc.mhis.paic.com.essclibrary.activity.ESSCMainActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/hc.mhis.paic.com.essclibrary.activity.ESSCScanCodeActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.intsig.idcardscan.sdk.ISCardScanActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.intsig.ccrengine.ISCardScanActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.lenovo.appsdk.commlib.IntentHelperActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/cn.cloudwalk.libproject.LiveActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/cn.cloudwalk.libproject.LiveResultActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/cn.cloudwalk.libproject.LiveServerActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/cn.cloudwalk.libproject.LiveStartActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.yanzhenjie.permission.PermissionActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.donkingliang.imageselector.PreviewActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.system.splash.ad.SplashADActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.FlymePushReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.HmsPushReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.MiuiPushReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.VivoPushMessageReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.base.widget.windowHead.NotificationClickReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.HmsPushSubReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.equickpay.service.BocopApduService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.system.mine.ui.DownLoadService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.communication.push.service.PushIntentService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.PushService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.communication.push.service.PushService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.albert.xchatkit.SDLActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.communication.push.service.BocPushService"/>
+   </service>
+</rules>

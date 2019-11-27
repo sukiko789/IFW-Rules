@@ -1,0 +1,31 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.synjones.xuepay.szpc/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.umeng.socialize.media.WBShareCallBackActivity"/>
+      <component-filter name="com.synjones.xuepay.szpc/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.synjones.xuepay.szpc/cn.jpush.android.ui.PushActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.synjones.xuepay.szpc/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.hyphenate.chat.EMMonitorReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/synjones.jpush.MyReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/synjones.commerce.network.NetworkListener"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.synjones.synjonessportsbracelet.module.brodcast.PhoneBroadcastReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.synjones.synjonessportsbracelet.module.brodcast.SMSReceiver"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.synjones.synjonessportsbracelet.module.brodcast.UploadHealthReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.synjones.xuepay.szpc/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.hyphenate.chat.EMChatService"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.hyphenate.chat.EMJobService"/>
+      <component-filter name="com.synjones.xuepay.szpc/synjones.getui.GeTuiPushService"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.icbc.paysdk.ICBCAPI"/>
+      <component-filter name="com.synjones.xuepay.szpc/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.igexin.sdk.PushService"/>
+      <component-filter name="com.synjones.xuepay.szpc/synjones.commerce.utils.VersionTools"/>
+      <component-filter name="com.synjones.xuepay.szpc/com.baidu.location.f"/>
+   </service>
+</rules>

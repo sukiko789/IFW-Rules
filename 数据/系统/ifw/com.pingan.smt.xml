@@ -1,0 +1,31 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.pingan.smt/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.pingan.smt/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.pingan.smt/com.mrocker.push.richmedia.MPushWebView"/>
+      <component-filter name="com.pingan.smt/com.mrocker.push.ui.act.ScreenNoticeAct"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.pingan.smt/com.pingan.papush.hmspush.HmsEventReceiver"/>
+      <component-filter name="com.pingan.smt/com.pingan.papush.hmspush.HmsPushReceiver"/>
+      <component-filter name="com.pingan.smt/com.pingan.papush.mipush.MyMiReceiver"/>
+      <component-filter name="com.pingan.smt/com.pingan.papush.vivopush.MyVivoReceiver"/>
+      <component-filter name="com.pingan.smt/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.pingan.smt/com.pasc.lib.push.pingan.PingAnPushMessageReceiver"/>
+      <component-filter name="com.pingan.smt/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.pingan.smt/com.mrocker.push.service.PushIntentReceiver"/>
+      <component-filter name="com.pingan.smt/com.mrocker.push.service.PushNotificationClickReceiver"/>
+      <component-filter name="com.pingan.smt/com.mrocker.push.service.PushServiceReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.pingan.smt/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.pingan.smt/com.pingan.smt.module.update.DownloadService"/>
+      <component-filter name="com.pingan.smt/com.pingan.smt.templatelibrary.InitBrowserService"/>
+      <component-filter name="com.pingan.smt/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.pingan.smt/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.pingan.smt/com.mrocker.push.service.PushService"/>
+      <component-filter name="com.pingan.smt/com.tencent.authsdk.service.TimeCutDownService"/>
+      <component-filter name="com.pingan.smt/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.pingan.smt/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

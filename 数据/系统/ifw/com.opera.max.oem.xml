@@ -1,0 +1,29 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.opera.max.oem/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity0"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity1"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity2"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity3"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity4"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity5"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity6"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity7"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity8"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivity9"/>
+      <component-filter name="com.opera.max.oem/com.opera.max.ads.facebook.AffinityAudienceNetworkActivity$AffinityAudienceNetworkActivityMainProcess"/>
+      <component-filter name="com.opera.max.oem/com.facebook.ads.AudienceNetworkActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.opera.max.oem/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.opera.max.oem/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.opera.max.oem/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.opera.max.oem/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.opera.max.oem/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.opera.max.oem/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.opera.max.oem/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.opera.max.oem/com.google.firebase.components.ComponentDiscoveryService"/>
+   </service>
+</rules>

@@ -1,0 +1,18 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.paic.yl.health/com.pingan.core.relax.base.app.ApkDownloadBCReceiver"/>
+      <component-filter name="com.paic.yl.health/com.paic.yl.health.base.plugin.push.HFLPushReceiver"/>
+      <component-filter name="com.paic.yl.health/push.yl.paic.com.hflpush.MPushReceiver"/>
+      <component-filter name="com.paic.yl.health/com.paic.yl.health.base.plugin.network.NetBroadcastReceiver"/>
+      <component-filter name="com.paic.yl.health/com.paic.yl.health.base.plugin.push.PushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.paic.yl.health/com.amap.api.location.APSService"/>
+      <component-filter name="com.paic.yl.health/com.paic.yl.health.widget.assisttouch.AssistTouchService"/>
+      <component-filter name="com.paic.yl.health/push.yl.paic.com.hflpush.MPushFakeService"/>
+      <component-filter name="com.paic.yl.health/push.yl.paic.com.hflpush.MPushService"/>
+      <component-filter name="com.paic.yl.health/com.pingan.core.relax.patchcache.component.PCService"/>
+      <component-filter name="com.paic.yl.health/com.mrocker.adpush.service.PushService"/>
+      <component-filter name="com.paic.yl.health/com.paic.yl.health.run.ctrlview.RunStepRecordService"/>
+   </service>
+</rules>

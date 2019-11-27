@@ -1,0 +1,15 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.gedoor.monkeybook/com.google.android.gms.common.api.GoogleApiActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.gedoor.monkeybook/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.gedoor.monkeybook/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.gedoor.monkeybook/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.gedoor.monkeybook/com.kunfei.bookshelf.service.MediaButtonIntentReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.gedoor.monkeybook/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.gedoor.monkeybook/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

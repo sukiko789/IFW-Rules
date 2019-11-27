@@ -1,0 +1,11 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.hippo.ehviewer/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.hippo.ehviewer/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.hippo.ehviewer/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.hippo.ehviewer/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.hippo.ehviewer/com.google.android.gms.measurement.AppMeasurementJobService"/>
+   </service>
+</rules>

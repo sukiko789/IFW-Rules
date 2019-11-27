@@ -1,0 +1,75 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.microsoft.office.outlook/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.ui.drive.AveryDriveDetailsActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.uservoice.uservoicesdk.activity.ArticleActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.ui.purchase.AveryExpenseDetailsActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingCarouselActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingDriveActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingDriveObjectionActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingDriveReadyActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingEmailActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingLocationDeniedActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingPurchaseReadyActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingPushActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.rate.AveryOnboardingSetMileageRateActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingSpendActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingSpendObjectionActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AveryOnboardingVisitsActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.spend.AveryPlaidLinkActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.onboard.AverySetupActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.avery.ui.visit.AveryVisitDetailsActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.uservoice.uservoicesdk.activity.ContactActivity"/>
+      <component-filter name="com.microsoft.office.outlook/net.hockeyapp.android.FeedbackActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.uservoice.uservoicesdk.activity.ForumActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.helpshift.support.HSReview"/>
+      <component-filter name="com.microsoft.office.outlook/com.helpshift.support.activities.ParentActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.uservoice.uservoicesdk.activity.PortalActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.uservoice.uservoicesdk.activity.PostIdeaActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="com.microsoft.office.outlook/com.uservoice.uservoicesdk.activity.TopicActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.accore.receivers.OutlookDeviceAdminReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.receivers.PackageReplacedReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.internal.PassiveLocationChangedReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.evernote.android.job.v14.PlatformAlarmReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.internal.PowerStatusReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.location.LocationProvidersChangedReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.evernote.android.job.JobBootReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.receivers.InstallReferrerReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.InboxWidgetProvider"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.AgendaWidgetProvider"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.accore.ACCoreService$Receiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.internal.DriveEventBroadcastReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.internal.IQAlarmReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.receivers.SignupReminderReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.receivers.TimeZoneChangedReceiver"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.receivers.PowerLiftDiagnosticsStatusReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.microsoft.office.outlook/com.acompli.accore.ACCoreService"/>
+      <component-filter name="com.microsoft.office.outlook/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.microsoft.office.outlook/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.microsoft.office.outlook/com.acompli.acompli.appwidget.agenda.AgendaWidgetService"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.microsoft.office.outlook/com.microsoft.intune.mam.client.notification.CompanyPortalInstallHandler"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.services.DriveStateService"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.microsoft.office.outlook/com.evernote.android.job.JobRescheduleService"/>
+      <component-filter name="com.microsoft.office.outlook/com.mobiledatalabs.mileiq.drivedetection.location.LocationProvidersChangedJobIntentService"/>
+      <component-filter name="com.microsoft.office.outlook/com.microsoft.intune.mam.client.service.MAMBackgroundJobService"/>
+      <component-filter name="com.microsoft.office.outlook/com.microsoft.intune.mam.client.service.MAMBackgroundService"/>
+      <component-filter name="com.microsoft.office.outlook/com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService"/>
+      <component-filter name="com.microsoft.office.outlook/com.evernote.android.job.v14.PlatformAlarmService"/>
+      <component-filter name="com.microsoft.office.outlook/com.evernote.android.job.v14.PlatformAlarmServiceExact"/>
+      <component-filter name="com.microsoft.office.outlook/com.evernote.android.job.v21.PlatformJobService"/>
+      <component-filter name="com.microsoft.office.outlook/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+   </service>
+</rules>

@@ -1,0 +1,39 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.taobao.etao/com.google.zxing.client.android.share.ShareActivity"/>
+      <component-filter name="com.taobao.etao/com.google.zxing.client.android.book.SearchBookContentsActivity"/>
+      <component-filter name="com.taobao.etao/com.google.zxing.client.android.PreferencesActivity"/>
+      <component-filter name="com.taobao.etao/com.google.zxing.client.android.history.HistoryActivity"/>
+      <component-filter name="com.taobao.etao/com.google.zxing.client.android.HelpActivity"/>
+      <component-filter name="com.taobao.etao/com.google.zxing.client.android.encode.EncodeActivity"/>
+      <component-filter name="com.taobao.etao/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.taobao.etao/com.umeng.qq.tencent.AssistActivity"/>
+      <component-filter name="com.taobao.etao/com.umeng.qq.tencent.AuthActivity"/>
+      <component-filter name="com.taobao.etao/com.umeng.socialize.view.ShareActivity"/>
+      <component-filter name="com.taobao.etao/com.umeng.socialize.media.WBShareCallBackActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.taobao.etao/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.taobao.etao/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.taobao.etao/org.android.agoo.huawei.HuaWeiReceiver"/>
+      <component-filter name="com.taobao.etao/com.taobao.sns.views.lottie.LottieViewManager$NetworkChangeBroadcastReceiver"/>
+      <component-filter name="com.taobao.etao/org.android.agoo.xiaomi.MiPushBroadcastReceiver"/>
+      <component-filter name="com.taobao.etao/com.alibaba.tcms.mipush.MiPushBroadcastReceiver"/>
+      <component-filter name="com.taobao.etao/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.taobao.etao/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.taobao.etao/com.alibaba.tcms.PushMessageReceiver"/>
+      <component-filter name="com.taobao.etao/org.android.agoo.vivo.PushMessageReceiverImpl"/>
+      <component-filter name="com.taobao.etao/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.taobao.etao/com.alibaba.tcms.TcmsCommonBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.taobao.etao/com.alibaba.analytics.AnalyticsService"/>
+      <component-filter name="com.taobao.etao/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.taobao.etao/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.taobao.etao/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.taobao.etao/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.taobao.etao/com.coloros.mcssdk.PushService"/>
+      <component-filter name="com.taobao.etao/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.taobao.etao/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

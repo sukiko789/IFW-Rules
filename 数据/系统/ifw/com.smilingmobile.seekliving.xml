@@ -1,0 +1,38 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.smilingmobile.seekliving/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.smilingmobile.seekliving/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.socialize.editorpage.ShareActivity"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.socialize.media.WBShareCallBackActivity"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.setting.SettingFeedBackActivity"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.update.DowloadVersionDialog"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.setting.signRemind.AlarmReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.update.DownloadReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.netease.nimlib.service.NimReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.netease.nimlib.service.ResponseReceiver"/>
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.accs.ServiceReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.smilingmobile.seekliving/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.setting.signRemind.AlarmRunningService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.keepAlive.KeepLiveService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.smilingmobile.seekliving.ui.keepAlive.MyJobService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.netease.nimlib.job.NIMJobService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.netease.nimlib.service.NimService$Aux"/>
+      <component-filter name="com.smilingmobile.seekliving/com.netease.nimlib.service.ResponseService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.message.UmengDownloadResourceService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.message.UmengIntentService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.message.UmengMessageIntentReceiverService"/>
+      <component-filter name="com.smilingmobile.seekliving/com.umeng.message.XiaomiIntentService"/>
+   </service>
+</rules>

@@ -1,0 +1,10 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.flickr.android/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.flickr.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.flickr.android/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.flickr.android/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

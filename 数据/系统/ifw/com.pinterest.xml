@@ -1,0 +1,28 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.pinterest/com.jakewharton.processphoenix.ProcessPhoenix"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.pinterest/com.pinterest.receiver.DeviceStartReceiver"/>
+      <component-filter name="com.pinterest/com.pinterest.receiver.MasterInstallReferrerReceiver"/>
+      <component-filter name="com.pinterest/com.pinterest.feature.browser.chrome.BottomBarManagerReceiver"/>
+      <component-filter name="com.pinterest/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"/>
+      <component-filter name="com.pinterest/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"/>
+      <component-filter name="com.pinterest/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"/>
+      <component-filter name="com.pinterest/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"/>
+      <component-filter name="com.pinterest/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"/>
+      <component-filter name="com.pinterest/com.pinterest.social.CurrentAccessTokenExpirationBroadcastReceiverWrapper"/>
+      <component-filter name="com.pinterest/com.pinterest.receiver.CustomTabPinitReceiver"/>
+      <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.pinterest/androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+      <component-filter name="com.pinterest/com.pinterest.receiver.GlobalDataUpdateReceiver"/>
+      <component-filter name="com.pinterest/com.pinterest.receiver.MultiDexingAppUpdateReceiver"/>
+      <component-filter name="com.pinterest/androidx.work.impl.background.systemalarm.RescheduleReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.pinterest/com.pinterest.analytics.dauLogging.DAUService"/>
+   </service>
+</rules>

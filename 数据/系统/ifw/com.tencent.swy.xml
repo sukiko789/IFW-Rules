@@ -1,0 +1,38 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.swy/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.tencent.swy/com.baitian.share.WeiboShareActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.slugsdk.webview.X5WebViewActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.tencent.swy/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.tencent.swy/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.msdk.SchemeActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.component.plugin.PluginShellActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.msdk.PermissionActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.ui.CheckPermissionDialogActivity"/>
+      <component-filter name="com.tencent.swy/com.btgame.onesdk.common.activity.BaseActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.tencent.swy/pub.devrel.easypermissions.AppSettingsDialogHolderActivity"/>
+      <component-filter name="com.tencent.swy/com.tencent.msdk.notice.AlertMsgActivity"/>
+      <component-filter name="com.tencent.swy/com.baitian.unity.kingcard.KingcardUserCenterActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.swy/com.tencent.special.httpdns.Cache$ConnectReceiver"/>
+      <component-filter name="com.tencent.swy/com.tencent.msdk.dns.HttpDnsCache$ConnectivityChangeReceiver"/>
+      <component-filter name="com.tencent.swy/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.tencent.swy/com.baitian.notification.remote.xinge.XGReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.swy/com.tencent.component.plugin.server.PluginService"/>
+      <component-filter name="com.tencent.swy/com.tencent.qqgamemi.QMiService"/>
+      <component-filter name="com.tencent.swy/com.tencent.msdk.notice.RollFloatService"/>
+      <component-filter name="com.tencent.swy/com.baitian.notification.local.ScheduleService"/>
+      <component-filter name="com.tencent.swy/com.tencent.tmdownloader.TMAssistantDownloadService"/>
+      <component-filter name="com.tencent.swy/com.tencent.android.tpush.service.XGDaemonService"/>
+      <component-filter name="com.tencent.swy/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.tencent.swy/com.tencent.android.tpush.rpc.XGRemoteService"/>
+   </service>
+</rules>

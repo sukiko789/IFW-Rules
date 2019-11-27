@@ -1,0 +1,9 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.qqmusiclocalplayer/com.tencent.qqmusiclocalplayer.receiver.BroadcastReceiverCenterForThird"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.qqmusiclocalplayer/com.tencent.qqmusiclocalplayer.service.NetworkService"/>
+      <component-filter name="com.tencent.qqmusiclocalplayer/com.tencent.qqmusiclocalplayer.business.lockscreen.LockScreenService"/>
+   </service>
+</rules>

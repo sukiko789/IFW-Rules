@@ -1,0 +1,22 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.bf.sgs.hdexp/com.umeng.fb.ContactActivity"/>
+      <component-filter name="com.bf.sgs.hdexp/com.umeng.fb.ConversationActivity"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.getuiext.activity.GetuiExtActivity"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.sdk.PushActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.getuiext.service.PayloadReceiver"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.sdk.PushManagerReceiver"/>
+      <component-filter name="com.bf.sgs.hdexp/com.bianfeng.sgs.PushReceiver"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.sdk.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.bf.sgs.hdexp/com.amap.api.location.APSService"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.download.DownloadService"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.getuiext.service.GetuiExtService"/>
+      <component-filter name="com.bf.sgs.hdexp/com.igexin.sdk.PushService"/>
+   </service>
+</rules>

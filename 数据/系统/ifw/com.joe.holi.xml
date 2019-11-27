@@ -1,0 +1,14 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.joe.holi/com.joe.holi.remote.HoliBootCompleteReciever"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidget11Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidget21Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidget41Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidget422Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidget42Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidget43Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidgetType10Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidgetType7Provider"/>
+      <component-filter name="com.joe.holi/com.joe.holi.remote.widget.HoliWidgetType9Provider"/>
+   </broadcast>
+</rules>

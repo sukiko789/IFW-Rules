@@ -1,0 +1,53 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.jiongji.andriod.card/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.jiongji.andriod.card.qqapi.QQPayEntryActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.jiongji.andriod.card.wxapi.WXPayEntryActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.jiongji.andriod.card.wxapi.WXEntryActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.sina.weibo.sdk.component.WeiboSdkBrowser"/>
+      <component-filter name="com.jiongji.andriod.card/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.jiongji.andriod.card/com.tencent.android.tpush.XGPushActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.jiongji.andriod.card/com.baidu.autoupdatesdk.receiver.BDBroadcastReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.Boot2StartLockReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.framework.push.huawei.HuaWeiRevicer"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.framework.push.meizu.MeizuReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.framework.push.mipush.MiReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.push.message.NotifyClickHandler"/>
+      <component-filter name="com.jiongji.andriod.card/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.framework.push.vivo.VivoReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.framework.push.xinge.XGReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.jiongji.andriod.card/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.jiongji.andriod.card/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.jiongji.andriod.card/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.jiongji.andriod.card/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.jiongji.andriod.card/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.jiongji.andriod.card/com.igexin.sdk.PushService"/>
+      <component-filter name="com.jiongji.andriod.card/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.jiongji.andriod.card/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.jiongji.andriod.card/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.jiongji.andriod.card/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.jiongji.andriod.card/com.baidu.location.f"/>
+      <component-filter name="com.jiongji.andriod.card/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.jiongji.andriod.card/com.baicizhan.framework.push.oppopush.OppoPushMessageService"/>
+   </service>
+</rules>

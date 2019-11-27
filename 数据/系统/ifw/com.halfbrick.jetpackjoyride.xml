@@ -1,0 +1,34 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.facebook.FacebookActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.facebook.CustomTabActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.halfbrick.mortar.LocalNotificationReceiver"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.appsflyer.MultipleInstallBroadcastReceiver"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.halfbrick.mortar.StoreIntentReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.halfbrick.mortar.FirebaseMessagingService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.helpshift.campaigns.services.NotificationService"/>
+      <component-filter name="com.halfbrick.jetpackjoyride/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+   </service>
+</rules>

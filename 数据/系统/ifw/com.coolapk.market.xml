@@ -1,0 +1,11 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.coolapk.market/com.coolapk.market.receiver.CoolMarketPushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.coolapk.market/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.coolapk.market/com.coolapk.market.service.TestService"/>
+      <component-filter name="com.coolapk.market/com.coolapk.market.service.StatService"/>
+      <component-filter name="com.coolapk.market/com.coolapk.market.service.ReportIntentService"/>
+   </service>
+</rules>

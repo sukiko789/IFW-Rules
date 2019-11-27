@@ -1,0 +1,26 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.lucky.luckyclient/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.lucky.luckyclient/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.lucky.luckyclient/com.lucky.lib.push.oppo.OppoLoadActivity"/>
+      <component-filter name="com.lucky.luckyclient/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.lucky.luckyclient/com.lucky.lib.push.xiaomi.PermissionActivity"/>
+      <component-filter name="com.lucky.luckyclient/com.facebook.react.devsupport.DevSettingsActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.lucky.luckyclient/com.lucky.lib.push.huawei.HuaWeiPushReceiver"/>
+      <component-filter name="com.lucky.luckyclient/com.lucky.lib.push.xiaomi.MiPushReceiver"/>
+      <component-filter name="com.lucky.luckyclient/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.lucky.luckyclient/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.lucky.luckyclient/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.lucky.luckyclient/com.lucky.lib.push.vivo.VivoPushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.lucky.luckyclient/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.lucky.luckyclient/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.lucky.luckyclient/com.lucky.lib.push.oppo.OppoPushService"/>
+      <component-filter name="com.lucky.luckyclient/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.lucky.luckyclient/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.lucky.luckyclient/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

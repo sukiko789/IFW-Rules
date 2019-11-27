@@ -1,0 +1,49 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.ig/com.tencent.midas.oversea.business.APMallActivity"/>
+      <component-filter name="com.tencent.ig/com.tencent.midas.oversea.business.pay.APMidasProxyActivity"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.tencent.ig/com.twitter.sdk.android.tweetcomposer.ComposerActivity"/>
+      <component-filter name="com.tencent.ig/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.tencent.ig/com.facebook.FacebookActivity"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.common.api.GoogleApiActivity"/>
+      <component-filter name="com.tencent.ig/com.helpshift.support.HSReview"/>
+      <component-filter name="com.tencent.ig/com.helpshift.campaigns.activities.NotificationActivity"/>
+      <component-filter name="com.tencent.ig/com.twitter.sdk.android.core.identity.OAuthActivity"/>
+      <component-filter name="com.tencent.ig/com.helpshift.support.activities.ParentActivity"/>
+      <component-filter name="com.tencent.ig/com.helpshift.campaigns.activities.ParentActivity"/>
+      <component-filter name="com.tencent.ig/com.vk.sdk.VKServiceActivity"/>
+      <component-filter name="com.tencent.ig/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.auth.api.signin.internal.SignInHubActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.ig/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.tencent.ig/com.tencent.ig.AlarmReceiver"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.tencent.ig/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.tencent.ig/com.tencent.imsdk.android.push.xg.IMSDKXGPushReceiver"/>
+      <component-filter name="com.tencent.ig/com.epicgames.ue4.LocalNotificationReceiver"/>
+      <component-filter name="com.tencent.ig/com.tencent.android.tpush.XGPushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.ig/com.tencent.midas.oversea.newnetwork.service.APNetDetectService"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.tencent.ig/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.tencent.ig/com.helpshift.campaigns.services.NotificationService"/>
+      <component-filter name="com.tencent.ig/com.tencent.ig.OBBDownloaderService"/>
+      <component-filter name="com.tencent.ig/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+      <component-filter name="com.tencent.ig/com.amazonaws.mobileconnectors.s3.transferutility.TransferService"/>
+      <component-filter name="com.tencent.ig/com.twitter.sdk.android.tweetcomposer.TweetUploadService"/>
+      <component-filter name="com.tencent.ig/com.tencent.vmp.sdkproxy.VivoService"/>
+      <component-filter name="com.tencent.ig/com.tencent.imsdk.android.webview.qq.WebViewService"/>
+      <component-filter name="com.tencent.ig/com.tencent.android.fcm.XGFcmInstanceIDListenerService"/>
+      <component-filter name="com.tencent.ig/com.tencent.android.fcm.XGFcmListenerService"/>
+      <component-filter name="com.tencent.ig/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.tencent.ig/com.tencent.android.tpush.rpc.XGRemoteService"/>
+   </service>
+</rules>

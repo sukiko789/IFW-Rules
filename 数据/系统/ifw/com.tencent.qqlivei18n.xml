@@ -1,0 +1,58 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.midas.oversea.business.pay.APMidasProxyActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.popup.AppUpdateActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqlive.i18n.liblogin.fastlogin.facebook.FacebookFastLoginActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.FacebookActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqlive.i18n.liblogin.fastlogin.line.LineFastLoginActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.overseas.adsdk.test.GdtAdDemoActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.overseas.adsdk.test.GdtInterstitialAdTestActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.activity.debug.FeedsAdDebugActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.overseas.adsdk.test.GdtNativeAdTestActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.activity.debug.LoginDebugActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.overseas.adsdk.activity.InnerBrowserActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.overseas.adsdk.test.TestSettingActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.captchasdk.TCaptchaPopupActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.base.PushLaunchActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.videonative.dimpl.permission.VNPermissionRequestActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.base.VipActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.activity.VideoLiveActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.activity.EastereggActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.popup.AreaCodePopupActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.common.api.GoogleApiActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.base.NewLoginActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.videonative.qrcode.ScanQRCodeActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.activity.I18NOpenActivity"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.videonative.page.VNDialogActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.CampaignTrackingReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.appsflyer.SingleInstallBroadcastReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.cast.framework.media.MediaIntentReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.qqlivei18n/com.firebase.jobdispatcher.GooglePlayReceiver"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqlive.services.push.GooglePushFirebaseMessagingService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.tencent.qqlive.services.push.I18NFirebaseInstanceIdService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.cast.framework.media.MediaNotificationService"/>
+      <component-filter name="com.tencent.qqlivei18n/com.google.android.gms.cast.framework.ReconnectionService"/>
+   </service>
+</rules>

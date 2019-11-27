@@ -1,0 +1,46 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.midas.oversea.business.pay.APMidasProxyActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/jp.maio.sdk.android.AdFullscreenActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.mediabrix.android.service.AdViewActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.tmgp.cod.CODMainActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.vungle.publisher.FlexViewAdActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.inmobi.rendering.InMobiAdActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.activision.callofduty.shooter/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tapjoy.TJAdUnitActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.gcloud.msdk.webview.WebViewIPCActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.gcloud.msdk.webview.WebViewActivity"/>
+      <component-filter name="com.activision.callofduty.shooter/com.vungle.publisher.VideoFullScreenAdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.activision.callofduty.shooter/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.activision.callofduty.shooter/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.activision.callofduty.shooter/com.appsflyer.MultipleInstallBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.activision.callofduty.shooter/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.tmgp.headphonedetectlib.HeadsetMonitorService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.tencent.vmp.sdkproxy.VivoService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.helpshift.campaigns.services.NotificationService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.mediabrix.android.service.MediaBrixService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.activision.callofduty.shooter/com.google.firebase.components.ComponentDiscoveryService"/>
+   </service>
+</rules>

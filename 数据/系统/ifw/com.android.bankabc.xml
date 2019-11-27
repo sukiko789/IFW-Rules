@@ -1,0 +1,48 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.android.bankabc/com.android.bankabc.homepage.AdActivity"/>
+      <component-filter name="com.android.bankabc/com.rytong.emp.zxing.activity.CaptureActivity"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushselfshow.richpush.RichPushActivity"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushselfshow.permission.RequestPermissionsActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.sapi2.biometrics.liveness.activity.LivenessLoadingActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.IdCardTakeResultActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.IDDetectEditActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.IDCardTakePhotosDetectionActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.bankcard.BankCardResultActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.bankcard.BankCardDetectionActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.OCRIDCardDetectionActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.sapi2.biometrics.liveness.activity.LivenessRecogGuidActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.sapi2.biometrics.liveness.activity.LivenessRecogActivity"/>
+      <component-filter name="com.android.bankabc/com.yanzhenjie.permission.PermissionActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.android.bankabc/com.android.bankabc.widget.calendar.CalendarReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.FastBootReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.FinAlarmReceiver"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.receiver.HeartPkgReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.MiPushReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.NetWorkChangeReceiver"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.receiver.NetworkConnectivityReceiver"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.PushReceiver"/>
+      <component-filter name="com.android.bankabc/abc.feinno.uilibrary.receiver.UINotifyReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.android.bankabc/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushagent.PushService"/>
+      <component-filter name="com.android.bankabc/com.baidu.speech.VoiceRecognitionService"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.android.bankabc/com.baidu.location.f"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalkavsdk.service.KeepExist"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalkavsdk.service.Keep2"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.service.DzhService"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.service.DownloadService"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalkavsdk.service.CoreService"/>
+      <component-filter name="com.android.bankabc/com.chinamobile.uc.emplistsdk.service.CoreService"/>
+   </service>
+</rules>

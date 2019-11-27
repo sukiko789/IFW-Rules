@@ -1,0 +1,5 @@
+<rules>
+   <service block="true" log="true">
+      <component-filter name="com.coolapk.market.vn/com.coolapk.market.service.LogCatService"/>
+   </service>
+</rules>

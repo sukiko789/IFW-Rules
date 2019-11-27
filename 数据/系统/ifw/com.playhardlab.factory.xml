@@ -1,0 +1,61 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.playhardlab.factory/com.youappi.sdk.AdActivity"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.playhardlab.factory/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.ads.mediationtestsuite.activities.AdUnitDetailActivity"/>
+      <component-filter name="com.playhardlab.factory/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.playhardlab.factory/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.playhardlab.factory/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.ads.mediationtestsuite.activities.AdUnitsSearchActivity"/>
+      <component-filter name="com.playhardlab.factory/com.aiming.mdt.sdk.ad.AdtWebActivity"/>
+      <component-filter name="com.playhardlab.factory/com.applovin.adview.AppLovinConfirmationActivity"/>
+      <component-filter name="com.playhardlab.factory/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="com.playhardlab.factory/com.applovin.impl.adview.AppLovinOrientationAwareInterstitialActivity"/>
+      <component-filter name="com.playhardlab.factory/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.ads.mediationtestsuite.activities.HomeActivity"/>
+      <component-filter name="com.playhardlab.factory/com.aiming.mdt.sdk.ad.interactivead.InteractiveActivity"/>
+      <component-filter name="com.playhardlab.factory/com.aiming.mdt.sdk.ad.interstitialAd.InterstitialActivity"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.ads.mediationtestsuite.activities.NetworkDetailActivity"/>
+      <component-filter name="com.playhardlab.factory/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="com.playhardlab.factory/com.aiming.mdt.sdk.ad.videoad.VideoActivity"/>
+      <component-filter name="com.playhardlab.factory/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.internalpush.video.IncentiveVideoPlayActivity"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.internalpush.ui.InsertScreenActivity"/>
+      <component-filter name="com.playhardlab.factory/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.playhardlab.factory/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.playhardlab.factory/com.vungle.publisher.MraidFullScreenAdActivity"/>
+      <component-filter name="com.playhardlab.factory/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.playhardlab.factory/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.playhardlab.factory/com.mopub.mobileads.RewardedMraidActivity"/>
+      <component-filter name="com.playhardlab.factory/com.tapjoy.TJAdUnitActivity"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.internalpush.video.VideoAdDetailActivity"/>
+      <component-filter name="com.playhardlab.factory/com.vungle.publisher.VideoFullScreenAdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.playhardlab.factory/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.CMCampaignTrackingReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.base.util.webview.broadcast.GameBroadcast"/>
+      <component-filter name="com.playhardlab.factory/com.tapjoy.InstallReferrerReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.kinfoc.report.service.NetWorkChangeReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.vungle.warren.NetworkStateReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.sglib.easymobile.androidnative.notification.NotificationAlarmReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.sglib.easymobile.androidnative.notification.NotificationBootReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.base.util.notify.NotifyReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.appsflyer.SingleInstallBroadcastReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.tapjoy.TapjoyReceiver"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.base.util.webview.broadcast.WebBroadcast"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.playhardlab.factory/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.playhardlab.factory/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.playhardlab.factory/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.internalpush.InnerPushService"/>
+      <component-filter name="com.playhardlab.factory/com.cmplay.kinfoc.report.service.KinfocReportSerivce"/>
+      <component-filter name="com.playhardlab.factory/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+   </service>
+</rules>

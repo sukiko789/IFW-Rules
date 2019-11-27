@@ -1,0 +1,62 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.mi.MiPushIntentReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.sdu.didi.psnger/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.HuaweiPushIntentReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.sdu.didi.psnger/com.facebook.FacebookActivity"/>
+      <component-filter name="com.sdu.didi.psnger/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.onekeyshare.wrapper.DispatchFacebookShareCbActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.sdu.didi.psnger/com.taobao.weex.WXGlobalEventReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.ofo.business.controller.OfoGpsTrackBroadCastReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.HuaweiPushReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.mi.MiPushReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.onecar.business.appwidget.DiDiAppWidgetProvider43"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.connectivity.NetworkChangedReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.onecar.business.appwidget.DiDiAppWidgetProvider41"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.carmate.common.keeper.BtsKeeperReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.onecar.business.car.alarm.CommonAlarmReceiver"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.PushNetReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushService"/>
+      <component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.sdu.didi.psnger/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.sdu.didi.psnger/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.getui.GeTuiPushService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.getui.GeTuiIntentService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.aoe.sercive.AoeProcessService"/>
+      <component-filter name="com.sdu.didi.psnger/com.mnc.obdlib.service.BluetoothLeService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.carmate.detail.func.safety.BtsCheckService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.carmate.common.keeper.BtsKeeperJob"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.carmate.common.keeper.BtsOrderSvKeeper"/>
+      <component-filter name="com.sdu.didi.psnger/cmb.pb.cmbsafe.CmbService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.onecar.business.driverservice.net.tcp.DDriveTcpService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.onehotpatch.installer.dexopt.DexOptService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.onecar.business.wear.services.DiDiWearableListenerService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.home.FloatingService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.service.ForegroundService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.bike.htw.background.HTWKeepAliveJobService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.bike.htw.bluetooth.HTWOrderService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.beatles.im.common.IMPollingService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.onehotpatch.installer.merge.MergePatchService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.audiorecorder.service.multiprocess.service.MultiProcessRecordService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.bike.services.baseserviceimpl.notification.NotificationIntentService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.ofo.business.controller.OfoPositionService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didichuxing.omega.sdk.common.backend.OmegaService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.download.service.OneDownLoadService"/>
+      <component-filter name="com.sdu.didi.psnger/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.tencent.TPushService"/>
+      <component-filter name="com.sdu.didi.psnger/com.ddtaxi.common.tracesdk.TraceService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didichuxing.alpha.crash.UploadDumpService"/>
+      <component-filter name="com.sdu.didi.psnger/com.didichuxing.dfbasesdk.crash.UploadService"/>
+   </service>
+</rules>

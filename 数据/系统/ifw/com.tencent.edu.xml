@@ -1,0 +1,46 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.edu/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.tencent.edu/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.tencent.edu/com.squareup.leakcanary.internal.RequestStoragePermissionActivity"/>
+      <component-filter name="com.tencent.edu/com.facebook.react.devsupport.DevSettingsActivity"/>
+      <component-filter name="com.tencent.edu/com.squareup.leakcanary.internal.DisplayLeakActivity"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.setting.DebugDcLogActivity"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.setting.DebugAppWnsIpSettingActivity"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.setting.DebugAppActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.edu/com.tencent.base.os.clock.AlarmClockReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.AliveProcessReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.DaemonProcessReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.android.hwpush.HWPushMessageReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.qalsdk.core.NetConnInfoCenter"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.common.misc.NetworkState"/>
+      <component-filter name="com.tencent.edu/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.tencent.edu/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.tencent.edu/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.qalsdk.QALBroadcastReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.proto.push.xg.receiver.XGMessageReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.android.mipush.XMPushMessageReceiver"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.audiovideo.session.AudioVideoBroadCastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.edu/com.tencent.edu.kernel.push.CSPush"/>
+      <component-filter name="com.tencent.edu/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.tencent.edu/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.tencent.edu/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.tencent.edu/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.tencent.edu/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.tencent.edu/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.AliveSchedulerJobService"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.AliveAccountSyncService"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.AliveAccountAuthService"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.DaemonService"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.component.DaemonProcessService"/>
+      <component-filter name="com.tencent.edu/com.squareup.leakcanary.internal.HeapAnalyzerService"/>
+      <component-filter name="com.tencent.edu/com.squareup.leakcanary.DisplayLeakService"/>
+      <component-filter name="com.tencent.edu/com.tencent.edu.module.keepalive.messenger.MessengerService"/>
+      <component-filter name="com.tencent.edu/com.tencent.qalsdk.service.QalAssistService"/>
+   </service>
+</rules>

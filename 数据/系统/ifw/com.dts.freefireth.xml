@@ -1,0 +1,35 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.dts.freefireth/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.dts.freefireth/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.dts.freefireth/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.dts.freefireth/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.dts.freefireth/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.dts.freefireth/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.dts.freefireth/com.garena.pay.android.GGPayActivity"/>
+      <component-filter name="com.dts.freefireth/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.dts.freefireth/com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"/>
+      <component-filter name="com.dts.freefireth/com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.dts.freefireth/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.dts.freefireth/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.dts.freefireth/com.appsflyer.MultipleInstallBroadcastReceiver"/>
+      <component-filter name="com.dts.freefireth/com.dts.freefireth.FFBroadcastReceiver"/>
+      <component-filter name="com.dts.freefireth/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.dts.freefireth/com.unity3d.plugin.downloader.UnityAlarmReceiver"/>
+      <component-filter name="com.dts.freefireth/com.garena.freefire.xgunity.XGPushReceiver"/>
+      <component-filter name="com.dts.freefireth/com.tencent.android.tpush.XGPushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.dts.freefireth/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.dts.freefireth/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.dts.freefireth/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.dts.freefireth/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.dts.freefireth/com.google.firebase.messaging.MessageForwardingService"/>
+      <component-filter name="com.dts.freefireth/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.dts.freefireth/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.dts.freefireth/com.tencent.android.fcm.XGFcmListenerService"/>
+      <component-filter name="com.dts.freefireth/com.google.firebase.components.ComponentDiscoveryService"/>
+   </service>
+</rules>

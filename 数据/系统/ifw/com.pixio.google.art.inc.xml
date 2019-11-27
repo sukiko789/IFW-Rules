@@ -1,0 +1,59 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.pixio.google.art.inc/com.tapjoy.mraid.view.ActionHandler"/>
+      <component-filter name="com.pixio.google.art.inc/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.pixio.google.art.inc/jp.maio.sdk.android.AdFullscreenActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.mediabrix.android.service.AdViewActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.AppInviteDialogActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.applovin.adview.AppLovinConfirmationActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.tapjoy.mraid.view.Browser"/>
+      <component-filter name="com.pixio.google.art.inc/com.chartboost.sdk.CBImpressionActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.mediabrix.android.service.ClickOutActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.ironsource.sdk.controller.ControllerActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityAppLinkActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityCreateGameGroupActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityDeepLinkingActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityDialogsActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityGameRequestActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityJoinGameGroupActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.unity.FBUnityLoginActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.FacebookActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.vungle.publisher.FlexViewAdActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.appsflyer.GetDeepLinkingActivity"/>
+      <component-filter name="com.pixio.google.art.inc/jp.maio.sdk.android.HtmlBasedAdActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.inmobi.rendering.InMobiAdActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.ironsource.sdk.controller.InterstitialActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.ironsource.adapters.hyprmx.MediationHMXActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.pixio.google.art.inc/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.vungle.publisher.MraidFullScreenAdActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.ironsource.sdk.controller.OpenUrlActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.tapjoy.TJAdUnitActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.tapjoy.TJContentActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.unity.purchasing.googleplay.VRPurchaseActivity"/>
+      <component-filter name="com.pixio.google.art.inc/com.vungle.publisher.VideoFullScreenAdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.pixio.google.art.inc/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.pixio.google.art.inc/com.appsflyer.MultipleInstallBroadcastReceiver"/>
+      <component-filter name="com.pixio.google.art.inc/com.tenjin.android.TenjinReferrerReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.pixio.google.art.inc/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.pixio.google.art.inc/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.pixio.google.art.inc/com.mediabrix.android.service.MediaBrixService"/>
+      <component-filter name="com.pixio.google.art.inc/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+   </service>
+</rules>

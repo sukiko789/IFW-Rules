@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.dkmgame.dldldkm.android/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.dkmgame.dldldkm.android/com.dkmgame.dldldkm.android.wxapi.WXPayEntryActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.dkmgame.dldldkm.android/net.sourceforge.simcpux.AppRegister"/>
+      <component-filter name="com.dkmgame.dldldkm.android/org.cocos2dx.lua.Cocos2dxBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.dkmgame.dldldkm.android/com.yunva.im.sdk.lib.service.VioceService"/>
+      <component-filter name="com.dkmgame.dldldkm.android/org.cocos2dx.lua.pushServer"/>
+   </service>
+</rules>

@@ -1,0 +1,19 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.chartcross.gpstest/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.chartcross.gpstest/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.chartcross.gpstest/com.appbrain.AppBrainActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.chartcross.gpstest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.chartcross.gpstest/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.chartcross.gpstest/com.appbrain.ReferrerReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.chartcross.gpstest/com.appbrain.AppBrainJobService"/>
+      <component-filter name="com.chartcross.gpstest/com.appbrain.AppBrainService"/>
+      <component-filter name="com.chartcross.gpstest/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.chartcross.gpstest/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.chartcross.gpstest/com.google.firebase.components.ComponentDiscoveryService"/>
+   </service>
+</rules>

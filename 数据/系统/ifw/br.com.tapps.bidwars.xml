@@ -1,0 +1,85 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.unity3d.ads.adunit.AdUnitActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.unity3d.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.applovin.adview.AppLovinConfirmationActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mediabrix.android.service.AdViewActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.inmobi.rendering.InMobiAdActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mopub.mobileads.RewardedMraidActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.tapjoy.TJAdUnitActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.FacebookActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.CustomTabActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.firebase.auth.internal.FederatedSignInActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.common.api.GoogleApiActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.auth.api.signin.internal.SignInHubActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.vungle.warren.ui.VungleWebViewActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.vungle.warren.ui.VungleFlexViewActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.vungle.warren.ui.VungleActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.messaging.ui.SwrveInAppMessageActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.tapjoy.TJContentActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.appinvite.PreviewActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.ironsource.sdk.controller.OpenUrlActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mobvista.msdk.reward.player.MVRewardVideoActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mobvista.msdk.interstitial.view.MVInterstitialActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mobvista.msdk.activity.MVCommonActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mobvista.msdk.mvjscommon.authority.activity.MVAuthorityActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.ironsource.sdk.controller.InterstitialActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.conversations.ui.ConversationActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.ironsource.sdk.controller.ControllerActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.mediabrix.android.service.ClickOutActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.chartboost.sdk.CBImpressionActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.chartboost.sdk.CBDialogActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.tapjoy.mraid.view.Browser"/>
+      <component-filter name="br.com.tapps.bidwars/com.apptracker.android.module.AppModuleActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.applovin.sdk.AppLovinWebViewActivity"/>
+      <component-filter name="br.com.tapps.bidwars/com.tapjoy.mraid.view.ActionHandler"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.tapjoy.InstallReferrerReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.appsflyer.MultipleInstallBroadcastReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.vungle.warren.NetworkStateReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/br.com.tapps.notifications.NotificationBroadcastReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.SwrveNotificationEngageReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.SwrvePushServiceDefaultReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.SwrveWakefulReceiver"/>
+      <component-filter name="br.com.tapps.bidwars/com.tapjoy.TapjoyReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="br.com.tapps.bidwars/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="br.com.tapps.bidwars/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="br.com.tapps.bidwars/com.apptracker.android.track.AppTrackerService"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="br.com.tapps.bidwars/com.mobvista.msdk.shell.MVService"/>
+      <component-filter name="br.com.tapps.bidwars/com.mediabrix.android.service.MediaBrixService"/>
+      <component-filter name="br.com.tapps.bidwars/plugin.firebase_messaging.MessageListenerService"/>
+      <component-filter name="br.com.tapps.bidwars/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.SwrveEventSenderJobIntentService"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.SwrvePushServiceDefaultJobIntentService"/>
+      <component-filter name="br.com.tapps.bidwars/com.swrve.sdk.SwrveWakefulService"/>
+   </service>
+</rules>

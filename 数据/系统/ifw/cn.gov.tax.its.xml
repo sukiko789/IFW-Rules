@@ -1,0 +1,15 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="cn.gov.tax.its/com.google.zxing.client.android.CaptureActivity"/>
+      <component-filter name="cn.gov.tax.its/com.google.zxing.client.android.encode.EncodeActivity"/>
+   </activity>
+   <service block="true" log="true">
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInMainProcess"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite1"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite2"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite3"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite4"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite5"/>
+   </service>
+</rules>
