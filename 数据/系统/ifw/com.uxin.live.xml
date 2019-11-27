@@ -1,0 +1,54 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.uxin.live/com.hyphenate.helpdesk.easeui.ui.BaseChatActivity"/>
+      <component-filter name="com.uxin.live/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.uxin.live/com.hyphenate.helpdesk.easeui.ui.ImageGridActivity"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.uxin.live/com.hyphenate.helpdesk.easeui.ui.RecorderVideoActivity"/>
+      <component-filter name="com.uxin.live/com.hyphenate.helpdesk.easeui.ui.ShowBigImageActivity"/>
+      <component-filter name="com.uxin.live/com.hyphenate.helpdesk.easeui.ui.ShowNormalFileActivity"/>
+      <component-filter name="com.uxin.live/com.hyphenate.helpdesk.easeui.ui.ShowVideoActivity"/>
+      <component-filter name="com.uxin.live/com.sina.weibo.sdk.component.WeiboSdkBrowser"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.uxin.live/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.uxin.live/com.uxin.live.download.DownloadReceiver"/>
+      <component-filter name="com.uxin.live/com.hyphenate.chat.EMMonitorReceiver"/>
+      <component-filter name="com.uxin.live/com.uxin.live.view.image.ImageCompressBroadcast"/>
+      <component-filter name="com.uxin.live/com.tencent.qalsdk.core.NetConnInfoCenter"/>
+      <component-filter name="com.uxin.live/com.uxin.live.receiver.NetworkStateReceiver"/>
+      <component-filter name="com.uxin.live/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.uxin.live/com.uxin.live.push.NotificationReceiver"/>
+      <component-filter name="com.uxin.live/com.uxin.live.receiver.PhoneBroadcastReceiver"/>
+      <component-filter name="com.uxin.live/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.service.PluginHuaweiPlatformsReceiver"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.service.PluginXiaomiPlatformsReceiver"/>
+      <component-filter name="com.uxin.live/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.uxin.live/com.tencent.qalsdk.QALBroadcastReceiver"/>
+      <component-filter name="com.uxin.live/com.tinkerpatch.sdk.server.utils.ReportBroadCast"/>
+      <component-filter name="com.uxin.live/com.uxin.live.app.manager.UXDownloadManagerReceiver"/>
+      <component-filter name="com.uxin.live/com.uxin.live.push.UxinJPushMessageReceiver"/>
+      <component-filter name="com.uxin.live/com.uxin.live.push.UxinJPushRecevier"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.uxin.live/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.uxin.live/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.service.DownloadService"/>
+      <component-filter name="com.uxin.live/com.uxin.live.download.DownloadService"/>
+      <component-filter name="com.uxin.live/com.hyphenate.chat.EMChatService"/>
+      <component-filter name="com.uxin.live/com.hyphenate.chat.EMJobService"/>
+      <component-filter name="com.uxin.live/com.uxin.live.tablive.service.LockScreenService"/>
+      <component-filter name="com.uxin.live/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.uxin.live/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.uxin.live/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.uxin.live/com.tencent.qalsdk.service.QalService"/>
+      <component-filter name="com.uxin.live/com.uxin.live.screenrecord.RecordService"/>
+      <component-filter name="com.uxin.live/com.tencent.tinker.lib.service.TinkerPatchService"/>
+      <component-filter name="com.uxin.live/com.tencent.tinker.lib.service.TinkerPatchService$InnerService"/>
+      <component-filter name="com.uxin.live/com.tinkerpatch.sdk.tinker.service.TinkerServerResultService"/>
+      <component-filter name="com.uxin.live/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.uxin.live/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

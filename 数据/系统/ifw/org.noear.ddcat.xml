@@ -1,0 +1,12 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="org.noear.ddcat/io.vov.vitamio.activity.InitActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="org.noear.ddcat/com.android.launcher2.InstallShortcutReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="org.noear.ddcat/com.baidu.location.f"/>
+      <component-filter name="org.noear.ddcat/org.noear.ddcat.dao.AudioService"/>
+   </service>
+</rules>

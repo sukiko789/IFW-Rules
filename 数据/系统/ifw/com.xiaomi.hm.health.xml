@@ -1,0 +1,42 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.xiaomi.hm.health/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.twitter.sdk.android.tweetcomposer.ComposerActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.facebook.react.devsupport.DevSettingsActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.facebook.FacebookActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.xiaomi.hm.health/com.twitter.sdk.android.core.identity.OAuthActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.xiaomi.hm.health/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.market.sdk.DownloadCompleteReceiver"/>
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.xiaomi.hm.health/com.huami.widget.share.platform.TwitterSharer$TwitterReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.xiaomi.hm.health/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.xiaomi.hm.health/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.xiaomi.hm.health/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.xiaomi.hm.health/com.twitter.sdk.android.tweetcomposer.TweetUploadService"/>
+      <component-filter name="com.xiaomi.hm.health/com.amap.api.location.APSService"/>
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.xiaomi.hm.health/com.readystatesoftware.chuck.internal.support.ClearTransactionsService"/>
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.hm.health.opensdk.HMOpenService"/>
+      <component-filter name="com.xiaomi.hm.health/org.acra.sender.JobSenderService"/>
+      <component-filter name="com.xiaomi.hm.health/org.acra.sender.LegacySenderService"/>
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.xiaomi.hm.health/androidx.room.MultiInstanceInvalidationService"/>
+      <component-filter name="com.xiaomi.hm.health/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+   </service>
+</rules>

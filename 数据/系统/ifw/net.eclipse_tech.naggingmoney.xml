@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="net.eclipse_tech.naggingmoney/com.ad2iction.mobileads.Ad2ictionActivity"/>
+      <component-filter name="net.eclipse_tech.naggingmoney/com.ad2iction.common.Ad2ictionBrowser"/>
+      <component-filter name="net.eclipse_tech.naggingmoney/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="net.eclipse_tech.naggingmoney/com.adbert.AdbertActivity"/>
+      <component-filter name="net.eclipse_tech.naggingmoney/com.ad2iction.mobileads.MraidActivity"/>
+      <component-filter name="net.eclipse_tech.naggingmoney/com.ad2iction.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="net.eclipse_tech.naggingmoney/com.taiwanmobile.pt.adp.view.TWMAdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="net.eclipse_tech.naggingmoney/com.google.android.gms.analytics.AnalyticsReceiver"/>
+   </broadcast>
+</rules>

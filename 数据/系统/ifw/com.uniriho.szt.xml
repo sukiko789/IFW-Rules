@@ -1,0 +1,23 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.uniriho.szt/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.uniriho.szt/com.sourceforge.simcpux.AppRegister"/>
+      <component-filter name="com.uniriho.szt/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.uniriho.szt/com.uniriho.szt.receiver.HciReceiver"/>
+      <component-filter name="com.uniriho.szt/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.uniriho.szt/com.taobao.accs.ServiceReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.uniriho.szt/com.amap.api.location.APSService"/>
+      <component-filter name="com.uniriho.szt/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.uniriho.szt/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.uniriho.szt/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.uniriho.szt/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.uniriho.szt/com.plk.bluetoothlesdk.PlkBluetoothLeService"/>
+      <component-filter name="com.uniriho.szt/com.umeng.message.UmengDownloadResourceService"/>
+      <component-filter name="com.uniriho.szt/com.umeng.message.UmengIntentService"/>
+      <component-filter name="com.uniriho.szt/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.uniriho.szt/com.umeng.message.UmengMessageIntentReceiverService"/>
+      <component-filter name="com.uniriho.szt/com.umeng.message.XiaomiIntentService"/>
+   </service>
+</rules>

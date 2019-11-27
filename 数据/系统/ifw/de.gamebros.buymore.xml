@@ -1,0 +1,33 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="de.gamebros.buymore/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="de.gamebros.buymore/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="de.gamebros.buymore/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="de.gamebros.buymore/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="de.gamebros.buymore/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="de.gamebros.buymore/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="de.gamebros.buymore/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="de.gamebros.buymore/com.labcave.mediationlayer.cc.AdsInterstitialActivity"/>
+      <component-filter name="de.gamebros.buymore/com.labcave.mediationlayer.cc.AdsVideoActivity"/>
+      <component-filter name="de.gamebros.buymore/com.applovin.adview.AppLovinConfirmationActivity"/>
+      <component-filter name="de.gamebros.buymore/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="de.gamebros.buymore/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="de.gamebros.buymore/com.chartboost.sdk.CBImpressionActivity"/>
+      <component-filter name="de.gamebros.buymore/com.ironsource.sdk.controller.ControllerActivity"/>
+      <component-filter name="de.gamebros.buymore/com.google.android.gms.common.api.GoogleApiActivity"/>
+      <component-filter name="de.gamebros.buymore/com.google.android.gms.ads.purchase.InAppPurchaseActivity"/>
+      <component-filter name="de.gamebros.buymore/com.ironsource.sdk.controller.InterstitialActivity"/>
+      <component-filter name="de.gamebros.buymore/com.labcave.mediationlayer.test.views.LabCaveMediationTestActivityView"/>
+      <component-filter name="de.gamebros.buymore/com.ironsource.sdk.controller.OpenUrlActivity"/>
+      <component-filter name="de.gamebros.buymore/com.google.android.gms.appinvite.PreviewActivity"/>
+      <component-filter name="de.gamebros.buymore/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="de.gamebros.buymore/com.google.android.gms.auth.api.signin.internal.SignInHubActivity"/>
+      <component-filter name="de.gamebros.buymore/com.unity.purchasing.googleplay.VRPurchaseActivity"/>
+      <component-filter name="de.gamebros.buymore/com.vungle.warren.ui.VungleActivity"/>
+   </activity>
+   <service block="true" log="true">
+      <component-filter name="de.gamebros.buymore/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="de.gamebros.buymore/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="de.gamebros.buymore/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+   </service>
+</rules>

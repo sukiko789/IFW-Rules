@@ -1,0 +1,29 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="idm.internet.download.manager/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="idm.internet.download.manager/com.amazon.device.ads.AdActivity"/>
+      <component-filter name="idm.internet.download.manager/com.yandex.mobile.ads.AdActivity"/>
+      <component-filter name="idm.internet.download.manager/com.applovin.adview.AppLovinConfirmationActivity"/>
+      <component-filter name="idm.internet.download.manager/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="idm.internet.download.manager/com.applovin.sdk.AppLovinWebViewActivity"/>
+      <component-filter name="idm.internet.download.manager/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="idm.internet.download.manager/com.appodeal.ads.InterstitialActivity"/>
+      <component-filter name="idm.internet.download.manager/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+      <component-filter name="idm.internet.download.manager/com.appodeal.ads.TestActivity"/>
+      <component-filter name="idm.internet.download.manager/com.appodeal.ads.networks.vpaid.VPAIDActivity"/>
+      <component-filter name="idm.internet.download.manager/com.appodeal.ads.VideoActivity"/>
+      <component-filter name="idm.internet.download.manager/com.appodeal.iab.vast.activity.VastActivity"/>
+      <component-filter name="idm.internet.download.manager/com.appodeal.ads.VideoPlayerActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="idm.internet.download.manager/com.appodeal.ads.AppodealPackageAddedReceiver"/>
+      <component-filter name="idm.internet.download.manager/com.yandex.metrica.MetricaEventHandler"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="idm.internet.download.manager/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="idm.internet.download.manager/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="idm.internet.download.manager/com.yandex.metrica.MetricaService"/>
+      <component-filter name="idm.internet.download.manager/com.yandex.metrica.ConfigurationService"/>
+      <component-filter name="idm.internet.download.manager/com.yandex.metrica.ConfigurationJobService"/>
+   </service>
+</rules>

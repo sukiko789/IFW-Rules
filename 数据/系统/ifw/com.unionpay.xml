@@ -1,0 +1,91 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
+      <component-filter name="com.unionpay/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.unionpay/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.unionpay/com.facebook.react.devsupport.DevSettingsActivity"/>
+      <component-filter name="com.unionpay/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.unionpay/com.tencent.tauth.AuthActivity"/>
+      <component-filter name="com.unionpay/com.deepfinch.unionpay.DFUnionPayLogoActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.unionpay/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="com.unionpay/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.unionpay/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.unionpay/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.unionpay/com.unionpay.push.receiver.miui.UPPushEventReceiverMiui"/>
+      <component-filter name="com.unionpay/com.unionpay.broadcast.NetBroadcastReceiver"/>
+      <component-filter name="com.unionpay/com.unionpay.push.UPPushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.unionpay/com.igexin.download.DownloadService"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
+      <component-filter name="com.unionpay/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.unionpay/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.unionpay/com.igexin.sdk.PushService"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner"/>
+      <component-filter name="com.unionpay/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.unionpay/com.unionpay.push.GetuiIntentService"/>
+      <component-filter name="com.unionpay/com.unionpay.push.UPGetuiPushService"/>
+      <component-filter name="com.unionpay/com.unionpay.push.UPPushService"/>
+      <component-filter name="com.unionpay/com.unionpay.service.UPRnCopyAssetService"/>
+      <component-filter name="com.unionpay/com.unionpay.base.UPVersionCheckService"/>
+      <component-filter name="com.unionpay/com.unionpay.liveness.service.UploadFileService"/>
+      <component-filter name="com.unionpay/com.unionpay.service.UPTtsSpeakService"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.lib.service.TinkerPatchService"/>
+      <component-filter name="com.unionpay/com.tencent.tinker.lib.service.TinkerPatchService$InnerService"/>
+   </service>
+</rules>

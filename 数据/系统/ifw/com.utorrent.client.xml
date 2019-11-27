@@ -1,0 +1,28 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.utorrent.client/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.utorrent.client/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="com.utorrent.client/com.inmobi.rendering.InMobiAdActivity"/>
+      <component-filter name="com.utorrent.client/com.verizon.ads.webview.MRAIDExpandedActivity"/>
+      <component-filter name="com.utorrent.client/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.utorrent.client/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.utorrent.client/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.utorrent.client/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.utorrent.client/com.mopub.mobileads.RewardedMraidActivity"/>
+      <component-filter name="com.utorrent.client/com.verizon.ads.interstitialvastadapter.VASTActivity"/>
+      <component-filter name="com.utorrent.client/com.verizon.ads.interstitialwebadapter.WebViewActivity"/>
+      <component-filter name="com.utorrent.client/com.applovin.adview.AppLovinInterstitialActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.utorrent.client/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.utorrent.client/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.utorrent.client/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.utorrent.client/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.utorrent.client/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.utorrent.client/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.utorrent.client/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.utorrent.client/com.google.android.gms.analytics.CampaignTrackingService"/>
+   </service>
+</rules>
