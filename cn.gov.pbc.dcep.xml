@@ -1,0 +1,25 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="cn.gov.pbc.dcep/com.huawei.hms.activity.BridgeActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="cn.gov.pbc.dcep/com.alipay.pushsdk.BroadcastActionReceiver"/>
+      <component-filter name="cn.gov.pbc.dcep/com.alipay.mobile.common.logging.process.LogReceiverInToolsProcess"/>
+      <component-filter name="cn.gov.pbc.dcep/com.alipay.mobile.quinox.preload.PreloadReceiver"/>
+      <component-filter name="cn.gov.pbc.dcep/com.alipay.pushsdk.ui.UserActionReceiver"/>
+      <component-filter name="cn.gov.pbc.dcep/com.alipay.pushsdk.thirdparty.xiaomi.XiaoMiMsgReceiver"/>
+      <component-filter name="cn.gov.pbc.dcep/com.alipay.pushsdk.thirdparty.vivo.PushMessageReceiver"/>
+      <component-filter name="cn.gov.pbc.dcep/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="cn.gov.pbc.dcep/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="cn.gov.pbc.dcep/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="cn.gov.pbc.dcep/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="cn.gov.pbc.dcep/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="cn.gov.pbc.dcep/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="cn.gov.pbc.dcep/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="cn.gov.pbc.dcep/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="cn.gov.pbc.dcep/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="cn.gov.pbc.dcep/com.secneo.apkwrapper.r.S"/>
+   </service>
+</rules>

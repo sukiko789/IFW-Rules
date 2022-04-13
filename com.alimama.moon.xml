@@ -1,0 +1,43 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.alimama.moon/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.alimama.moon/com.alimama.moon.update.UpdateActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.alimama.moon/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.alimama.moon/com.alibaba.android.update.receiver.DownloadCompleteReceiver"/>
+      <component-filter name="com.alimama.moon/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.alimama.moon/org.android.agoo.huawei.HuaWeiReceiver"/>
+      <component-filter name="com.alimama.moon/org.android.agoo.xiaomi.MiPushBroadcastReceiver"/>
+      <component-filter name="com.alimama.moon/com.alibaba.android.update.receiver.NetworkStateReceiver"/>
+      <component-filter name="com.alimama.moon/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.alimama.moon/com.taobao.orange.receiver.OrangeReceiver"/>
+      <component-filter name="com.alimama.moon/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.alimama.moon/org.android.agoo.vivo.PushMessageReceiverImpl"/>
+      <component-filter name="com.alimama.moon/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.alimama.moon/com.taobao.weex.WXGlobalEventReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.alimama.moon/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.alimama.moon/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.alimama.moon/com.alibaba.analytics.AnalyticsService"/>
+      <component-filter name="com.alimama.moon/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.alimama.moon/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.alimama.moon/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.alimama.moon/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.alimama.moon/anetwork.channel.aidl.NetworkService"/>
+      <component-filter name="com.alimama.moon/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.alimama.moon/com.coloros.mcssdk.PushService"/>
+      <component-filter name="com.alimama.moon/com.alibaba.android.update.UpdateService"/>
+      <component-filter name="com.alimama.moon/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.alimama.moon/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.alimama.moon/mtopsdk.xstate.XStateService"/>
+      <component-filter name="com.alimama.moon/com.taobao.zcache.ZCacheServer"/>
+      <component-filter name="com.alimama.moon/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
+      <component-filter name="com.alimama.moon/com.alimama.moon.push.CallbackService"/>
+      <component-filter name="com.alimama.moon/com.ali.telescope.internal.plugins.memleak.MemoryLeakService"/>
+      <component-filter name="com.alimama.moon/com.taobao.orange.service.OrangeApiService"/>
+      <component-filter name="com.alimama.moon/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.alimama.moon/com.alimama.moon.TaobaoIntentService"/>
+   </service>
+</rules>

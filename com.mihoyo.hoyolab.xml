@@ -1,0 +1,13 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.mihoyo.hoyolab/com.yalantis.ucrop.UCropActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.mihoyo.hoyolab/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.mihoyo.hoyolab/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.mihoyo.hoyolab/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.mihoyo.hoyolab/com.google.android.gms.measurement.AppMeasurementJobService"/>
+   </service>
+</rules>

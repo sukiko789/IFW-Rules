@@ -1,0 +1,38 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"/>
+      <component-filter name="com.wsw.cospa/com.yalantis.ucrop.PictureMultiCuttingActivity"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.downloadlib.activity.TTDelegateActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+      <component-filter name="com.wsw.cospa/com.yalantis.ucrop.UCropActivity"/>
+      <component-filter name="com.wsw.cospa/com.luck.picture.lib.PictureExternalPreviewActivity"/>
+      <component-filter name="com.wsw.cospa/com.luck.picture.lib.PicturePlayAudioActivity"/>
+      <component-filter name="com.wsw.cospa/com.luck.picture.lib.PicturePreviewActivity"/>
+      <component-filter name="com.wsw.cospa/com.luck.picture.lib.PictureSelectorActivity"/>
+      <component-filter name="com.wsw.cospa/com.luck.picture.lib.PictureVideoPlayActivity"/>
+      <component-filter name="com.wsw.cospa/cc.shinichi.library.view.ImagePreviewActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.wsw.cospa/com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+      <component-filter name="com.wsw.cospa/com.bytedance.embedapplog.collector.Collector"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.wsw.cospa/com.bytedance.tea.crash.upload.CrashUploadService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+      <component-filter name="com.wsw.cospa/com.wsw.cospa.service.DownloadService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService"/>
+      <component-filter name="com.wsw.cospa/com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+   </service>
+</rules>

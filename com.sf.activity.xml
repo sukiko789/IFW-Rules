@@ -1,0 +1,28 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.sf.activity/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.sf.activity/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.sf.activity/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.sf.activity/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.sf.activity/com.yalantis.ucrop.UCropActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.sf.activity/cn.jpush.reactnativejpush.JPushModule$JPushReceiver"/>
+      <component-filter name="com.sf.activity/cn.jpush.reactnativejpush.JPushModule$MyJPushMessageReceiver"/>
+      <component-filter name="com.sf.activity/com.sf.activity.WxRegister"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.service.SchedulerReceiver"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.sf.activity/cn.jiguang.plugins.push.receiver.JPushModuleReceiver"/>
+      <component-filter name="com.sf.activity/cn.jiguang.plugins.push.receiver.JPushBroadcastReceiver"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.service.AlarmReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.sf.activity/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.service.DownloadService"/>
+      <component-filter name="com.sf.activity/com.baidu.location.f"/>
+      <component-filter name="com.sf.activity/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.sf.activity/cn.jiguang.plugins.service.JCoreModuleService"/>
+   </service>
+</rules>

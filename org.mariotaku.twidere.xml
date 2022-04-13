@@ -1,0 +1,5 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="org.mariotaku.twidere/com.google.android.gms.ads.AdActivity"/>
+   </activity>
+</rules>

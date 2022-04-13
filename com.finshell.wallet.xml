@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.finshell.wallet/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.finshell.wallet/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.finshell.wallet/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.finshell.wallet/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.finshell.wallet/com.nearme.wallet.wxapi.AppRegister"/>
+      <component-filter name="com.finshell.wallet/com.oplus.statistics.eap.FileUploadReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.finshell.wallet/com.heytap.upgrade.service.UpgradeDownloadService"/>
+      <component-filter name="com.finshell.wallet/com.baidu.location.f"/>
+      <component-filter name="com.finshell.wallet/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.finshell.wallet/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+   </service>
+</rules>

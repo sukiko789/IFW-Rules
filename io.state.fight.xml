@@ -1,0 +1,21 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="io.state.fight/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="io.state.fight/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="io.state.fight/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="io.state.fight/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="io.state.fight/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="io.state.fight/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="io.state.fight/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="io.state.fight/com.applovin.adview.AppLovinFullscreenActivity"/>
+      <component-filter name="io.state.fight/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="io.state.fight/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="io.state.fight/com.inmobi.ads.rendering.InMobiAdActivity"/>
+      <component-filter name="io.state.fight/com.smaato.sdk.interstitial.InterstitialAdActivity"/>
+      <component-filter name="io.state.fight/com.tapjoy.TJAdUnitActivity"/>
+   </activity>
+   <service block="true" log="false">
+      <component-filter name="io.state.fight/com.google.android.gms.ads.AdService"/>
+      <component-filter name="io.state.fight/com.applovin.impl.adview.activity.FullscreenAdService"/>
+   </service>
+</rules>

@@ -1,0 +1,35 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.amazon.device.ads.AdActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.ui.activities.AppboyContentCardsActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.ui.activities.AppboyFeedActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.push.AppboyNotificationRoutingActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.ui.AppboyWebViewActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.freestar.android.ads.ChocolateAdActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.freestar.android.ads.ChocolatePrerollActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.mopub.mobileads.RewardedMraidActivity"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.freestar.android.ads.VDOBrowserActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.AppboyFcmReceiver"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.AppboyAdmReceiver"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.receivers.AppboyActionReceiver"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.freestar.android.ads.BootCompleteReceiver"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.thomsonreuters.reuters.widget.WireWidgetProvider"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.google.android.gms.ads.AdService"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.appboy.AppboyFirebaseMessagingService"/>
+      <component-filter name="com.thomsonreuters.reuters.cnjp/com.thomsonreuters.reuters.widget.WireWidgetRemoteViewsService"/>
+   </service>
+</rules>

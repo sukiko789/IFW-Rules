@@ -1,0 +1,8 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.picacomic.fregata/com.just.agentweb.ActionActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.picacomic.fregata/com.just.agentweb.download.NotificationCancelReceiver"/>
+   </broadcast>
+</rules>

@@ -1,0 +1,22 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.ads.AdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.widget.opencalendar.WidgetSimpleCalendar"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.widget.addtransaction.WidgetSimpleAdd"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.widget.account.WidgetSimpleAccount"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.widget.reminderlist.WidgetPremiumReminder"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.rammigsoftware.bluecoins.ui.widget.spendingsummary.WidgetFree"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.rammigsoftware.bluecoins/com.google.android.gms.ads.AdService"/>
+   </service>
+</rules>

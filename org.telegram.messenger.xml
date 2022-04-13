@@ -1,0 +1,8 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="org.telegram.messenger/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="org.telegram.messenger/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

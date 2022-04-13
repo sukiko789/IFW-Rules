@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.disney.wheresmywater2_goo/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.disney.wheresmywater2_goo/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="com.disney.wheresmywater2_goo/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.disney.wheresmywater2_goo/com.unity3d.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.disney.wheresmywater2_goo/com.unity3d.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.disney.wheresmywater2_goo/com.unity3d.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.disney.wheresmywater2_goo/com.unity3d.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.disney.wheresmywater2_goo/com.kochava.android.tracker.ReferralCapture"/>
+   </broadcast>
+</rules>

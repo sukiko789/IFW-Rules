@@ -1,0 +1,12 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.dv.adm/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.dv.adm/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.dv.adm/com.appbrain.AppBrainActivity"/>
+   </activity>
+   <service block="true" log="false">
+      <component-filter name="com.dv.adm/com.google.android.gms.ads.AdService"/>
+      <component-filter name="com.dv.adm/com.appbrain.AppBrainService"/>
+      <component-filter name="com.dv.adm/com.appbrain.AppBrainJobService"/>
+   </service>
+</rules>

@@ -1,0 +1,6 @@
+<rules>
+   <service block="true" log="true">
+      <component-filter name="com.xyoye.dandanplay/com.taobao.sophix.aidl.DownloadService"/>
+      <component-filter name="com.xyoye.dandanplay/com.tencent.bugly.beta.tinker.TinkerResultService"/>
+   </service>
+</rules>

@@ -1,0 +1,31 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.tencent.lolm/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tga.liveplugin.live.LivePlayerActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tga.liveplugin.live.LivePlayerProcessActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tga.liveplugin.live.LivePopActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tga.liveplugin.live.LivePopProcessActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.android.tpush.TpnsActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.gcloud.msdk.webview.WebViewActivity"/>
+      <component-filter name="com.tencent.lolm/com.tencent.gcloud.msdk.webview.WebViewIPCActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.tencent.lolm/com.tencent.gcloud.msdk.push.MSDKXGPushReceiver"/>
+      <component-filter name="com.tencent.lolm/com.tencent.pandora.libtcloudupload.videoupload.impl.TVCNetWorkStateReceiver"/>
+      <component-filter name="com.tencent.lolm/com.singular.sdk.SingularInstallReceiver"/>
+      <component-filter name="com.tencent.lolm/com.tencent.android.tpush.XGPushReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.tencent.lolm/com.tencent.vmp.sdkproxy.VivoService"/>
+      <component-filter name="com.tencent.lolm/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.tencent.lolm/com.tencent.android.tpush.service.XGVipPushService"/>
+      <component-filter name="com.tencent.lolm/com.vasd.pandora.srp.media.record.ScreenRecordService"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tpns.mqttchannel.services.MqttService"/>
+      <component-filter name="com.tencent.lolm/tmsdk.common.KcBaseService"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tmdownloader.TMAssistantDownloadService"/>
+      <component-filter name="com.tencent.lolm/com.tencent.tga.livesdk.service.plugin.PluginService"/>
+   </service>
+</rules>

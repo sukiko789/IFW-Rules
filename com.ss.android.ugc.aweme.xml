@@ -1,0 +1,61 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.ss.android.ugc.aweme/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.aliyun.AliyunMessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.bytedance.ttnet.hostmonitor.ConnectivityReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.mira.protect.DefaultReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.download.DownloadReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.huawei.push.service.receivers.HWPushMessageHandler"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.common.applog.HotsoonReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.receivers.MIPushMessageHandler"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.meizu.message.MZAwemeMessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.message.MessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.bytedance.frameworks.plugin.receiver.MiraErrorLogReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.meizu.message.MzMessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.common.net.NetworkReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme_push_lib.receiver.NotificationBroadcastReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.push.daemon.PushReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.baidu.android.pushservice.RegistrationReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme_push_lib.message.ScreenOnPushActionReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme_push_lib.message.ScreenReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.push.window.oppo.ScreenReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.message.sswo.SswoReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.SystemEventReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.vivo.VivoPushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.ss.android.ugc.aweme/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.AliyunPushIntentService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.CloudPushIntentService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.vivo.push.sdk.service.CommandService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.baidu.android.pushservice.CommandService"/>
+      <component-filter name="com.ss.android.ugc.aweme/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.app.DeviceReportService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.MsgService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.PushIntentService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.message.PushJobService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.huawei.android.pushagent.PushService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.coloros.mcssdk.PushService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.push.daemon.PushService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.newmedia.redbadge.RedbadgeHandler"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.channel.TaobaoRecvService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.ss.android.ugc.aweme/com.ss.android.websocket.internal.WebSocketService"/>
+   </service>
+</rules>

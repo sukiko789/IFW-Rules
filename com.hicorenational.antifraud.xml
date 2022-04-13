@@ -1,0 +1,48 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.hicorenational.antifraud/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.hicorenational.antifraud/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.hicorenational.antifraud/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.hicorenational.antifraud/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.hicorenational.antifraud/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.hicorenational.antifraud/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/org.android.agoo.huawei.HuaweiPushReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/org.android.agoo.xiaomi.MiPushBroadcastReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/org.android.agoo.vivo.PushMessageReceiverImpl"/>
+      <component-filter name="com.hicorenational.antifraud/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/broadcast_receiver.SmsReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/receiver.TimeChangeReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/broadcast_receiver.UMMeizuReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/receiver.AVLAlarmReceiver"/>
+      <component-filter name="com.hicorenational.antifraud/receiver.AlarmReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.hicorenational.antifraud/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.hicorenational.antifraud/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.hicorenational.antifraud/com.umeng.message.UmengIntentService"/>
+      <component-filter name="com.hicorenational.antifraud/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.hicorenational.antifraud/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.hicorenational.antifraud/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.hicorenational.antifraud/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.hicorenational.antifraud/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.hicorenational.antifraud/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.hicorenational.antifraud/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.hicorenational.antifraud/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.hicorenational.antifraud/com.heytap.mcssdk.PushService"/>
+      <component-filter name="com.hicorenational.antifraud/com.tencent.bugly.beta.tinker.TinkerResultService"/>
+      <component-filter name="com.hicorenational.antifraud/service.ScreenRecordService"/>
+      <component-filter name="com.hicorenational.antifraud/service.ScreenRecord2Service"/>
+      <component-filter name="com.hicorenational.antifraud/com.umeng.message.UmengDownloadResourceService"/>
+      <component-filter name="com.hicorenational.antifraud/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.hicorenational.antifraud/com.umeng.message.UmengMessageIntentReceiverService"/>
+      <component-filter name="com.hicorenational.antifraud/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.hicorenational.antifraud/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.hicorenational.antifraud/com.umeng.message.XiaomiIntentService"/>
+   </service>
+</rules>

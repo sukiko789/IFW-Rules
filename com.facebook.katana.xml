@@ -1,0 +1,9 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.facebook.katana/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.facebook.katana/com.facebook.feed.platformads.AppInstallReceiver"/>
+      <component-filter name="com.facebook.katana/com.facebook.analytics.appstatelogger.AppStateBroadcastReceiver"/>
+      <component-filter name="com.facebook.katana/com.facebook.bugreporter.scheduler.AlarmsBroadcastReceiver"/>
+      <component-filter name="com.facebook.katana/com.facebook.analytics2.logger.HighPriUploadRetryReceiver"/>
+   </broadcast>
+</rules>

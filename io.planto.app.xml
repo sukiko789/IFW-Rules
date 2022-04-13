@@ -1,0 +1,15 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="io.planto.app/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="io.planto.app/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="io.planto.app/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="io.planto.app/com.onesignal.BootUpReceiver"/>
+      <component-filter name="io.planto.app/com.appsflyer.SingleInstallBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="io.planto.app/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="io.planto.app/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="io.planto.app/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="io.planto.app/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

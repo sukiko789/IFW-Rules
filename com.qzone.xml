@@ -1,0 +1,42 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.qzone/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.ADActivity"/>
+      <component-filter name="com.qzone/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.qzone/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.qzone/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.qzone/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.qzone/com.tencent.base.os.clock.AlarmClockReceiver"/>
+      <component-filter name="com.qzone/com.tencent.wns.export.AutoStartReceiver"/>
+      <component-filter name="com.qzone/com.qzonex.component.wns.push.ClearPushReceiver"/>
+      <component-filter name="com.qzone/com.qzonex.component.mipush.MiPushMessageReceiver"/>
+      <component-filter name="com.qzone/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.qzone/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.qzone/com.qzonex.app.QzoneExit"/>
+      <component-filter name="com.qzone/com.qzonex.module.upgrade.service.YYBService$QQDownloaderInstalledImpl"/>
+      <component-filter name="com.qzone/com.qzonex.module.operation.ui.QZoneWaterPressActivity$CameraBroadcastReceiver"/>
+      <component-filter name="com.qzone/com.qzonex.app.QZoneApplication$EventNotifier$QzoneBootReceiver"/>
+      <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonMainProcessReceiver"/>
+      <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonSubProcessReceive"/>
+      <component-filter name="com.qzone/com.qzonex.component.process.WebProcessReceiver2"/>
+      <component-filter name="com.qzone/com.qzonex.component.process.WebProcessReceiver"/>
+      <component-filter name="com.qzone/com.qzonex.component.process.PluginProcessReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.qzone/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.qzone/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.qzone/com.heytap.mcssdk.PushService"/>
+      <component-filter name="com.qzone/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.qzone/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.qzone/com.qzonex.module.maxvideo.MaxVideoService"/>
+      <component-filter name="com.qzone/com.qzonex.proxy.localalbum.business.NewPhotoNotificationService"/>
+      <component-filter name="com.qzone/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService"/>
+      <component-filter name="com.qzone/com.qzonex.component.wns.push.QzonePushService"/>
+      <component-filter name="com.qzone/com.tencent.miniqqmusic.basic.audio.QQPlayerService"/>
+      <component-filter name="com.qzone/com.wns.daemon.foreservice.FakeForeGroundService"/>
+      <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonSubProcessService"/>
+      <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonMainProcessService"/>
+   </service>
+</rules>

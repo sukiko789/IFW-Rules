@@ -1,0 +1,12 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.tgc.sky.android/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.tgc.sky.android/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.tgc.sky.android/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.tgc.sky.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.tgc.sky.android/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.tgc.sky.android/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

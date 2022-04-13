@@ -1,0 +1,80 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.xiaomi.smarthome/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.splashads.YPSplashActivity"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.ad.view.PopAdActivity"/>
+      <component-filter name="com.xiaomi.smarthome/com.payu.custombrowser.CBActivity"/>
+      <component-filter name="com.xiaomi.smarthome/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.xiaomi.smarthome/com.sdu.didi.openapi.DiDiWebActivity"/>
+      <component-filter name="com.xiaomi.smarthome/com.facebook.FacebookActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.xiaomi.smarthome/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.mi.util.AppUpdater$DownloadCompletedReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.ximalaya.ting.android.opensdk.player.receive.PlayerReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.xiaomi.smarthome/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.xiaomi.smarthome/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.xiaomi.smarthome/com.ximalaya.ting.android.opensdk.player.service.XmPlayerService"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.assemble.control.COSAppPushMessageService"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.assemble.control.COSPushMessageService"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+   </service>
+</rules>

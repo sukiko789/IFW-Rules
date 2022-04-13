@@ -1,0 +1,19 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.readdle.spark/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.readdle.spark/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.readdle.spark/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.readdle.spark/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.readdle.spark/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.readdle.spark/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.readdle.spark/com.huawei.hms.support.api.push.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.readdle.spark/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.readdle.spark/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.readdle.spark/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.readdle.spark/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+   </service>
+</rules>

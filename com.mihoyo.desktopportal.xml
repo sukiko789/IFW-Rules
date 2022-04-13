@@ -1,0 +1,16 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.mihoyo.desktopportal/cn.jpush.android.service.JNotifyActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.mihoyo.desktopportal/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.mihoyo.desktopportal/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.mihoyo.desktopportal/com.mihoyo.jpush.receiver.JPushReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.mihoyo.desktopportal/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.mihoyo.desktopportal/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.mihoyo.desktopportal/com.mihoyo.jpush.service.JPushService"/>
+      <component-filter name="com.mihoyo.desktopportal/com.taobao.sophix.aidl.DownloadService"/>
+   </service>
+</rules>

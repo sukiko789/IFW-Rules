@@ -1,0 +1,28 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.spotify.music/com.facebook.FacebookActivity"/>
+      <component-filter name="com.spotify.music/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.spotify.music/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.mobile.android.ads.inappbrowser.AdWebViewActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.mobile.android.ads.inappbrowser.InAppBrowserLauncherActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.music.libs.adbasedondemand.sessionend.AdOnDemandDialogActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.music.ads.display.DisplayAdActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.nativeads.homeformats.impl.help.HelpWebViewActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.music.features.ads.cmp.CMPActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.ads.browser.inapp.InAppBrowserActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.music.samsungpersonalization.customization.TpoContextActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.spotify.music/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.spotify.music/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.spotify.music/com.spotify.ads.browser.inapp.external.ShareSheetCallback"/>
+      <component-filter name="com.spotify.music/com.spotify.music.samsungpersonalization.customization.TpoContextChangedBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.spotify.music/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.spotify.music/com.spotify.music.ads.voice.VoiceAdService"/>
+      <component-filter name="com.spotify.music/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.spotify.music/com.spotify.music.libs.adbasedondemand.service.AdBasedOnDemandService"/>
+      <component-filter name="com.spotify.music/com.spotify.music.samsungpersonalization.customization.TpoContextChangedService"/>
+   </service>
+</rules>

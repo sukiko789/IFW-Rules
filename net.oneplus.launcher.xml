@@ -1,0 +1,14 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="net.oneplus.launcher/net.oneplus.launcher.test.TestWeatherInfoReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="net.oneplus.launcher/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

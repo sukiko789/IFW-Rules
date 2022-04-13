@@ -1,0 +1,12 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.miui.calculator/com.xiaomi.market.sdk.DownloadCompleteReceiver"/>
+      <component-filter name="com.miui.calculator/com.miui.voiceassist.mvs.client.MvsClientReceiver"/>
+      <component-filter name="com.miui.calculator/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.miui.calculator/com.miui.calculator.floatwindow.FloatWindowService"/>
+      <component-filter name="com.miui.calculator/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.miui.calculator/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

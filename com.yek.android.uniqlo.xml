@@ -1,0 +1,44 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.yek.android.uniqlo/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.service.JNotifyActivity"/>
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.smtt.sdk.VideoActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.android.tpush.XGPushActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.android.mipush.XMPushMessageReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.yek.android.uniqlo.push.XGMessageReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.lotuseed.android.PackageReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.yek.android.uniqlo.push.JPushReceiver"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.android.hwpush.HWPushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.yek.android.uniqlo/com.yek.android.uniqlo.service.AppUpdateService"/>
+      <component-filter name="com.yek.android.uniqlo/com.yek.android.uniqlo.push.GTInentService"/>
+      <component-filter name="com.yek.android.uniqlo/com.yek.android.uniqlo.push.GTPushService"/>
+      <component-filter name="com.yek.android.uniqlo/com.yek.android.uniqlo.push.JGService"/>
+      <component-filter name="com.yek.android.uniqlo/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.yek.android.uniqlo/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.yek.android.uniqlo/com.igexin.sdk.PushService"/>
+      <component-filter name="com.yek.android.uniqlo/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.yek.android.uniqlo/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.yek.android.uniqlo/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.yek.android.uniqlo/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

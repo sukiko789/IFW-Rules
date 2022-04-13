@@ -1,0 +1,7 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="io.legado.app/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="io.legado.app/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="io.legado.app/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+   </broadcast>
+</rules>

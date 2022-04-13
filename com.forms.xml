@@ -1,0 +1,36 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.forms/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.forms/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.forms/com.lenovo.appsdk.commlib.IntentHelperActivity"/>
+      <component-filter name="com.forms/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.forms/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.forms/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.forms/com.forms.motionlife.getuipush.GetuiTestActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.forms/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.forms/com.forms.motionlife.message.receiver.TickAlarmReceiver"/>
+      <component-filter name="com.forms/com.igexin.sdk.FlymePushReceiver"/>
+      <component-filter name="com.forms/com.igexin.sdk.HmsPushReceiver"/>
+      <component-filter name="com.forms/com.igexin.sdk.HmsPushSubReceiver"/>
+      <component-filter name="com.forms/com.igexin.sdk.MiuiPushReceiver"/>
+      <component-filter name="com.forms/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.forms/com.igexin.sdk.VivoPushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.forms/com.baidu.location.f"/>
+      <component-filter name="com.forms/com.igexin.sdk.PushService"/>
+      <component-filter name="com.forms/com.forms.motionlife.message.service.MessageRequestService"/>
+      <component-filter name="com.forms/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.forms/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.forms/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.forms/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.forms/com.igexin.sdk.OppoPushService"/>
+      <component-filter name="com.forms/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.forms/com.igexin.sdk.OppoAppPushService"/>
+      <component-filter name="com.forms/com.forms.motionlife.getuipush.DemoPushService"/>
+      <component-filter name="com.forms/com.forms.motionlife.getuipush.DemoIntentService"/>
+      <component-filter name="com.forms/com.forms.motionlife.leolin.shortcutbadger.BadgeIntentService"/>
+   </service>
+</rules>

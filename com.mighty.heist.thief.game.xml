@@ -1,0 +1,23 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.mighty.heist.thief.game/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.mighty.heist.thief.game/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.mighty.heist.thief.game/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.mighty.heist.thief.game/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.mighty.heist.thief.game/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.mighty.heist.thief.game/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.mighty.heist.thief.game/com.facebook.ads.internal.ipc.RemoteANActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.mighty.heist.thief.game/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.mighty.heist.thief.game/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.mighty.heist.thief.game/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.mighty.heist.thief.game/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.mighty.heist.thief.game/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.mighty.heist.thief.game/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.mighty.heist.thief.game/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.mighty.heist.thief.game/com.google.firebase.components.ComponentDiscoveryService"/>
+   </service>
+</rules>

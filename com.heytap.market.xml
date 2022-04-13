@@ -1,0 +1,56 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_09"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.heytap.market/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_07"/>
+   </activity>
+</rules>

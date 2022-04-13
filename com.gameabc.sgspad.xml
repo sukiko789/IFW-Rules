@@ -1,0 +1,26 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.gameabc.sgspad/cn.m4399.common.permission.AuthActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.tencent.tauth.AuthActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.ui.activity.CommonActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.ui.activity.CaptchaActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.ui.activity.CustomWebActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.ui.activity.GetActivationCodeActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.ui.activity.UserCenterActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.recharge.ui.activity.RechargeActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.control.onekey.wo.WoPrivacyContentActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.control.onekey.wo.WoLoginActivity"/>
+      <component-filter name="com.gameabc.sgspad/cn.m4399.operate.ui.activity.LoginActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.arcsoft.hpay100.web.HPayWebFullActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.arcsoft.hpay100.web.HPayWebActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.arcsoft.hpay100.HPaySdkActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.alipay.sdk.app.AlipayResultActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.alipay.sdk.app.PayResultActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.gameabc.sgspad.wxapi.WXPayEntryActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.gameabc.sgspad.wxapi.WXEntryActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.gameabc.sgspad/com.alipay.sdk.app.H5OpenAuthActivity"/>
+   </activity>
+</rules>

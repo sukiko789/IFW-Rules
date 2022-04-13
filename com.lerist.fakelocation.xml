@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.lerist.fakelocation/com.tencent.bugly.beta.ui.BetaActivity"/>
+      <component-filter name="com.lerist.fakelocation/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.lerist.fakelocation/com.lerist.common.adnet.activity.AdnetActivity"/>
+      <component-filter name="com.lerist.fakelocation/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.lerist.fakelocation/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="com.lerist.fakelocation/com.qq.e.ads.RewardvideoLandscapeADActivity"/>
+      <component-filter name="com.lerist.fakelocation/com.qq.e.ads.RewardvideoPortraitADActivity"/>
+   </activity>
+   <service block="true" log="false">
+      <component-filter name="com.lerist.fakelocation/com.tencent.bugly.beta.tinker.TinkerResultService"/>
+      <component-filter name="com.lerist.fakelocation/com.lerist.common.sharedata.service.ShareDataService"/>
+      <component-filter name="com.lerist.fakelocation/com.lerist.fakelocation.service.KeepAliveService"/>
+      <component-filter name="com.lerist.fakelocation/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.lerist.fakelocation/com.lerist.common.mocklocation.service.DaemonJobService"/>
+   </service>
+</rules>

@@ -1,0 +1,92 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.jd.jxj/com.jd.push.huawei.lib.MyBridgeActivity"/>
+      <component-filter name="com.jd.jxj/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.jd.jxj/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.jd.jxj/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.jd.jxj/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.jd.jxj/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.jd.jxj/com.vivo.push.sdk.LinkProxyClientActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.jd.jxj/com.jd.push.huawei.broadcast.EMHuaweiPushReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.huawei.broadcast.HuaweiClearReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.huawei.broadcast.HuaweiInitReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.miui.broadcast.MiuiClearReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.miui.broadcast.MiuiInitReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.miui.broadcast.MiuiReceiver"/>
+      <component-filter name="com.jd.jxj/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.jd.jxj/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.jd.jxj/com.jingdong.jdpush_new.receiver.BootReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.vivo.broadcast.VivoClearReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.vivo.broadcast.VivoInitReceiver"/>
+      <component-filter name="com.jd.jxj/com.jd.push.vivo.broadcast.VivoReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.jd.jxj/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
+      <component-filter name="com.jd.jxj/com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"/>
+      <component-filter name="com.jd.jxj/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+      <component-filter name="com.jd.jxj/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.jd.jxj/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.lib.service.TinkerPatchService"/>
+      <component-filter name="com.jd.jxj/com.tencent.tinker.lib.service.TinkerPatchService$InnerService"/>
+      <component-filter name="com.jd.jxj/com.jd.jxj.patch.TinkerResultService"/>
+      <component-filter name="com.jd.jxj/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.jd.jxj/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.jd.jxj/com.jd.pushsdk.keeplive.schedulerjob.DaemonJobService"/>
+      <component-filter name="com.jd.jxj/com.jingdong.sdk.jdcrashreport.CrashService"/>
+      <component-filter name="com.jd.jxj/com.vivo.push.sdk.service.CommandClientService"/>
+   </service>
+</rules>

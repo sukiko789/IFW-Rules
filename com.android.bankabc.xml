@@ -1,0 +1,87 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.android.bankabc/com.android.bankabc.homepage.AdActivity"/>
+      <component-filter name="com.android.bankabc/com.rytong.emp.zxing.activity.CaptureActivity"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushselfshow.richpush.RichPushActivity"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushselfshow.permission.RequestPermissionsActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.sapi2.biometrics.liveness.activity.LivenessLoadingActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.IdCardTakeResultActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.IDDetectEditActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.IDCardTakePhotosDetectionActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.bankcard.BankCardResultActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.bankcard.BankCardDetectionActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.fsg.ocr.idcard.OCRIDCardDetectionActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.sapi2.biometrics.liveness.activity.LivenessRecogGuidActivity"/>
+      <component-filter name="com.android.bankabc/com.baidu.sapi2.biometrics.liveness.activity.LivenessRecogActivity"/>
+      <component-filter name="com.android.bankabc/com.yanzhenjie.permission.PermissionActivity"/>
+      <component-filter name="com.android.bankabc/com.huawei.hms.activity.BridgeActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.android.bankabc/com.android.bankabc.widget.calendar.CalendarReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.FastBootReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.FinAlarmReceiver"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.receiver.HeartPkgReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.MiPushReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.NetWorkChangeReceiver"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.receiver.NetworkConnectivityReceiver"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalk.receiver.PushReceiver"/>
+      <component-filter name="com.android.bankabc/abc.feinno.uilibrary.receiver.UINotifyReceiver"/>
+      <component-filter name="com.android.bankabc/com.alipay.pushsdk.BroadcastActionReceiver"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.logmonitor.ClientMonitorExtReceiver"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogReceiverInToolsProcess"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.nebulaappproxy.inside.account.MiniProgramAuthService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.quinox.preload.PreloadReceiver"/>
+      <component-filter name="com.android.bankabc/com.alipay.android.phone.mobilecommon.dynamicrelease.SyncConfigReceiver"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.logmonitor.TraceStubReceiver"/>
+      <component-filter name="com.android.bankabc/android.support.multidex.MultiDexPreloadReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.android.bankabc/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.android.bankabc/com.huawei.android.pushagent.PushService"/>
+      <component-filter name="com.android.bankabc/com.baidu.speech.VoiceRecognitionService"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.android.bankabc/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.android.bankabc/com.baidu.location.f"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalkavsdk.service.KeepExist"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalkavsdk.service.Keep2"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.service.DzhService"/>
+      <component-filter name="com.android.bankabc/com.android.dzhnh.service.DownloadService"/>
+      <component-filter name="com.android.bankabc/com.feinno.teatalkavsdk.service.CoreService"/>
+      <component-filter name="com.android.bankabc/com.chinamobile.uc.emplistsdk.service.CoreService"/>
+      <component-filter name="com.android.bankabc/com.alipay.android.phone.mobilesdk.apm.service.APMInnerService"/>
+      <component-filter name="com.android.bankabc/com.alipay.pushsdk.push.AppInfoRecvIntentService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.logmonitor.ClientMonitorService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess"/>
+      <component-filter name="com.android.bankabc/com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseProcessService"/>
+      <component-filter name="com.android.bankabc/com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseRequestService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.quinox.preload.ExcaliburService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.fgbg.FgBgMonitorService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.ipc.IpcCallServer"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.ipc.IpcMsgServer"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LinkTransactionService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInMainProcess"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInToolsProcess"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInlite1"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInlite2"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInlite3"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInlite4"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.common.logging.process.LogServiceInlite5"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.rome.syncsdk.service.LongLinkService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.quinox.preload.MainPldService"/>
+      <component-filter name="com.android.bankabc/com.alipay.pushsdk.push.NotificationService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.quinox.preload.PreloadService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.android.security.upgrade.download.normal.UpgradeExternalDownloadIntentService"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService1"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService2"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService3"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService4"/>
+      <component-filter name="com.android.bankabc/com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService5"/>
+   </service>
+</rules>

@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.ad.gdpr.GDPRContentActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.ad.hardpromo.PlayerActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.mopub.mobileads.RewardedMraidActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.ad.gdpr.ShortGDPRContentActivity"/>
+      <component-filter name="com.simulatorslivegp.SubwaySimulator3D/com.ad.crosspromo.VideoActivity"/>
+   </activity>
+</rules>

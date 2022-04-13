@@ -1,0 +1,13 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.icbc/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="com.icbc/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.icbc/com.xiaomi.push.service.receivers.PkgUninstallReceiver"/>
+      <component-filter name="com.icbc/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.icbc/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.icbc/com.icbc.im.receiver.VIVOPushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.icbc/com.vivo.push.sdk.service.CommandClientService"/>
+   </service>
+</rules>

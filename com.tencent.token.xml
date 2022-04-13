@@ -1,0 +1,14 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.token/com.tencent.token.core.push.BootBroadcastReceiver"/>
+      <component-filter name="com.tencent.token/com.tencent.token.widget.TokenWidgetProvider"/>
+      <component-filter name="com.tencent.token/com.tencent.token.util.wifidetect.WifiBootReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.token/com.tencent.token.util.wifidetect.WifiSecureService"/>
+      <component-filter name="com.tencent.token/com.tencent.token.widget.TokenService"/>
+      <component-filter name="com.tencent.token/com.tencent.token.core.push.PushService"/>
+      <component-filter name="com.tencent.token/com.tencent.token.upload.NetInfoService"/>
+      <component-filter name="com.tencent.token/com.tencent.token.core.gamelogin.GameLoginService"/>
+   </service>
+</rules>

@@ -1,0 +1,30 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.caixin.news/com.adsame.main.AdsameBrowser"/>
+      <component-filter name="com.caixin.news/com.adsame.main.AdsameMediaPlayer"/>
+      <component-filter name="com.caixin.news/com.caing.news.activity.CaixinAdActivity"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.service.DActivity"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.service.JNotifyActivity"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.caixin.news/com.sina.weibo.sdk.share.ShareResultActivity"/>
+      <component-filter name="com.caixin.news/com.sina.weibo.sdk.share.ShareStoryActivity"/>
+      <component-filter name="com.caixin.news/com.sina.weibo.sdk.share.ShareTransActivity"/>
+      <component-filter name="com.caixin.news/com.sina.weibo.sdk.web.WebActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.caixin.news/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.asus.AsusPushMessageReceiver"/>
+      <component-filter name="com.caixin.news/com.caixin.third.lib.push.PushReceiver"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.service.SchedulerReceiver"/>
+      <component-filter name="com.caixin.news/com.caixin.third.lib.push.PushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.caixin.news/com.caixin.third.lib.push.CommonService"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.caixin.news/com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"/>
+      <component-filter name="com.caixin.news/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+      <component-filter name="com.caixin.news/cn.jpush.android.service.PushService"/>
+   </service>
+</rules>

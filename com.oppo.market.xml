@@ -1,0 +1,51 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.oppo.market/com.oppo.acs.activity.AdWebActivity"/>
+      <component-filter name="com.oppo.market/com.nearme.feedback.activity.FeedbackActivity"/>
+      <component-filter name="com.oppo.market/com.coloros.feedback.activity.FeedbackActivity"/>
+      <component-filter name="com.oppo.market/com.oppo.cdo.domain.push.OPushBridgeActivity"/>
+      <component-filter name="com.oppo.market/com.nearme.player.ui.show.SwitchFullActivity"/>
+      <component-filter name="com.oppo.market/com.oppo.uccreditlib.internal.j"/>
+      <component-filter name="com.oppo.market/com.oppo.uccreditlib.internal.i"/>
+      <component-filter name="com.oppo.market/com.oppo.uccreditlib.internal.h"/>
+      <component-filter name="com.oppo.market/com.oppo.uccreditlib.internal.f"/>
+      <component-filter name="com.oppo.market/com.oppo.uccreditlib.internal.e"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.oppo.market/com.oppo.cdo.domain.push.c"/>
+      <component-filter name="com.oppo.market/com.oppo.cdo.download.ui.notification.c"/>
+      <component-filter name="com.oppo.market/com.nearme.mcs.reciever.AlarmEventReceiver"/>
+      <component-filter name="com.oppo.market/com.oppo.usercenter.sdk.helper.UserCenterOperateReceiver"/>
+      <component-filter name="com.oppo.market/a.a.a.abn"/>
+      <component-filter name="com.oppo.market/a.a.a.abr"/>
+      <component-filter name="com.oppo.market/a.a.a.abs"/>
+      <component-filter name="com.oppo.market/a.a.a.alf"/>
+      <component-filter name="com.oppo.market/a.a.a.rn"/>
+      <component-filter name="com.oppo.market/a.a.a.yh"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.oppo.market/com.oppo.acs.service.AdService"/>
+      <component-filter name="com.oppo.market/com.coloros.mcssdk.PushService"/>
+      <component-filter name="com.oppo.market/com.oppo.cdo.domain.statis.service.StaticSetSSoIdService"/>
+      <component-filter name="com.oppo.market/com.nearme.selfcure.lib.service.CurePatchService"/>
+      <component-filter name="com.oppo.market/com.nearme.selfcure.lib.service.CurePatchService$InnerService"/>
+      <component-filter name="com.oppo.market/com.nearme.selfcure.lib.service.DefaultCureResultService"/>
+      <component-filter name="com.oppo.market/com.oppo.market.mine.service.MoveApplicationService"/>
+      <component-filter name="com.oppo.market/com.nearme.mcs.service.RemoteService"/>
+      <component-filter name="com.oppo.market/com.nearme.mcs.service.MCSService"/>
+      <component-filter name="com.oppo.market/com.nearme.mcs.service.ProtectService"/>
+      <component-filter name="com.oppo.market/com.oppo.statistics.upload.UploadService"/>
+      <component-filter name="com.oppo.market/a.a.a.zj"/>
+      <component-filter name="com.oppo.market/a.a.a.zd"/>
+      <component-filter name="com.oppo.market/a.a.a.zb"/>
+      <component-filter name="com.oppo.market/a.a.a.xz"/>
+      <component-filter name="com.oppo.market/a.a.a.xp"/>
+      <component-filter name="com.oppo.market/a.a.a.mj"/>
+      <component-filter name="com.oppo.market/a.a.a.apb"/>
+      <component-filter name="com.oppo.market/a.a.a.aow"/>
+      <component-filter name="com.oppo.market/a.a.a.alz"/>
+      <component-filter name="com.oppo.market/a.a.a.alc"/>
+      <component-filter name="com.oppo.market/a.a.a.akp"/>
+      <component-filter name="com.oppo.market/a.a.a.abq"/>
+   </service>
+</rules>

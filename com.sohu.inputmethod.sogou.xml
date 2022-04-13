@@ -1,0 +1,79 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.details.AppDetailsActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.update.AppManageActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.AppNewsActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.update.AppUninstallActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.category.CategoryActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.guide.CautionGuideActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.downloads.ui.DownloadActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.downloads.ui.DownloadConfirmDialog"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.setting.FeedbackActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.MainActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.sdk.MobileToolSDKActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.setting.SettingActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.search.SearchResultActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.search.SearchActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.details.ScreenshotActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.category.RecommendCategoryActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.details.PermissionDetailsActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.WebPushActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.update.UpdateRecommDialog"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.details.TopicListActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.TopicDetailsActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.ShortCutProxyActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.installfinish.SetupRecommActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.huawei.hwid.openapi.auth.WebAuthorizationActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.huawei.hwid.openapi.update.ui.OtaDownloadActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.huawei.hwid.openapi.auth.dump.OpenDumpActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.toptennews.WebActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.toptennews.VideoActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.toptennews.PictureCollectionActivity"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.foreigninput.views.UpdateLanguageActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.sohu.inputmethod.sogou/lib.datamanager.pingback.AlarmReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.AutoUpgradeReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.status.BootCompletedReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.multidex.proxy.BroadcastReceiverMultidexProxy"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.status.CheckSogouIMStatusReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.internet.notify.NetNotifyReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.common_lib.notification.NotificationServiceImpl$NotificationReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/base.sogou.mobile.hotwordsbase.basefunction.notification.PromoteNotificationMsgReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.internet.networkmanager.nano.PushNotificationParser$PushNotiReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.udp.push.PushServiceReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.receiver.SupportReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.udp.push.SystemReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.internet.upgrade.UpgradeReceiver"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.UpgradeTip"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.apm.resource.CanaryResultService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.apm.resource.CanaryWorkerService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.downloads.DownloadService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.sdk.downloads.DownloadService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.explorer.ExplorerCommunicateService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.feedback.FBManagementService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.leakanalysis.LeakUploadService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.crossplatform.internet.MessageService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.internet.NotifyProgressService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.speech.offline.OfflineService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.service.server.PluginPitServiceGuard"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.service.server.PluginPitServiceP0"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.service.server.PluginPitServiceUI"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.push.PushReceiveService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.udp.push.PushService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.ime.animoji.service.RenderingService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.udp.push.SGPushMessageService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.loader.s.Service0"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.loader.s.Service1"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.multidex.proxy.ServiceMultidexProxy"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.sogou.loader.s.ServiceN1"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.guide.SettingGuideService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.plugin.SogouPluginManagerServerFactory"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.status.SogouStatusService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.support.SupportService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.toptennews.TransferDataService"/>
+      <component-filter name="com.sohu.inputmethod.sogou/com.sogou.toptennews.WebProcessDestroyService"/>
+   </service>
+</rules>

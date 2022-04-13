@@ -1,0 +1,13 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="cn.planpoint.fanxianyi/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="cn.planpoint.fanxianyi/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="cn.planpoint.fanxianyi/cn.planpoint.fanxianyi.DemoMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="cn.planpoint.fanxianyi/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="cn.planpoint.fanxianyi/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="cn.planpoint.fanxianyi/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="cn.planpoint.fanxianyi/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

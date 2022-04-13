@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.hashmusic.musicplayer/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.hashmusic.musicplayer/com.facebook.ads.AudienceNetworkActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.hashmusic.musicplayer/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.hashmusic.musicplayer/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.hashmusic.musicplayer/com.hashmusic.musicplayer.backup.BackupStarterReceiver"/>
+      <component-filter name="com.hashmusic.musicplayer/com.hashmusic.musicplayer.widgets.BigWidget"/>
+      <component-filter name="com.hashmusic.musicplayer/com.hashmusic.musicplayer.core.WellnessReminderReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.hashmusic.musicplayer/com.google.android.gms.ads.AdService"/>
+      <component-filter name="com.hashmusic.musicplayer/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.hashmusic.musicplayer/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

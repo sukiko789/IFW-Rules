@@ -1,0 +1,43 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="cn.com.shbank.mper/cn.com.shbank.mper.android.activity.AdActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.GActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.mob.tools.MobUIShell"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.PushActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.example.shprogressdialog.MainActivity"/>
+      <component-filter name="cn.com.shbank.mper/org.suirui.huijian.hd.websocket.util.PushInviteDialogActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.zxing.ShowBarcodeActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.zxing.setting.PreferencesActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.gesturelock.activity.LockTestActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.gesturelock.activity.LockSettingActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.gesturelock.activity.LockResetActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.gesturelock.activity.LockActivity"/>
+      <component-filter name="cn.com.shbank.mper/com.yitong.common.zxing.CaptureActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="cn.com.shbank.mper/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.FlymePushReceiver"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.HmsPushReceiver"/>
+      <component-filter name="cn.com.shbank.mper/cn.com.shbank.mper.receiver.JpushClickReceiver"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.MiuiPushReceiver"/>
+      <component-filter name="cn.com.shbank.mper/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="cn.com.shbank.mper/com.meizu.cloud.pushsdk.SystemReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="cn.com.shbank.mper/com.igexin.download.DownloadService"/>
+      <component-filter name="cn.com.shbank.mper/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="cn.com.shbank.mper/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="cn.com.shbank.mper/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="cn.com.shbank.mper/com.igexin.sdk.PushService"/>
+      <component-filter name="cn.com.shbank.mper/com.baidu.speech.VoiceRecognitionService"/>
+      <component-filter name="cn.com.shbank.mper/cn.com.shbank.mper.regetuiservice.JsPushService"/>
+      <component-filter name="cn.com.shbank.mper/com.suirui.srpaas.video.rtc.server.RecordDesktopService"/>
+      <component-filter name="cn.com.shbank.mper/com.suirui.srpaas.video.rtc.server.SRRTCConfServer"/>
+      <component-filter name="cn.com.shbank.mper/com.suirui.srpaas.video.rtc.server.ShareDesktopService"/>
+      <component-filter name="cn.com.shbank.mper/org.suirui.huijian.hd.websocket.javawebsocket.WebSocketService"/>
+      <component-filter name="cn.com.shbank.mper/com.baidu.location.f"/>
+   </service>
+</rules>

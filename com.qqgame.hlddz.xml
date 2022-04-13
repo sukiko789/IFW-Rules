@@ -1,0 +1,37 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.qqgame.hlddz/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.msdk.PermissionActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.msdk.weixin.qrcode.WXQrCodeActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.slugsdk.webview.SlugJumpShareActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.msdk.NameAuthActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qqgame.hlddz.WebCallActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.android.tpush.TpnsActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.msdk.notice.AlertMsgActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.slugsdk.webview.X5WebViewActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.RewardvideoPortraitADActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.TransPortraitADActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.WebAdActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qqgame.hlddz.wxapi.WXEntryActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.ADActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.LandscapeADActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.PortraitADActivity"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.tg.RewardvideoLandscapeADActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.qqgame.hlddz/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.special.httpdns.Cache$ConnectReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.qqgame.hlddz/com.tencent.tmdownloader.TMAssistantDownloadService"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.android.tpush.service.XGVipPushService"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.msdk.notice.RollFloatService"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.tpns.mqttchannel.services.MqttService"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.qqgame.hlddz/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService"/>
+      <component-filter name="com.qqgame.hlddz/com.qq.e.comm.DownloadService"/>
+   </service>
+</rules>

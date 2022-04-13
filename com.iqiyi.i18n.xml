@@ -1,0 +1,85 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.video.qyplayersdk.cupid.activity.ADActivity"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.playrecord.ad.ADActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.playrecord.ad.ADIndependentActivity"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.video.activitys.AdActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.huawei.HWPushTransferActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.debug.DebugPushMessageActivity"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.react.QYH5VivoActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.iqiyi.i18n/com.facebook.FacebookActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.receiver.AddPackageBroadcast"/>
+      <component-filter name="com.iqiyi.i18n/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.hcim.service.BroadcastCenter"/>
+      <component-filter name="com.iqiyi.i18n/com.facebook.CampaignTrackingReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.CloudRecordReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.CollectionReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.CommonBroadcastReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.daemonservice.DaemonReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.module.v2.receiver.DispatcherReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.module.v2.receiver.DispatcherReceiverStub1"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.module.v2.receiver.DispatcherReceiverStub2"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.receiver.DownloadCompleteBroadcast"/>
+      <component-filter name="com.iqiyi.i18n/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.impushservice.receiver.ImPushServiceReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.pushservice.PushServiceReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.sdk.android.pushservice.PushServiceReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.qiyi.QYPushMessageReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.QYPushMsgBootReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.qiyi.QYPushMsgBroadCastReceiver"/>
+      <component-filter name="com.iqiyi.i18n/com.appsflyer.SingleInstallBroadcastReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.receiver.StartPlayActivityReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.receiver.StartPlayerFromThirdEntranceReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.receiver.StartPlayerFromWeixinReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.receiver.StartWelcomeActivityReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.video.ui.phone.traffic.receiver.TrafficReceiver"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.xiaomi.XiaoMiPushMessageReceive"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.iqiyi.i18n/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.iqiyi.i18n/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService0"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService1"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService2"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService3"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService4"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService5"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService6"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.stub.CommuStubService$CommuStubService7"/>
+      <component-filter name="com.iqiyi.i18n/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.daemonservice.DaemonService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.dispatcher.DispatcherService"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.video.download.DownloadJobService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.fcm.FcmPushMessageService"/>
+      <component-filter name="com.iqiyi.i18n/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.iqiyi.i18n/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.commonphonepad.pushmessage.huawei.HWPushMessageService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.module.icommunication.ipc.HostService"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.hcim.service.IMService"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.passportsdk.interflow.core.InterflowService"/>
+      <component-filter name="com.iqiyi.i18n/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.video.download.notification.NotificationService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.util.oaid.OaidService"/>
+      <component-filter name="com.iqiyi.i18n/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.android.service.ReLaunchService"/>
+      <component-filter name="com.iqiyi.i18n/org.qiyi.video.svg.dispatcher.RemoteGuardService"/>
+      <component-filter name="com.iqiyi.i18n/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.iqiyi.i18n/com.iqiyi.passportsdk.internal.ipc.UserTrackerService"/>
+      <component-filter name="com.iqiyi.i18n/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.iqiyi.i18n/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

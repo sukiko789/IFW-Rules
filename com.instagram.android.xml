@@ -1,0 +1,5 @@
+<rules>
+<activity block="true" log="false">
+  <component-filter name="com.instagram.android/com.android.billingclient.api.ProxyBillingActivity"/>
+</activity>
+</rules>

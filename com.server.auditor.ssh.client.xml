@@ -1,0 +1,9 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.server.auditor.ssh.client/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.server.auditor.ssh.client/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.server.auditor.ssh.client/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

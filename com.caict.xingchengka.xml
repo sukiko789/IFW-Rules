@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.caict.xingchengka/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.nearby.contactshield.NearbyContactMonitor"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.nearby.contactshield.persistence.CSPersistMonitor"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.contactshield.BackgroundContackCheckingIntentService"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.nearby.contactshield.persistence.CSPersistService"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.hms.contactshield.NearbyService"/>
+      <component-filter name="com.caict.xingchengka/com.huawei.agconnect.core.ServiceDiscovery"/>
+   </service>
+</rules>

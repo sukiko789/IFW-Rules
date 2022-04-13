@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.amazon.device.ads.AdActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/jp.maio.sdk.android.AdFullscreenActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.codigames.idle.prison.empire.manager.tycoon/com.tapjoy.TJAdUnitActivity"/>
+   </activity>
+</rules>

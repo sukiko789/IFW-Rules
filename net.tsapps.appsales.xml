@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="net.tsapps.appsales/com.google.android.gms.ads.AdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="net.tsapps.appsales/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="net.tsapps.appsales/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="net.tsapps.appsales/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="net.tsapps.appsales/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="net.tsapps.appsales/com.google.android.gms.ads.AdService"/>
+   </service>
+</rules>

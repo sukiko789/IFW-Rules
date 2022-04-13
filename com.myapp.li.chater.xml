@@ -1,0 +1,42 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.myapp.li.chater/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.myapp.li.chater/com.kyview.AdActivity"/>
+      <component-filter name="com.myapp.li.chater/com.kyview.AdViewLandingPage"/>
+      <component-filter name="com.myapp.li.chater/com.kyview.AdViewVideoActivity"/>
+      <component-filter name="com.myapp.li.chater/com.baidu.mobads.AppActivity"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"/>
+      <component-filter name="com.myapp.li.chater/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.myapp.li.chater/com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity"/>
+      <component-filter name="com.myapp.li.chater/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="com.myapp.li.chater/com.qq.e.ads.RewardvideoLandscapeADActivity"/>
+      <component-filter name="com.myapp.li.chater/com.qq.e.ads.RewardvideoPortraitADActivity"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.downloadlib.activity.TTDelegateActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.myapp.li.chater/com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.embedapplog.collector.Collector"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.myapp.li.chater/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+      <component-filter name="com.myapp.li.chater/com.kyview.DownloadService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+      <component-filter name="com.myapp.li.chater/com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.tea.crash.upload.CrashUploadService"/>
+      <component-filter name="com.myapp.li.chater/com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+   </service>
+</rules>

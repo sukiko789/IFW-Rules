@@ -1,0 +1,49 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="cmb.pb/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="cmb.pb/com.huawei.android.pushselfshow.permission.RequestPermissionsActivity"/>
+      <component-filter name="cmb.pb/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="cmb.pb/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="cmb.pb/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="cmb.pb/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="cmb.pb/com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"/>
+      <component-filter name="cmb.pb/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="cmb.pb/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="cmb.pb/com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"/>
+      <component-filter name="cmb.pb/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="cmb.pb/com.cmb.compim.logic.white.push.HWPushReceiverV1"/>
+      <component-filter name="cmb.pb/com.cmb.compim.logic.white.push.MZPushReceiver"/>
+      <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="cmb.pb/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="cmb.pb/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="cmb.pb/com.cmb.compim.logic.white.push.VIVOPushReceiver"/>
+      <component-filter name="cmb.pb/com.cmb.compim.logic.white.push.XMPushReceiver"/>
+      <component-filter name="cmb.pb/com.cmb.zh.sdk.im.logic.white.push.VIVOPushReceiver"/>
+      <component-filter name="cmb.pb/com.cmb.zh.sdk.im.logic.white.push.MZPushReceiver"/>
+      <component-filter name="cmb.pb/com.cmb.zh.sdk.im.logic.white.push.HWPushReceiverV1"/>
+      <component-filter name="cmb.pb/com.cmb.zh.sdk.im.logic.white.push.XMPushReceiver"/>
+      <component-filter name="cmb.pb/com.cmb.zh.sdk.im.logic.black.service.system.FastBootReceiver"/>
+      <component-filter name="cmb.pb/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="cmb.pb/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="cmb.pb/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="cmb.pb/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="cmb.pb/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="cmb.pb/com.coloros.mcssdk.PushService"/>
+      <component-filter name="cmb.pb/com.huawei.android.pushagent.PushService"/>
+      <component-filter name="cmb.pb/com.baidu.speech.VoiceRecognitionService"/>
+      <component-filter name="cmb.pb/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="cmb.pb/com.baidu.location.f"/>
+      <component-filter name="cmb.pb/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="cmb.pb/com.heytap.mcssdk.PushService"/>
+      <component-filter name="cmb.pb/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="cmb.pb/com.tencent.smtt.export.external.DexClassLoaderProviderService"/>
+      <component-filter name="cmb.pb/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="cmb.pb/com.meizu.cloud.pushsdk.NotificationService"/>
+   </service>
+</rules>

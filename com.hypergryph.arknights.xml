@@ -1,0 +1,13 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.hypergryph.arknights/com.hypergryph.sdk.activity.BridgeActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.hypergryph.sdk.activity.PrePayActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.hypergryph.arknights.wxapi.WXPayEntryActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.alipay.sdk.app.H5OpenAuthActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.alipay.sdk.app.AlipayResultActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.alipay.sdk.app.PayResultActivity"/>
+      <component-filter name="com.hypergryph.arknights/com.hypergryph.sdk.activity.PagePayActivity"/>
+   </activity>
+</rules>

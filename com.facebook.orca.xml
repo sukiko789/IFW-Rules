@@ -1,0 +1,22 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.facebook.orca/com.facebook.analytics.reporters.AppStateFADFeedbackActivity"/>
+      <component-filter name="com.facebook.orca/com.facebook.messaging.internalprefs.MessengerAnalyticsActivity"/>
+      <component-filter name="com.facebook.orca/com.facebook.ads.AudienceNetworkActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.facebook.orca/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.facebook.orca/com.facebook.analytics.appstatelogger.AppStateBroadcastReceiver"/>
+      <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.HighPriUploadRetryReceiver"/>
+      <component-filter name="com.facebook.orca/com.facebook.bugreporter.scheduler.AlarmsBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.AlarmBasedUploadService"/>
+      <component-filter name="com.facebook.orca/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.facebook.orca/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.facebook.orca/com.facebook.analytics.appstatelogger.AppStateIntentService"/>
+      <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.LollipopUploadService"/>
+      <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.GooglePlayUploadService"/>
+      <component-filter name="com.facebook.orca/com.facebook.bugreporter.scheduler.LollipopBugReportService"/>
+   </service>
+</rules>

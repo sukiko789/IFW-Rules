@@ -1,0 +1,31 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.sencent.mm/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.sencent.mm/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.sencent.mm/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.sencent.mm/com.qq.e.ads.PortraitADActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.sencent.mm/com.sencent.push.meizu.MeizuPushReceiver"/>
+      <component-filter name="com.sencent.mm/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.sencent.mm/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.sencent.mm/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.sencent.mm/com.sencent.push.vivo.VivoPushReceiver"/>
+      <component-filter name="com.sencent.mm/com.sencent.push.xiaomi.XiaomiPushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.sencent.mm/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.sencent.mm/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.sencent.mm/com.sencent.apkupdater.service.ApkUpdaterService"/>
+      <component-filter name="com.sencent.mm/com.alibaba.mtl.appmonitor.AppMonitorService"/>
+      <component-filter name="com.sencent.mm/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.sencent.mm/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.sencent.mm/com.sencent.keepalive.helper.KeepLiveManager$GrayInnerService"/>
+      <component-filter name="com.sencent.mm/com.sencent.keepalive.service.KeepLiveService"/>
+      <component-filter name="com.sencent.mm/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.sencent.mm/androidx.room.MultiInstanceInvalidationService"/>
+      <component-filter name="com.sencent.mm/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.sencent.mm/com.coloros.mcssdk.PushService"/>
+      <component-filter name="com.sencent.mm/com.xiaomi.push.service.XMJobService"/>
+   </service>
+</rules>

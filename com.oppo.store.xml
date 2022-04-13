@@ -1,0 +1,26 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.oppo.store/com.oppo.acs.activity.AdWebActivity"/>
+      <component-filter name="com.oppo.store/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.oppo.store/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.oppo.store/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.oppo.store/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.oppo.store/com.heytap.ups.platforms.upsxm.HeyTapUPSMiPushMessageReceiver"/>
+      <component-filter name="com.oppo.store/com.heytap.ups.platforms.upsvv.HeyTapUPSVPushMessageReceiver"/>
+      <component-filter name="com.oppo.store/com.oppo.store.push.msgreceiver.xm.HeytapMiPushReceiver"/>
+      <component-filter name="com.oppo.store/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.oppo.store/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.oppo.store/com.oppo.store.push.msgreceiver.vi.VivoAppSptMegReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.oppo.store/com.oppo.acs.service.AdService"/>
+      <component-filter name="com.oppo.store/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.oppo.store/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.oppo.store/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.oppo.store/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.oppo.store/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.oppo.store/com.baidu.location.f"/>
+   </service>
+</rules>

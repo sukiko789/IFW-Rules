@@ -1,0 +1,10 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.android.vending/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.android.vending/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.android.vending/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.android.vending/com.google.android.finsky.services.AdIdListener"/>
+   </service>
+</rules>

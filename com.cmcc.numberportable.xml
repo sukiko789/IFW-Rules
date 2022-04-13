@@ -1,0 +1,35 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.activity.AoePushActivity"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.activity.MessageAlert"/>
+      <component-filter name="com.cmcc.numberportable/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.cmcc.numberportable/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.cmcc.numberportable/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.cmcc.numberportable/com.tencent.tauth.AuthActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.AoeNetReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.BootReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.CancelNotiReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.NotifyCationReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.PackageReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.SMSDataReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.SMSNotifyReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.SMSWakeupReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.receiver.RebindReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.receiver.SmsReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.receiver.MmsReceiver"/>
+      <component-filter name="com.cmcc.numberportable/com.igexin.sdk.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.AoeService"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.aoe.BindAoeService"/>
+      <component-filter name="com.cmcc.numberportable/com.igexin.sdk.PushService"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.download.DownloadService"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.push.GetuiIntentService"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.push.GetuiPushService"/>
+      <component-filter name="com.cmcc.numberportable/com.getui.gtc.GtcService"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.service.HeadlessSmsSendService"/>
+      <component-filter name="com.cmcc.numberportable/com.cmcc.numberportable.service.NotificitionService"/>
+   </service>
+</rules>

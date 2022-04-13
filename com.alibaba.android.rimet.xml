@@ -1,0 +1,95 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.alibaba.android.rimet/com.google.android.gms.common.api.GoogleApiActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taopai.business.module.upload.UploadManagerActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.wxapi.WXEntryActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.sdk.app.AlipayResultActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.laiwang.photokit.picker.edit.activity.picedit_activity"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.laiwang.photokit.picker.edit.activity.PiceditActivityV2"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.laiwang.photokit.picker.edit.activity.CameraActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.alibaba.android.rimet/com.alipay.android.msp.framework.preload.LiveConnectReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalk.guard.core.InnerBeaconReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.calendar.localpush.impl.LocalPushReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.calendar.alarm.CalendarAlarmReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.android.msp.framework.offline.CashierOperationReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.user.mobile.accountbiz.receiver.SecurityInitMsgReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.laiwang.xpn.meizu.MeizuPushReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalk.doc.broadcast.NotificationClickReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.receiver.BootReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/org.altbeacon.beacon.startup.StartupBroadcastReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.alibaba.android.rimet/com.meizu.cloud.pushsdk.MzPushSystemReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.alibaba.android.rimet/com.alipay.android.phone.inside.InteractionService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.lightapp.runtime.service.LightAppService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.biz.home.service.RebootService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.mozisdk.mozi.client.screencast.ScreenCastAppService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.dingtalk.cspace.service.SpaceOperationService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.mtl.appmonitor.AppMonitorService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taopai.workspace.app.ServiceHostService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.bizframework.ipc.DDServiceManageImplMain"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.tbliveweexvideo.TBLiveWeexService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.mobile.verifyidentity.alipay.H5Plugin.DynamicJsbridgeService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.calendar.service.ListenSystemCalendarService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.teleconf.service.incoming.TeleXpnIncomingService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.logswitch.ChannelLoggerService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.alimei.calendar.alerts.AlertService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.service.DDEudemonService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.calendar.localpush.impl.LocalPushJobService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.teleconf.mozi.service.TeleMoziForegroundService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taopai.business.module.upload.UploadService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.logswitch.MainProcessLoggerService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.service.DDBabysitterService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.teleconf.service.ConfIncomingNotificationService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.lightapp.runtime.activity.floating.FloatMonkService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.teleconf.service.incoming.AliveForegroundService"/>
+      <component-filter name="com.alibaba.android.rimet/org.alibeacon.beacon.service.ScanJob"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.teleconf.service.ConfNotificationService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.mobile.common.amnet.service.AmnetMainProcService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalk.guard.core.DeviceBeaconService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taolive.FaceDetectorService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.projection.manager.FocusNotificationService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.android.runtime.Dex2OatService"/>
+      <component-filter name="com.alibaba.android.rimet/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.bizframework.ipc.MainLauncherService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.calendar.alarm.CalendarAlarmService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.alimei.sdk.calendar.helper.CalendarIntentService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taopai.business.draft.DraftUniService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.logswitch.ToolsProcessLoggerService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.projection.service.CaptureService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taopai.business.draft.DraftService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.taopai.windvane.TPJsBridgeService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.android.calendar.localpush.impl.LocalPushService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alibaba.analytics.AnalyticsService"/>
+      <component-filter name="com.alibaba.android.rimet/com.taobao.artc.accs.ArtcAccsService"/>
+      <component-filter name="com.alibaba.android.rimet/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.alibaba.android.rimet/org.altbeacon.beacon.BeaconIntentProcessor"/>
+      <component-filter name="com.alibaba.android.rimet/org.altbeacon.beacon.service.BeaconService"/>
+      <component-filter name="com.alibaba.android.rimet/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.alibaba.android.rimet/com.amap.api.location.APSService"/>
+      <component-filter name="com.alibaba.android.rimet/mtopsdk.xstate.XStateService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.mobile.nebuladebug.H5LoadUCDebugService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.mobile.nebuladebug.H5DevChangeConfigService"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.alibaba.android.rimet/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.alibaba.android.rimet/com.laiwang.protocol.android.LWPService"/>
+      <component-filter name="com.alibaba.android.rimet/com.laiwang.protocol.android.LWPService$KernelService"/>
+      <component-filter name="com.alibaba.android.rimet/com.alipay.mobile.nebuladebug.appxtrace.AppxTraceDebugService"/>
+   </service>
+</rules>

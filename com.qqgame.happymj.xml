@@ -1,0 +1,38 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.qqgame.happymj/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.ads.RewardvideoLandscapeADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.ads.RewardvideoPortraitADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.qqgame.happymj/com.onevcat.uniwebview.UniWebViewCustomViewActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.ADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.LandscapeADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.PortraitADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.RewardvideoLandscapeADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.RewardvideoPortraitADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.TransPortraitADActivity"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.tg.WebAdActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.special.httpdns.Cache$ConnectReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.qqgame.happymj/com.tencent.bigdata.mqttchannel.services.MqttService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.service.XGVipPushService"/>
+      <component-filter name="com.qqgame.happymj/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.tmdownloader.TMAssistantDownloadService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.msdk.notice.RollFloatService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.qqgamemi.QMiService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.component.plugin.server.PluginService"/>
+   </service>
+</rules>

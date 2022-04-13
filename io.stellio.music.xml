@@ -1,0 +1,21 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="io.stellio.music/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="io.stellio.music/com.facebook.ads.AudienceNetworkActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="io.stellio.music/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="io.stellio.music/air.stellio.player.Services.CommonReceiver"/>
+      <component-filter name="io.stellio.music/air.stellio.player.Widgets.Widget4x2"/>
+      <component-filter name="io.stellio.music/air.stellio.player.Widgets.Widget4x1_2"/>
+      <component-filter name="io.stellio.music/air.stellio.player.Widgets.Widget4x1_1"/>
+      <component-filter name="io.stellio.music/air.stellio.player.Widgets.Widget3x3"/>
+      <component-filter name="io.stellio.music/air.stellio.player.Widgets.Widget3x1"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="io.stellio.music/com.google.android.gms.ads.AdService"/>
+      <component-filter name="io.stellio.music/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="io.stellio.music/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="io.stellio.music/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"/>
+   </service>
+</rules>

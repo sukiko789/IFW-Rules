@@ -1,0 +1,38 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.msdk.notice.AlertMsgActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.tencentlocation.TencentLocationActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.msdk.weixin.qrcode.WXQrCodeActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.ui.CheckPermissionDialogActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.component.plugin.PluginShellActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/oicq.wlogin_sdk.quicklogin.QuickLoginWebViewActivity"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.slugsdk.webview.X5WebViewActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.msdk.dns.HttpDnsCache$ConnectivityChangeReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.service.XGPushServiceV3"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.tmdownloader.TMAssistantDownloadService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.vmp.sdkproxy.VivoService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.service.XGDaemonService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.msdk.notice.RollFloatService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.tga.livesdk.service.server.ServerProcessService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.android.tpush.service.XGVipPushService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.ihoc.mgpa.download.BgDownloadService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.heytap.mcssdk.PushService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.qqgamemi.QMiService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.component.plugin.server.PluginService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.tga.livesdk.service.plugin.PluginProcessService"/>
+      <component-filter name="com.tencent.tmgp.speedmobile/com.tencent.tpns.mqttchannel.services.MqttService"/>
+   </service>
+</rules>

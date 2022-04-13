@@ -1,0 +1,40 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.taptap/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.taptap/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.taptap/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.taptap/com.facebook.FacebookActivity"/>
+      <component-filter name="com.taptap/com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"/>
+      <component-filter name="com.taptap/com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"/>
+      <component-filter name="com.taptap/com.play.taptap.err.LogActivity"/>
+      <component-filter name="com.taptap/com.nhn.android.naverlogin.ui.OAuthCustomTabActivity"/>
+      <component-filter name="com.taptap/com.nhn.android.naverlogin.ui.OAuthLoginActivity"/>
+      <component-filter name="com.taptap/com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"/>
+      <component-filter name="com.taptap/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.taptap/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.taptap/com.xmx.upgrade.ui.UpdateAct"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.taptap/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.taptap/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.taptap/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.taptap/cn.jpush.android.service.PluginHuaweiPlatformsReceiver"/>
+      <component-filter name="com.taptap/cn.jpush.android.service.PluginXiaomiPlatformsReceiver"/>
+      <component-filter name="com.taptap/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.taptap/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.taptap/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.taptap/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.taptap/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.taptap/cn.jpush.android.service.DownloadService"/>
+      <component-filter name="com.taptap/com.play.taptap.service.GameAnalyticService"/>
+      <component-filter name="com.taptap/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.taptap/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.taptap/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.taptap/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.taptap/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.taptap/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.taptap/com.xmx.upgrade.ui.UpdateService"/>
+   </service>
+</rules>

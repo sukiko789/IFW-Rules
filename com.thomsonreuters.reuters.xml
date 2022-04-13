@@ -1,0 +1,10 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.thomsonreuters.reuters/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.thomsonreuters.reuters/com.facebook.ads.AudienceNetworkActivity"/>
+   </activity>
+   <service block="true" log="false">
+      <component-filter name="com.thomsonreuters.reuters/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.thomsonreuters.reuters/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+   </service>
+</rules>

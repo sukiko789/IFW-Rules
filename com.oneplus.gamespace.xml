@@ -1,0 +1,77 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.oneplus.gamespace/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.runtime.GameActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.game.module.gamelist.GameListActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.manager.module.gameloading.GameLoadingActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.MainActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.main.module.main.MainActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.android.billingclient.api.ProxyBillingActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.h5.module.singlegame.SingleGameWebActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.game.module.webview.WebViewActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_07"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_09"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.oneplus.gamespace/com.nearme.selfcure.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.ad.google.AdActivity"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.runtime.GameActivityTwo"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.notification.ADPushReceiver"/>
+      <component-filter name="com.oneplus.gamespace/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.core.download.CPDownloadService"/>
+      <component-filter name="com.oneplus.gamespace/com.cocos.vs.core.RuntimeMessageService"/>
+      <component-filter name="com.oneplus.gamespace/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.oneplus.gamespace/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

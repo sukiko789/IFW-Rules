@@ -1,0 +1,52 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.pingan.xueyuan/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.pingan.xueyuan/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.pingan.xueyuan/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.service.JNotifyActivity"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.pingan.xueyuan/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.pingan.xueyuan/com.tencent.bugly.beta.ui.BetaActivity"/>
+      <component-filter name="com.pingan.xueyuan/com.yalantis.ucrop.UCropActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.pingan.xueyuan/com.yuntongxun.ecsdk.booter.Alarm"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.yuntongxun.ecsdk.booter.CCPReceivers$AlarmReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.yuntongxun.ecsdk.booter.CCPReceivers$BootReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.yuntongxun.ecsdk.booter.CCPReceivers$ConnectionReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.yuntongxun.plugin.im.service.GroupSyncReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.course.module.push.jpush.help.JPushMsgReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.course.module.push.jpush.help.JPushReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.course.module.push.jpush.help.JPushWakedResultReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.papush.mipush.MyMiReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.papush.vivopush.MyVivoReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.zhiniao.utils.http.NetWorkReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.yuntongxun.plugin.voicemeeting.net.NetworkConnectChangedReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.module.push.PaPushReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.mrocker.push.service.PushIntentReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.mrocker.push.service.PushNotificationClickReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.ronglian.im.YuntxNotifyReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.mrocker.push.service.PushServiceReceiver"/>
+      <component-filter name="com.pingan.xueyuan/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.service.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.pingan.xueyuan/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.pingan.xueyuan/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.pingan.xueyuan/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.pingan.xueyuan/com.pingan.course.module.push.jpush.help.JPushService"/>
+      <component-filter name="com.pingan.xueyuan/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.pingan.xueyuan/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.pingan.xueyuan/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.pingan.xueyuan/com.heytap.mcssdk.PushService"/>
+      <component-filter name="com.pingan.xueyuan/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.pingan.xueyuan/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.pingan.xueyuan/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

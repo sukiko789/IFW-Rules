@@ -1,0 +1,12 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.settings.developer.DebugOnlineAdActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.google.android.apps.youtube.music/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.google.android.apps.youtube.music/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.google.android.apps.youtube.music/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

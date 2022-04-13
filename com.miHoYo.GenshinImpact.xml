@@ -1,0 +1,27 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.miHoYo.GenshinImpact/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.facebook.FacebookActivity"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.mihoyo.myssdk.share.callback.MysShareCallbackActivity"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.mob.tools.MobUIShell"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.combosdk.support.basewebview.WebViewFileChooserActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.miHoYo.GenshinImpact/com.facebook.CampaignTrackingReceiver"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.mihoyo.myssdk.share.callback.MysShareCallbackReceiver"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.adjust.sdk.AdjustReferrerReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.combosdk.module.push.impl.localpush.internal.ReceiverAlarmService"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"/>
+      <component-filter name="com.miHoYo.GenshinImpact/com.combosdk.module.push.impl.MiHoYoFirebaseMessagingService"/>
+   </service>
+</rules>

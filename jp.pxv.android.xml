@@ -1,0 +1,30 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="jp.pxv.android/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="jp.pxv.android/jp.pxv.android.debug.AdsOverlayDebuggerActivity"/>
+      <component-filter name="jp.pxv.android/jp.pxv.android.debug.AdsRectangleDebuggerActivity"/>
+      <component-filter name="jp.pxv.android/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="jp.pxv.android/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="jp.pxv.android/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="jp.pxv.android/com.mopub.mobileads.RewardedMraidActivity"/>
+      <component-filter name="jp.pxv.android/com.socdm.d.adgeneration.video.ADGPlayerFullscreenActivity"/>
+      <component-filter name="jp.pxv.android/com.mopub.common.privacy.ConsentDialogActivity"/>
+      <component-filter name="jp.pxv.android/com.amazon.device.ads.DTBActivity"/>
+      <component-filter name="jp.pxv.android/com.mopub.common.MoPubBrowser"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="jp.pxv.android/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="jp.pxv.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="jp.pxv.android/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="jp.pxv.android/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="jp.pxv.android/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="jp.pxv.android/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="jp.pxv.android/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="jp.pxv.android/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="jp.pxv.android/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="jp.pxv.android/com.firebase.jobdispatcher.GooglePlayReceiver"/>
+      <component-filter name="jp.pxv.android/com.google.android.gms.ads.AdService"/>
+   </service>
+</rules>

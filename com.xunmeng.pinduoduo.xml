@@ -1,0 +1,52 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.xunmeng.pinduoduo/cn.jpush.android.service.ModifyActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.push.xgPushActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.XGPushActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.aimi.android.common.push.vivo.VivoPushReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.market_ad_common.alarm.MarketAdAlarmReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.clip_compat.impl.hw.HwClipCompatTitanHookEnsureBroadcastReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.immortal.DaemonReceiverA"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.immortal.DaemonReceiverB"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.popup.ClipboardChangeReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.aimi.android.common.push.xiaomi.MiPushReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.xunmeng.pinduoduo/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.xunmeng.pinduoduo/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.xunmeng.pinduoduo/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService0"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService1"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService10"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService11"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService12"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService2"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService3"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService4"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService5"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService6"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService7"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService8"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.stub.CommuStubService$CommuStubService9"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.immortal.DaemonServiceA"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.immortal.DaemonServiceA_"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.immortal.DaemonServiceB"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.immortal.DaemonServiceB_"/>
+      <component-filter name="com.xunmeng.pinduoduo/org.qiyi.video.svg.dispatcher.DispatcherService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.service.HwPreloadService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.aimi.android.common.push.oppo.OppoPushService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.bytedance.boost_multidex.OptimizeService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.sdk.PushService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.service.XMPreloadService"/>
+   </service>
+</rules>

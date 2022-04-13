@@ -1,0 +1,9 @@
+<rules>
+   <broadcast block="true" log="true">
+      <component-filter name="com.oneplus.market/com.oppo.upgrade.autoupdate.UpgradeReceiver"/>
+      <component-filter name="com.oneplus.market/com.oppo.usercenter.sdk.helper.UserCenterOperateReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.oneplus.market/com.oppo.upgrade.autoupdate.UpgradeService"/>
+   </service>
+</rules>

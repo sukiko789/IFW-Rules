@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.jd.jdlite/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.jd.jdlite/com.jd.jdlite.ad.ADActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.jd.jdlite/com.jd.push.vivo.broadcast.VivoReceiver"/>
+      <component-filter name="com.jd.jdlite/com.jd.push.vivo.broadcast.VivoInitReceiver"/>
+      <component-filter name="com.jd.jdlite/com.jd.push.vivo.broadcast.VivoClearReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.jd.jdlite/com.vivo.push.sdk.service.CommandClientService"/>
+   </service>
+</rules>

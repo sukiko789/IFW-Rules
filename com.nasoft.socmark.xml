@@ -1,0 +1,11 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.nasoft.socmark/com.tencent.bugly.beta.ui.BetaActivity"/>
+      <component-filter name="com.nasoft.socmark/com.miui.zeus.mimo.sdk.activityProxy.FullScreenProxyActivity"/>
+      <component-filter name="com.nasoft.socmark/com.kepler.jd.sdk.KeplerBackActivity"/>
+      <component-filter name="com.nasoft.socmark/com.miui.zeus.mimo.sdk.activityProxy.ProxyActivity"/>
+   </activity>
+   <service block="true" log="false">
+      <component-filter name="com.nasoft.socmark/com.tencent.bugly.beta.tinker.TinkerResultService"/>
+   </service>
+</rules>

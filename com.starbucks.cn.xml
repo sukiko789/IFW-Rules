@@ -1,0 +1,88 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.starbucks.cn/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.android.hms.agent.hwid.HMSSignInAgentActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.android.hms.agent.pay.HMSPayAgentActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.camera.CameraActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.camera.CameraPreviewActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.ImageChoiceActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.album.ImageClipActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.album.ImageGalleryActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.windmill.api.basic.video.vedio.RecordVedioActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.windmill.rt.runtimepermission.PermissionActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.permission.PermissionActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.MainActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.album.ImagePreviewActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.album.ImageMultipleEditActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.android.pissarro.album.ImageMixtureActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.windmill.api.basic.video.album.SelectVideoActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.windmill.api.basic.image.ui.SimpleImagePreviewActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.windmill.bundle.WMLActivity"/>
+      <component-filter name="com.starbucks.cn/com.taobao.windmill.api.basic.picker.city.CityList"/>
+      <component-filter name="com.starbucks.cn/com.squareup.leakcanary.internal.DisplayLeakActivity"/>
+      <component-filter name="com.starbucks.cn/com.mob.tools.MobUIShell"/>
+      <component-filter name="com.starbucks.cn/com.squareup.leakcanary.internal.RequestStoragePermissionActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.starbucks.cn/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.DActivity"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.JNotifyActivity"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.ui.JThirdPushActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.webview.UccWebViewActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.ui.UccActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.tbauth.ui.TbAuthWebViewActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.tbauth.ui.TbAuthActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.tbauth.ui.ICBUAuthActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.core.webview.BaseWebViewActivity"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.ui.LaunchAdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.starbucks.cn/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.ui.widget.AppWidgetProvider2x1"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.core.receiver.JPushReceiver"/>
+      <component-filter name="com.starbucks.cn/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.starbucks.cn/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.PluginHuaweiPlatformsReceiver"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.PluginXiaomiPlatformsReceiver"/>
+      <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.starbucks.cn/com.taobao.weex.WXGlobalEventReceiver"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.core.receiver.XiaomiPushReceiver"/>
+      <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.asus.AsusPushMessageReceiver"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.baselib.push.receiver.JPushEventReceiver"/>
+      <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.SchedulerReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.starbucks.cn/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.starbucks.cn/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.starbucks.cn/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.starbucks.cn/com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService"/>
+      <component-filter name="com.starbucks.cn/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.starbucks.cn/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.starbucks.cn/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.starbucks.cn/com.squareup.leakcanary.internal.HeapAnalyzerService"/>
+      <component-filter name="com.starbucks.cn/com.squareup.leakcanary.DisplayLeakService"/>
+      <component-filter name="com.starbucks.cn/com.tencent.smtt.export.external.DexClassLoaderProviderService"/>
+      <component-filter name="com.starbucks.cn/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.starbucks.cn/cn.jpush.android.service.PluginHuaweiPlatformsService"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.baselib.push.receiver.JPushService"/>
+      <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.core.service.AppVersionJobIntentService"/>
+      <component-filter name="com.starbucks.cn/com.taobao.uc.service.SandboxedPrivilegedProcessService0"/>
+      <component-filter name="com.starbucks.cn/com.taobao.uc.service.SandboxedProcessService0"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.core.service.HotUpdateJobIntentService"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.delivery.service.HotUpdateComboJobIntentService"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.delivery.service.DeliveryHotUpdateJobIntentService"/>
+   </service>
+</rules>

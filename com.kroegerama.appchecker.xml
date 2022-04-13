@@ -1,0 +1,8 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.kroegerama.appchecker/com.google.android.gms.ads.AdActivity"/>
+   </activity>
+   <service block="true" log="false">
+      <component-filter name="com.kroegerama.appchecker/com.google.android.gms.ads.AdService"/>
+   </service>
+</rules>

@@ -1,0 +1,49 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.gwdang.app/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.gwdang.app/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.gwdang.app/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.gwdang.app/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.gwdang.app/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.gwdang.app/com.sina.weibo.sdk.share.ShareChatActivity"/>
+      <component-filter name="com.gwdang.app/com.sina.weibo.sdk.share.ShareResultActivity"/>
+      <component-filter name="com.gwdang.app/com.sina.weibo.sdk.share.ShareStoryActivity"/>
+      <component-filter name="com.gwdang.app/com.sina.weibo.sdk.share.ShareTransActivity"/>
+      <component-filter name="com.gwdang.app/com.sina.weibo.sdk.web.WebActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.gwdang.app/org.android.agoo.huawei.HuaweiPushReceiver"/>
+      <component-filter name="com.gwdang.app/org.android.agoo.xiaomi.MiPushBroadcastReceiver"/>
+      <component-filter name="com.gwdang.app/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.gwdang.app/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.gwdang.app/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.gwdang.app/org.android.agoo.vivo.PushMessageReceiverImpl"/>
+      <component-filter name="com.gwdang.app/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.gwdang.app/com.gwdang.app.UmengMeizuReceiver"/>
+      <component-filter name="com.gwdang.app/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.gwdang.app/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.gwdang.app/com.taobao.agoo.AgooCommondReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.gwdang.app/com.umeng.message.UmengIntentService"/>
+      <component-filter name="com.gwdang.app/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.gwdang.app/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.gwdang.app/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.gwdang.app/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.gwdang.app/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.gwdang.app/com.coloros.mcssdk.PushService"/>
+      <component-filter name="com.gwdang.app/com.umeng.message.UmengDownloadResourceService"/>
+      <component-filter name="com.gwdang.app/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.gwdang.app/com.umeng.message.UmengMessageIntentReceiverService"/>
+      <component-filter name="com.gwdang.app/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.gwdang.app/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.gwdang.app/com.umeng.message.XiaomiIntentService"/>
+      <component-filter name="com.gwdang.app/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.gwdang.app/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.gwdang.app/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.gwdang.app/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.gwdang.app/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.gwdang.app/com.gwdang.app.floatball.services.FloatBallService"/>
+      <component-filter name="com.gwdang.app/com.gwdang.app.floatball.services.GWDFloatBallService"/>
+   </service>
+</rules>

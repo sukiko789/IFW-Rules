@@ -1,0 +1,21 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.netease.dwrg/com.huya.berry.common.ImagePickerActivity"/>
+      <component-filter name="com.netease.dwrg/com.netease.dwrg.tiktokapi.TikTokEntryActivity"/>
+      <component-filter name="com.netease.dwrg/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.netease.dwrg/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.netease.dwrg/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.netease.dwrg/com.huya.berry.webview.WebViewActivity"/>
+      <component-filter name="com.netease.dwrg/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.netease.dwrg/com.netease.pushservice.PushServiceReceiver"/>
+      <component-filter name="com.netease.dwrg/com.netease.dwrg.PushNotificationReceiver"/>
+      <component-filter name="com.netease.dwrg/com.huya.berry.common.util.NetWorkStateReceiver"/>
+      <component-filter name="com.netease.dwrg/com.netease.epay.sdk.base.receiver.NetBroadCast"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.netease.dwrg/com.huya.berry.live.liveTool.LiveToolService"/>
+      <component-filter name="com.netease.dwrg/com.netease.pushservice.PushService"/>
+   </service>
+</rules>

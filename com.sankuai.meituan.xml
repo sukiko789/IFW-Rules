@@ -1,0 +1,64 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.sankuai.meituan/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.sankuai.meituan/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.HWPushDetailActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.sankuai.meituan/com.meituan.android.pt.homepage.notify.CouponReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.huaweipush.HWPushMessageReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.common.horn.HornPushReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.LogReportReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.meizupush.MZPushReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.xiaomipush.MiPushMessageReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.pt.homepage.notify.NetworkChangeReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.pioneer.utils.phone.PhoneCallBroadcastReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.PhoneStatusReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.phoenix.atom.push.PhxCityChangeReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.pt.homepage.notify.push.PushMessageReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.networklog.PushMessageReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.PushStartReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.pt.homepage.push.PushTokenReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.pt.homepage.notify.push.StackNotificationDeleteReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.time.TimeChangeReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.vivopush.VIVOReceiverImpl"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.sankuai.meituan/com.meituan.android.quickpass.manage.lib.service.APDUIntentService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.quickpass.manage.lib.service.ApduService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.customerservice.callkefuuisdk.callkf.CallKFRingService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.identifycardrecognizer.CleanOcrCacheService"/>
+      <component-filter name="com.sankuai.meituan/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.dp.DPPushService"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.dp.FakeService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.mmp.lib.HeraService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.common.holmes.service.HolmesIntentService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.common.holmes.service.HolmesService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.common.horn.HornPushService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.qcsc.cab.location.LocationForegroundService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.bike.business.track.LocationForegroundService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.mtplayer.audio.MTAudioPlayerService"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.meizupush.MZPushService"/>
+      <component-filter name="com.sankuai.meituan/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.sankuai.meituan/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.oppopush.OPPOPushService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.patch_service.PatchService"/>
+      <component-filter name="com.sankuai.meituan/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.PushStartService"/>
+      <component-filter name="com.sankuai.meituan/com.dianping.base.push.pushservice.PushWakeUpJob"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.passport.sso.RemoteSSOService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.base.util.ServiceForegroundHelper$InnerService"/>
+      <component-filter name="com.sankuai.meituan/com.meituan.android.bike.business.track.TrackIntentService"/>
+      <component-filter name="com.sankuai.meituan/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.sankuai.meituan/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

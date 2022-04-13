@@ -1,0 +1,57 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.midas.proxyactivity.APMidasPayProxyActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.midas.qq.APMidasQQWalletActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.midas.wx.APMidasWXPayActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.notice.AlertMsgActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.apollo.qr.zxing.CaptureActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.ui.CheckPermissionDialogActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.ryg.dynamicload.DLProxyActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.google.ar.core.InstallActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.NameAuthActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.component.plugin.PluginShellActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/oicq.wlogin_sdk.quicklogin.QuickLoginWebViewActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.SchemeActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.rtmp1.video.TXScreenCapture$TXScreenCaptureAssistantActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.weixin.qrcode.WXQrCodeActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.webview.X5WebViewActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.facebook.FacebookActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.gcloud.msdk.SchemeActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.gcloud.msdk.webview.WebViewActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.slugsdk.SlugWebActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.gcloud.msdk.webview.WebViewIPCActivity"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.TpnsActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.special.httpdns.Cache$ConnectReceiver"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.dns.HttpDnsCache$ConnectivityChangeReceiver"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QmiPluginTreeReceiver"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.pandora.libtcloudupload.videoupload.impl.TVCNetWorkStateReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.component.plugin.server.PluginService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QMiService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.notice.RollFloatService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.tmdownloader.TMAssistantDownloadService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.kgvmp.socket.VmpService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGPushServiceV3"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.webview.X5WebViewCacheService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGDaemonService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGPushServiceV4"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.slugsdk.config.SlugConfigService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.tavgame.proxy.service.TavGameProxyService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.bigdata.mqttchannel.services.MqttService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGVipPushService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.ihoc.mgpa.download.BgDownloadService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.vasd.pandora.srp.media.record.ScreenRecordService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.tga.livesdk.service.server.ServerProcessService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.tga.livesdk.service.plugin.PluginProcessService"/>
+      <component-filter name="com.tencent.tmgp.sgame/com.tencent.tpns.mqttchannel.services.MqttService"/>
+   </service>
+</rules>

@@ -1,0 +1,84 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.alibaba.dingtalk.global/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.google.android.gms.common.api.GoogleApiActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.alibaba.dingtalk.global/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.rimet.receiver.BootReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.calendar.alarm.CalendarAlarmReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.huawei.HwPushReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.dingtalk.guard.core.InnerBeaconReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.calendar.localpush.impl.LocalPushReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alipay.mobile.logmonitor.LogUploadReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.meizu.MeizuPushReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/org.altbeacon.beacon.startup.StartupBroadcastReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.vivo.VivoPushReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.weex.WXGlobalEventReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.xiaomi.XiaomiPushReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.teleconf.service.VoIPCallActionReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.analytics.AnalyticsService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.artc.accs.ArtcAccsService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.calendar.alarm.CalendarAlarmService"/>
+      <component-filter name="com.alibaba.dingtalk.global/mtopsdk.xstate.XStateService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.taopai.windvane.TPJsBridgeService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.tbliveweexvideo.TBLiveWeexService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.teleconf.service.incoming.AliveForegroundService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alipay.mobile.common.amnet.service.AmnetMainProcService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.mtl.appmonitor.AppMonitorService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.rimet.syncadapter.AuthenticatorService"/>
+      <component-filter name="com.alibaba.dingtalk.global/org.altbeacon.beacon.BeaconIntentProcessor"/>
+      <component-filter name="com.alibaba.dingtalk.global/org.altbeacon.beacon.service.BeaconService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.rimet.logswitch.ChannelLoggerService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.teleconf.service.ConfIncomingNotificationService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.teleconf.service.ConfNotificationService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.dingtalkbase.service.DDBabysitterService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.dingtalkbase.service.DDEudemonService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.fcm.DDFirebaseInstanceIdService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.fcm.DDFirebaseMessagingService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.dingtalkbase.bizframework.ipc.DDServiceManageImplMain"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.dingtalk.guard.core.DeviceBeaconService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.android.runtime.Dex2OatService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.taopai.business.draft.DraftService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.taopai.business.draft.DraftUniService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.taolive.FaceDetectorService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.lightapp.runtime.activity.floating.FloatMonkService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.laiwang.protocol.android.LWPService$KernelService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.lightapp.runtime.service.LightAppService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.calendar.service.ListenSystemCalendarService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.calendar.localpush.impl.LocalPushJobService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.calendar.localpush.impl.LocalPushService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alipay.mobile.common.logging.process.LogServiceInToolsProcess"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alipay.mobile.logmonitor.LogUploadService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.dingtalkbase.bizframework.ipc.MainLauncherService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.rimet.logswitch.MainProcessLoggerService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.alibaba.dingtalk.global/anetwork.channel.aidl.NetworkService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.laiwang.xpn.oppo.OPPOPushReceiver"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.alibaba.dingtalk.global/org.alibeacon.beacon.service.ScanJob"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.taopai.workspace.app.ServiceHostService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.dingtalk.cspace.service.SpaceOperationService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.teleconf.mozi.service.TeleMoziForegroundService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.teleconf.service.incoming.TeleXpnIncomingService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.alibaba.android.rimet.logswitch.ToolsProcessLoggerService"/>
+      <component-filter name="com.alibaba.dingtalk.global/com.taobao.taopai.business.module.upload.UploadService"/>
+   </service>
+</rules>

@@ -1,0 +1,97 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.cis.jiangnan.taptap/com.qq.e.ads.ADActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.AdWebViewActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeProfileActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeDetailActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileVideoDetailActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop2"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop1"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance2"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance1"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity9"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity8"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity7"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity6"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity5"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity4"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity3"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity2"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity10"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity1"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$EpisodeDetailActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.BaseFragmentActivity$DeveloperConfigActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.FeedDownloadActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.KsRewardVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.mob.MobTranActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.mob.tools.MobUIShell"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.qq.e.ads.RewardvideoLandscapeADActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.qq.e.ads.RewardvideoPortraitADActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.sina.weibo.sdk.share.ShareResultActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.sina.weibo.sdk.share.ShareStoryActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.sina.weibo.sdk.share.ShareTransActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.downloadlib.activity.TTDelegateActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.tradplus.ads.mobileads.gdpr.TradplusGDPRAuthActivity"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.sina.weibo.sdk.web.WebActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.cis.jiangnan.taptap/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.mintegral.msdk.click.AppReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.cis.localnotification.CISLocalNotification"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.embedapplog.collector.Collector"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.mob.guard.MobGuardBroadCastReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.vungle.warren.NetworkProviderReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.accs.ServiceReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.cis.jiangnan.taptap/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.bytedance.tea.crash.upload.CrashUploadService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.DownloadService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.mintegral.msdk.shell.MTGService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.mob.guard.MobGuardService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.umeng.message.UmengDownloadResourceService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.umeng.message.UmengIntentService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.umeng.message.UmengMessageIntentReceiverService"/>
+      <component-filter name="com.cis.jiangnan.taptap/com.umeng.message.XiaomiIntentService"/>
+   </service>
+</rules>

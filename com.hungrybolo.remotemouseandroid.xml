@@ -1,0 +1,16 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.amazon.device.ads.AdActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.hungrybolo.remotemouseandroid/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

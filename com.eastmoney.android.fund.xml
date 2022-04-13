@@ -1,0 +1,30 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.eastmoney.android.fund/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.fund.fundmore.activity.FundAdActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.pm.activity.huawei.FundHWpushActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.eastmoney.android.fund/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.pm.huawei.FundHwPushReceiver"/>
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.pm.mi.FundMiMessageReceiver"/>
+      <component-filter name="com.eastmoney.android.fund/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.eastmoney.android.fund/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.fund.centralis.activity.FundSplashReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.eastmoney.android.fund/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.fund.centralis.activity.FundSplashAdService"/>
+      <component-filter name="com.eastmoney.android.fund/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.eastmoney.android.fund/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.eastmoney.android.fund/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.eastmoney.android.fund/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.eastmoney.android.fund/com.eastmoney.android.update.UpDateApkService"/>
+   </service>
+</rules>

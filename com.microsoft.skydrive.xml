@@ -1,0 +1,20 @@
+<rules>
+<activity block="true" log="false">
+  <component-filter name="com.microsoft.skydrive/com.microsoft.skydrive.SamsungAuthLoadingActivity"/>
+  <component-filter name="com.microsoft.skydrive/com.microsoft.skydrive.SamsungHandlerActivity"/>
+  <component-filter name="com.microsoft.skydrive/com.microsoft.skydrive.samsung.SamsungRemoteActivity"/>
+  <component-filter name="com.microsoft.skydrive/com.microsoft.skydrive.SamsungMigrationUpsellActivity"/>
+  <component-filter name="com.microsoft.skydrive/com.microsoft.skydrive.iap.samsung.SamsungInAppPurchaseActivity"/>
+  <component-filter name="com.microsoft.skydrive/com.android.billingclient.api.ProxyBillingActivity"/>
+  <component-filter name="com.microsoft.skydrive/com.google.android.gms.ads.AdActivity"/>
+</activity>
+<service block="true" log="false">
+  <component-filter name="com.microsoft.skydrive/com.google.android.gms.measurement.AppMeasurementService"/>
+  <component-filter name="com.microsoft.skydrive/com.google.android.gms.measurement.AppMeasurementJobService"/>
+</service>
+<broadcast block="true" log="false">
+  <component-filter name="com.microsoft.skydrive/com.microsoft.skydrive.samsung.SamsungMigrationStateBroadcastReceiver"/>
+  <component-filter name="com.microsoft.skydrive/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+  <component-filter name="com.microsoft.skydrive/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+</broadcast>
+</rules>

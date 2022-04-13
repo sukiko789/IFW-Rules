@@ -1,0 +1,23 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.tencent.androidqqmail/com.tencent.moai.nativepages.AdLandingPagesUI"/>
+      <component-filter name="com.tencent.androidqqmail/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.tencent.androidqqmail/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.tencent.androidqqmail/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.tencent.androidqqmail/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.tencent.androidqqmail/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.tencent.androidqqmail/com.tencent.qqmail.utilities.mipush.QMMiPushReceiver"/>
+      <component-filter name="com.tencent.androidqqmail/com.tencent.qqmail.utilities.hwpush.QMHwPushReceiver"/>
+      <component-filter name="com.tencent.androidqqmail/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.tencent.androidqqmail/com.xiaomi.push.service.receivers.PingReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.tencent.androidqqmail/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.tencent.androidqqmail/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.tencent.androidqqmail/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.tencent.androidqqmail/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.tencent.androidqqmail/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

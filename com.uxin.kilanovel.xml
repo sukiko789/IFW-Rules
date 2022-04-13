@@ -1,0 +1,39 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.ui.PushActivity"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.ui.PopWinActivity"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.JNotifyActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.uxin.kilanovel.push.HuaWeiPushHandlerActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.uxin.kilanovel/com.sina.weibo.sdk.component.WeiboSdkBrowser"/>
+      <component-filter name="com.uxin.kilanovel/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.AlarmReceiver"/>
+      <component-filter name="com.uxin.kilanovel/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.uxin.kilanovel/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.PluginVivoMessageReceiver"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.PluginXiaomiPlatformsReceiver"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.PushReceiver"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.hms.support.api.push.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.uxin.kilanovel/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.uxin.kilanovel/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.DaemonService"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.uxin.kilanovel/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.PluginHuaweiPlatformsService"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.PluginOppoPushService"/>
+      <component-filter name="com.uxin.kilanovel/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.uxin.kilanovel/cn.jpush.android.service.PushService"/>
+      <component-filter name="com.uxin.kilanovel/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.uxin.kilanovel/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.uxin.kilanovel/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

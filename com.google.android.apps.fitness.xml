@@ -1,0 +1,18 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.nav.gateway.GatewayActivity"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.android.apps.fitness.vivo.VivoActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.google.android.apps.fitness/com.google.android.apps.fitness.v2.widget.renderer.WidgetClickReceiver_Receiver"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.logging.backends.clientlogging.ClientLoggingReceiver_Receiver"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.experiments.phenotype.ConfigurationUpdatedReceiver_Receiver"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.account.data.device.DeviceAccountsChangedReceiver_Receiver"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.android.libraries.internal.growth.growthkit.tiktok.GrowthKitBootCompletedListener_Receiver"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.sync.impl.SyncPackageReplacedReceiver_Receiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.concurrent.InternalForegroundService"/>
+      <component-filter name="com.google.android.apps.fitness/com.google.apps.tiktok.concurrent.AndroidFuturesService"/>
+   </service>
+</rules>

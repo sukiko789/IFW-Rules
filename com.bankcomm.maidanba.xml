@@ -1,0 +1,49 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.GActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.bankcomm.maidanba.samsung.pay.activity.HuaweiPayApplyCard"/>
+      <component-filter name="com.bankcomm.maidanba/com.bankcomm.maidanba.samsung.pay.activity.PayQuicklyHuaweiPayActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.tencent.tauth.AuthActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.ijm.drisk.IjiamiActivityOfflineVirus"/>
+      <component-filter name="com.bankcomm.maidanba/com.ijm.drisk.IjiamiActivityOfflineAttack"/>
+      <component-filter name="com.bankcomm.maidanba/com.ijm.drisk.IjiamiActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.gmrz.appsdk.commlib.IntentHelperActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.bankcomm.maidanba/com.yanzhenjie.permission.PermissionActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.bankcomm.maidanba/com.butel.connectevent.sdk.AppInstallReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.bankcomm.maidanba.receiver.AppRegister"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.FlymePushReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.HmsPushReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.HmsPushSubReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.MiuiPushReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.VivoPushMessageReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.bankcomm.maidanba/com.igexin.download.DownloadService"/>
+      <component-filter name="com.bankcomm.maidanba/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.bankcomm.maidanba/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.bankcomm.maidanba/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.OppoAppPushService"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.OppoPushService"/>
+      <component-filter name="com.bankcomm.maidanba/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.bankcomm.maidanba/com.igexin.sdk.PushService"/>
+      <component-filter name="com.bankcomm.maidanba/com.bankcomm.maidanba.push.vo.DemoPushService"/>
+      <component-filter name="com.bankcomm.maidanba/com.bankcomm.maidanba.push.vo.DemoIntentService"/>
+      <component-filter name="com.bankcomm.maidanba/com.bankcomm.sirius.analysis.activity.FloatingService"/>
+      <component-filter name="com.bankcomm.maidanba/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.bankcomm.maidanba/com.genvict.bluetooth.manage.BlueToothService"/>
+      <component-filter name="com.bankcomm.maidanba/com.butel.connectevent.utils.AudioPlayerService"/>
+   </service>
+</rules>

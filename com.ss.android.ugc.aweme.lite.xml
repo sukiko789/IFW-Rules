@@ -1,0 +1,41 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.aliyun.AliyunMessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.push.DefaultReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.download.DownloadReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.socialbase.downloader.downloader.DownloadReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.huawei.push.service.receivers.HWPushMessageHandler"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.bytedance.ug.xid.InvalidOtidReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.livewallpaper.receiver.LiveWallPaperPluginInstalledReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.xiaomi.push.service.receivers.MIPushMessageHandler"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.message.MessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.meizu.message.MzMessageReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.common.net.NetWorkStateReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.common.net.NetworkReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.awemepushlib.os.receiver.NotificationBroadcastReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.article.base.feature.plugin.PluginReportReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.push.daemon.PushReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.baidu.android.pushservice.RegistrationReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.push.window.oppo.ScreenReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.bytedance.sdk.account.platform.onekey.SimStateReceive"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.a.b.SmpReceiver1"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.a.b.SmpReceiver2"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.a.b.SmpReceiver3"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.message.sswo.SswoReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.alibaba.sdk.android.push.SystemEventReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.share.systemshare.SystemShareTargetChosenReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.bytedance.ug.xid.UploadReceiver"/>
+      <component-filter name="com.ss.android.ugc.aweme.lite/com.vivo.VivoPushMessageReceiver"/>
+   </broadcast>
+</rules>

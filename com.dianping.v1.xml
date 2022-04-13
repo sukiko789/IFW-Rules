@@ -1,0 +1,95 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.dianping.v1/com.dianping.map.activity.GooglePlacesSearchActivity"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.common.api.GoogleApiActivity"/>
+      <component-filter name="com.dianping.v1/com.google.zxing.client.android.CaptureActivity"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.android.hms.agent.hwid.HMSSignInAgentActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.hms.auth.api.signin.internal.HwIdSignInHubActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.hwid.openapi.auth.dump.OpenDumpActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.hwid.openapi.update.ui.OtaDownloadActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.dianping.v1/com.huawei.hwid.openapi.auth.WebAuthorizationActivity"/>
+      <component-filter name="com.dianping.v1/sdk.meizu.auth.ui.AuthActivity"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.HWPushDetailActivity"/>
+      <component-filter name="com.dianping.v1/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.dianping.v1/com.dianping.sharkpush.yoda.YodaAccountVerifyActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.dianping.v1/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.main.guide.ClearHomeCacheReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.search.suggest.ClearPortraitReceiver"/>
+      <component-filter name="com.dianping.v1/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.util.FavoriteForWebReceiver"/>
+      <component-filter name="com.dianping.v1/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.common.horn.HornPushReceiver"/>
+      <component-filter name="com.dianping.v1/com.google.ads.conversiontracking.InstallReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.locationservice.realtime.LocationReporterReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.LogReportReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.meizupush.MZPushReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.xiaomipush.MiPushMessageReceiver"/>
+      <component-filter name="com.dianping.v1/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.main.guide.NewSplashReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.v1.PatchApplyReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.pioneer.utils.phone.PhoneCallBroadcastReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.mainapplication.PhoneStatusReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.PhoneStatusReceiver"/>
+      <component-filter name="com.dianping.v1/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.sso.PosSSOBroadCast"/>
+      <component-filter name="com.dianping.v1/com.dianping.mainapplication.PushClickReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.mainapplication.PushMessageReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.networklog.PushMessageReceiver"/>
+      <component-filter name="com.dianping.v1/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.dianping.v1/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.PushStartReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.mainapplication.PushTokenReceiver"/>
+      <component-filter name="com.dianping.v1/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.time.TimeChangeReceiver"/>
+      <component-filter name="com.dianping.v1/com.dianping.vivopush.VIVOReceiverImpl"/>
+      <component-filter name="com.dianping.v1/com.dianping.share.thirdparty.wxapi.WXStartReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.dianping.v1/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.dianping.v1/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.dianping.v1/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.identifycardrecognizer.CleanOcrCacheService"/>
+      <component-filter name="com.dianping.v1/com.dianping.search.suggest.ClearPortraitService"/>
+      <component-filter name="com.dianping.v1/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.dianping.v1/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.dianping.v1/com.dianping.configservice.impl.ConfigBridgeService"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.dp.DPPushService"/>
+      <component-filter name="com.dianping.v1/com.dianping.update.DownLoadService"/>
+      <component-filter name="com.dianping.v1/com.dianping.huaweipush.DpHmsMessageService"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.dp.FakeService"/>
+      <component-filter name="com.dianping.v1/com.google.firebase.iid.FirebaseInstanceIdService"/>
+      <component-filter name="com.dianping.v1/com.meituan.mmp.lib.HeraService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.travel.base.HornConfigJobService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.travel.base.HornConfigService"/>
+      <component-filter name="com.dianping.v1/com.meituan.traveltools.mrncontainer.HornConfigService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.common.horn.HornPushService"/>
+      <component-filter name="com.dianping.v1/com.dianping.union.login.LoginInfoService"/>
+      <component-filter name="com.dianping.v1/com.dianping.live.live.livefloat.MLiveFloatPlayerService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.mtplayer.audio.MTAudioPlayerService"/>
+      <component-filter name="com.dianping.v1/com.dianping.meizupush.MZPushService"/>
+      <component-filter name="com.dianping.v1/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.downloadmanager.MultiDownloadService"/>
+      <component-filter name="com.dianping.v1/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.dianping.v1/com.dianping.oppopush.OPPOPushService"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.bspatch.PatchService"/>
+      <component-filter name="com.dianping.v1/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.PushStartService"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.PushWakeUpJob"/>
+      <component-filter name="com.dianping.v1/com.meituan.mmp.lib.remote.RemoteService"/>
+      <component-filter name="com.dianping.v1/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.dianping.v1/com.meituan.android.base.util.ServiceForegroundHelper$InnerService"/>
+      <component-filter name="com.dianping.v1/com.dianping.base.debug.UrlschemeService"/>
+      <component-filter name="com.dianping.v1/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.dianping.v1/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

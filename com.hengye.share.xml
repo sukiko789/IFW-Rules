@@ -1,0 +1,8 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.hengye.share/com.yalantis.ucrop.UCropActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.hengye.share/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"/>
+   </broadcast>
+</rules>

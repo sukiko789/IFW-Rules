@@ -1,0 +1,56 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.booter.Alarm"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.booter.CCPReceivers$AlarmReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.booter.CCPReceivers$BootReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.booter.CCPReceivers$ConnectionReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.DaemonReceiver1"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.DaemonReceiver2"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.ECClientService$WarkReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.HuaweiReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.KeepAliveReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.MeizuPushMsgReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.cmi.jegovoip.receive.NetStatusChangedReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.UmengRevicer"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.VivoPushReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.VivoReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.XiaoMiMessageReceiver"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.XiaoMiReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.tencent.shadow.sample.introduce_shadow_lib.MainPluginProcessService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.NewHuaweiPushRevicer"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/cn.richinfo.richpush.receiver.OppoMessageService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.MySyncServic"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.MyAuthService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.blankj.utilcode.util.MessengerUtils$ServerService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.liulishuo.filedownloaderaaaaa.services.FileDownloadService$SeparateProcessService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.liulishuo.filedownloaderaaaaa.services.FileDownloadService$SharedMainProcessService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.JobSchedulerService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.KeepAliveService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.KeepAliveService$KeepAliveInnerService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.water.richprocess.DaemonService2"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.migu.utils.download.DownloadService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.ECClientService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.yuntongxun.ecsdk.ECClientService$InnerService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.hisunflytone.component.tinker.service.TinkerResultService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.cmos.rtc.voip.core.YuntxNotifyReceiver$NotifyService"/>
+      <component-filter name="com.greenpoint.android.mc10086.activity/com.baidu.location.f"/>
+   </service>
+</rules>

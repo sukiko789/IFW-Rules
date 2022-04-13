@@ -1,0 +1,22 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.ads.AdActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.cast.framework.media.MediaIntentReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.moneywiz.androidphone.widgets.NetWorthWidgetProvider"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.evernote.android.job.v14.PlatformAlarmReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.moneywiz.androidphone.SystemBroadcastsReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.evernote.android.job.JobBootReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.moneywiz_2.androidphone_free/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

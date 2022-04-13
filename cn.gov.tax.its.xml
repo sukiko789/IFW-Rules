@@ -1,0 +1,61 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="cn.gov.tax.its/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="cn.gov.tax.its/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.zoloz.toyger.workspace.GarfieldActivity"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.zoloz.toyger.workspace.ToygerActivity"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.hms.activity.EnableServiceActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="cn.gov.tax.its/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="cn.gov.tax.its/cn.gov.tax.its.push.AliPrivateMsgReceiver$NotificationClickReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.accs.EventReceiver"/>
+      <component-filter name="cn.gov.tax.its/org.android.agoo.huawei.HuaweiPushReceiver"/>
+      <component-filter name="cn.gov.tax.its/org.android.agoo.xiaomi.MiPushBroadcastReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="cn.gov.tax.its/org.android.agoo.vivo.PushMessageReceiverImpl"/>
+      <component-filter name="cn.gov.tax.its/com.alibaba.sdk.android.push.MeizuPushReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.alibaba.sdk.android.push.MiPushBroadcastReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.alibaba.sdk.android.push.impl.PushMessageReceiverImpl"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.hms.support.api.push.PushReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInMainProcess"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite1"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite2"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite3"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite4"/>
+      <component-filter name="cn.gov.tax.its/com.alipay.mobile.common.logging.process.LogServiceInlite5"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.accs.ChannelService"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="cn.gov.tax.its/org.android.agoo.accs.AgooService"/>
+      <component-filter name="cn.gov.tax.its/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="cn.gov.tax.its/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="cn.gov.tax.its/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="cn.gov.tax.its/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="cn.gov.tax.its/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="cn.gov.tax.its/com.heytap.mcssdk.PushService"/>
+      <component-filter name="cn.gov.tax.its/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
+      <component-filter name="cn.gov.tax.its/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="cn.gov.tax.its/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="cn.gov.tax.its/cn.gov.tax.its.push.AliPrivateMsgReceiver"/>
+      <component-filter name="cn.gov.tax.its/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="cn.gov.tax.its/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="cn.gov.tax.its/com.alibaba.sdk.android.push.huawei.HuaweiPushMessageService"/>
+      <component-filter name="cn.gov.tax.its/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="cn.gov.tax.its/com.aliyun.ams.emas.push.MsgService"/>
+      <component-filter name="cn.gov.tax.its/com.aliyun.ams.emas.push.AgooInnerService"/>
+   </service>
+</rules>

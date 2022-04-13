@@ -1,0 +1,23 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.icbc.elife/com.huawei.android.pushselfshow.richpush.RichPushActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.icbc.elife/com.icbc.elife.receiver.HuaweiPushReceiver"/>
+      <component-filter name="com.icbc.elife/com.icbc.elife.receiver.MiPushReceiver"/>
+      <component-filter name="com.icbc.elife/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.icbc.elife/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.icbc.elife/com.xiaomi.push.service.receivers.PkgUninstallReceiver"/>
+      <component-filter name="com.icbc.elife/com.huawei.android.pushagent.PushBootReceiver"/>
+      <component-filter name="com.icbc.elife/com.huawei.android.pushagent.PushEventReceiver"/>
+      <component-filter name="com.icbc.elife/com.icbc.elife.receiver.VIVOPushReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.icbc.elife/com.baidu.location.f"/>
+      <component-filter name="com.icbc.elife/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.icbc.elife/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.icbc.elife/com.huawei.android.pushagent.PushService"/>
+      <component-filter name="com.icbc.elife/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.icbc.elife/com.vivo.push.sdk.service.CommandClientService"/>
+   </service>
+</rules>

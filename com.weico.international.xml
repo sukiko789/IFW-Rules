@@ -1,0 +1,40 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.weico.international/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.weico.international/com.weibo.mobileads.view.FlashAdActivity"/>
+      <component-filter name="com.weico.international/com.weibo.mobileads.view.AdActivity"/>
+      <component-filter name="com.weico.international/com.qq.e.ads.ADActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.weico.international/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.weico.international/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.weico.international/com.umeng.message.NotificationProxyBroadcastReceiver"/>
+      <component-filter name="com.weico.international/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.weico.international/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.weico.international/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.weico.international/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.weico.international/com.google.ads.conversiontracking.InstallReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.weico.international/com.umeng.message.UmengDownloadResourceService"/>
+      <component-filter name="com.weico.international/com.umeng.message.UmengMessageCallbackHandlerService"/>
+      <component-filter name="com.weico.international/com.umeng.message.UmengMessageIntentReceiverService"/>
+      <component-filter name="com.weico.international/com.umeng.message.XiaomiIntentService"/>
+      <component-filter name="com.weico.international/com.umeng.message.UmengIntentService"/>
+      <component-filter name="com.weico.international/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.weico.international/com.hpplay.sdk.source.process.LelinkSdkService"/>
+      <component-filter name="com.weico.international/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.weico.international/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.weico.international/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.weico.international/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.weico.international/com.weico.international.service.AudioPlayService"/>
+      <component-filter name="com.weico.international/com.weico.international.service.MyJobService"/>
+      <component-filter name="com.weico.international/com.qq.e.comm.DownloadService"/>
+      <component-filter name="com.weico.international/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.weico.international/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.weico.international/com.amap.api.location.APSService"/>
+      <component-filter name="com.weico.international/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.weico.international/com.tencent.android.tpush.service.XGPushServiceV3"/>
+      <component-filter name="com.weico.international/com.tencent.android.tpush.service.XGDaemonService"/>
+   </service>
+</rules>

@@ -1,0 +1,26 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.duolingo/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.duolingo/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.duolingo/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.duolingo/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.duolingo/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.duolingo/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.sessionend.ads.PlusPromoVideoActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.ads.PodcastPromoActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.duolingo/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.duolingo/com.duolingo.referral.ShareReceiver"/>
+      <component-filter name="com.duolingo/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.duolingo/zendesk.support.DeepLinkingBroadcastReceiver"/>
+      <component-filter name="com.duolingo/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.duolingo/com.google.android.gms.ads.AdService"/>
+      <component-filter name="com.duolingo/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.duolingo/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.duolingo/com.duolingo.notifications.NotificationIntentService"/>
+      <component-filter name="com.duolingo/com.duolingo.notifications.NotificationUtils$NotificationIntentServiceProxy"/>
+   </service>
+</rules>

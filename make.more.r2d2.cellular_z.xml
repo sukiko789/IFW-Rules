@@ -1,0 +1,47 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="make.more.r2d2.cellular_z/com.base.bj.paysdk.TrPayUnionAcitivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.base.bj.paysdk.TrSelectListActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.base.bj.paysdk.TrPayAcitivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.qq.e.ads.ADActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.alipay.sdk.app.AlipayResultActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.tencent.bugly.beta.ui.BetaActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.downloadlib.guide.install.InstallGuideActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.qq.e.ads.RewardvideoLandscapeADActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.qq.e.ads.RewardvideoPortraitADActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.alipay.sdk.app.PayResultActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.downloadlib.activity.TTDelegateActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTDelegateActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTFullScreenVideoActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTPlayableWebPageActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTRewardExpressVideoActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTRewardVideoActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTVideoScrollWebPageActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTVideoWebPageActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.activity.base.TTWebPageActivity"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.embedapplog.collector.Collector"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="make.more.r2d2.cellular_z/com.tencent.bugly.beta.tinker.TinkerResultService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.bytedance.tea.crash.upload.CrashUploadService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.qq.e.comm.DownloadService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService"/>
+      <component-filter name="make.more.r2d2.cellular_z/com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+   </service>
+</rules>

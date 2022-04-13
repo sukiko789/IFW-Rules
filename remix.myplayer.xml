@@ -1,0 +1,5 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="remix.myplayer/remix.myplayer.ui.activity.LockScreenActivity"/>
+   </activity>
+</rules>

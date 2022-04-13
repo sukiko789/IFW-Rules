@@ -1,0 +1,35 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.HWTransferActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.OppoTransferActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.yalantis.ucrop.UCropActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.VivoTransferActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.HuaweiPushReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.HuaweiPushReceiverEx"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.VPushMessageReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.XiaomiPushReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.TMFNCBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.bankcomm.Bankcomm/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.heytap.mcssdk.PushService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

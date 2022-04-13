@@ -1,0 +1,81 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.centurygames.idlecourier/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.amazon.device.ads.AdActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.centurygames.idlecourier/jp.maio.sdk.android.AdFullscreenActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.adview.AppLovinFullscreenActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.sdk.AppLovinWebViewActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.chartboost.sdk.CBImpressionActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.ironsource.sdk.controller.ControllerActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.facebook.FacebookActivity"/>
+      <component-filter name="com.centurygames.idlecourier/jp.maio.sdk.android.HtmlBasedAdActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.inmobi.ads.rendering.InMobiAdActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.mediation.MaxDebuggerMultiAdActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.tapjoy.TJAdUnitActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.tapjoy.TJContentActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.vungle.warren.ui.VungleFlexViewActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.vungle.warren.ui.VungleActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.funplus.sdk.payment.thirdparty.views.WebviewWindow"/>
+      <component-filter name="com.centurygames.idlecourier/com.surveymonkey.surveymonkeyandroidsdk.SMFeedbackActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.hyprmx.android.sdk.activity.HyprMXOfferViewerActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.hyprmx.android.sdk.activity.HyprMXRequiredInformationActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.hyprmx.android.sdk.videoplayer.HyprMXVideoPlayerActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.ironsource.sdk.controller.InterstitialActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.mintegral.msdk.activity.MTGCommonActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.mintegral.msdk.reward.player.MTGRewardVideoActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.mediation.MaxDebuggerActivity"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.mediation.MaxDebuggerDetailActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.centurygames.idlecourier/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.centurygames.idlecourier/com.facebook.CampaignTrackingReceiver"/>
+      <component-filter name="com.centurygames.idlecourier/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.centurygames.idlecourier/com.fyber.inneractive.sdk.mraid.IAMraidKit"/>
+      <component-filter name="com.centurygames.idlecourier/com.fyber.inneractive.sdk.video.IAVideoKit"/>
+      <component-filter name="com.centurygames.idlecourier/com.vungle.warren.NetworkProviderReceiver"/>
+      <component-filter name="com.centurygames.idlecourier/com.tapjoy.TapjoyReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.centurygames.idlecourier/com.applovin.impl.sdk.utils.AppKilledService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.centurygames.idlecourier/com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.centurygames.idlecourier/com.funplus.sdk.caffeine.fcm.DDFirebaseMessagingService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.centurygames.idlecourier/com.applovin.impl.adview.activity.FullscreenAdService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.firebase.messaging.cpp.ListenerService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.firebase.messaging.MessageForwardingService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.firebase.messaging.cpp.RegistrationIntentService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+      <component-filter name="com.centurygames.idlecourier/cn.thinkingdata.android.TDQuitSafelyService$TDKeepAliveService"/>
+      <component-filter name="com.centurygames.idlecourier/com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"/>
+   </service>
+</rules>

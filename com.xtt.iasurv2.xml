@@ -1,0 +1,41 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.xtt.iasurv2/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.adview.AppLovinFullscreenActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.sdk.AppLovinWebViewActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.mediation.MaxDebuggerActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.mediation.MaxDebuggerAdUnitsListActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.mediation.MaxDebuggerDetailActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.mediation.MaxDebuggerMultiAdActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.android.billingclient.api.ProxyBillingActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.xtt.iasurv2/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.xtt.iasurv2/com.google.android.gms.ads.AdService"/>
+      <component-filter name="com.xtt.iasurv2/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.xtt.iasurv2/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.xtt.iasurv2/com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.impl.adview.activity.FullscreenAdService"/>
+      <component-filter name="com.xtt.iasurv2/com.applovin.impl.sdk.utils.AppKilledService"/>
+   </service>
+</rules>

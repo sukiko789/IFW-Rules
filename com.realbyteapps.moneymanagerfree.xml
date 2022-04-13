@@ -1,0 +1,24 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.realbyte.money.ui.ads.HotDealActivity"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.mopub.mobileads.MoPubActivity"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.mopub.mobileads.MraidActivity"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.mopub.common.MoPubBrowser"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.mopub.mobileads.MraidVideoPlayerActivity"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.realbyte.money.ui.ads.ShoppingActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.google.android.gms.analytics.AnalyticsReceiver"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.realbyte.money.widget.widget.WidgetTx4x1Provider"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.facebook.ads.internal.ipc.AdsMessengerService"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.facebook.ads.internal.ipc.AdsProcessPriorityService"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.realbyte.money.widget.widget.Tx4x1UpdateJobIntentService"/>
+      <component-filter name="com.realbyteapps.moneymanagerfree/com.realbyte.money.notuse.Tx4x1UpdateService"/>
+   </service>
+</rules>

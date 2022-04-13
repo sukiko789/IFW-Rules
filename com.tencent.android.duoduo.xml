@@ -1,0 +1,34 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.duoduo.activitys.AdActivity"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.duoduo.activitys.AdWebViewActivity"/>
+      <component-filter name="com.tencent.android.duoduo/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.tencent.android.duoduo/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.tpush.XGPushActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.hwpush.HWPushMessageReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.mzpush.MZPushMessageReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.meizu.cloud.pushsdk.SystemReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.vivopush.VivoPushMessageReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.duoduo.receiver.XGCustomReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.tpush.XGPushReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.mipush.XMPushMessageReceiver"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.duoduo.receiver.NetCheckReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.tencent.android.duoduo/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.tencent.android.duoduo/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.tencent.android.duoduo/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.tencent.android.duoduo/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.tencent.android.duoduo/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.fcm.XGFcmListenerService"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.tpush.rpc.XGRemoteService"/>
+      <component-filter name="com.tencent.android.duoduo/com.tencent.android.tpush.service.XGVipPushService"/>
+      <component-filter name="com.tencent.android.duoduo/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.tencent.android.duoduo/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

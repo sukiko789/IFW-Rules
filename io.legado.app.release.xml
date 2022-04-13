@@ -1,0 +1,10 @@
+<rules>
+   <broadcast block="true" log="false">
+      <component-filter name="io.legado.app.release/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="io.legado.app.release/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="io.legado.app.release/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="io.legado.app.release/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>

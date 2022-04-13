@@ -1,0 +1,16 @@
+<rules>
+<activity block="true" log="false">
+  <component-filter name="com.microsoft.office.outlook/com.appnexus.opensdk.AdActivity"/>
+  <component-filter name="com.microsoft.office.outlook/com.facebook.ads.AudienceNetworkActivity"/>
+</activity>
+<service block="true" log="false">
+  <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementService"/>
+  <component-filter name="com.microsoft.office.outlook/com.google.android.gms.analytics.AnalyticsJobService"/>
+  <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementJobService"/>
+  <component-filter name="com.microsoft.office.outlook/com.google.android.gms.analytics.AnalyticsService"/>
+</service>
+<broadcast block="true" log="false">
+  <component-filter name="com.microsoft.office.outlook/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+  <component-filter name="com.microsoft.office.outlook/com.google.android.gms.analytics.AnalyticsReceiver"/>
+</broadcast>
+</rules>

@@ -1,0 +1,21 @@
+<rules>
+   <activity block="true" log="true">
+      <component-filter name="com.nexon.kart/com.tencent.midas.oversea.business.pay.APMidasProxyActivity"/>
+      <component-filter name="com.nexon.kart/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.nexon.kart/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.nexon.kart/com.facebook.FacebookActivity"/>
+   </activity>
+   <broadcast block="true" log="true">
+      <component-filter name="com.nexon.kart/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.nexon.kart/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
+      <component-filter name="com.nexon.kart/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.nexon.kart/com.facebook.CampaignTrackingReceiver"/>
+      <component-filter name="com.nexon.kart/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.nexon.kart/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.nexon.kart/com.unity3d.plugin.downloader.UnityAlarmReceiver"/>
+   </broadcast>
+   <service block="true" log="true">
+      <component-filter name="com.nexon.kart/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.nexon.kart/com.google.android.gms.measurement.AppMeasurementService"/>
+   </service>
+</rules>
