@@ -12,6 +12,7 @@
       <component-filter name="com.bankcomm.Bankcomm/com.sina.weibo.sdk.share.WbShareTransActivity"/>
       <component-filter name="com.bankcomm.Bankcomm/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
       <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.VivoTransferActivity"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.hms.activity.EnableServiceActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.HuaweiPushReceiver"/>
@@ -21,6 +22,8 @@
       <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.VPushMessageReceiver"/>
       <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.manu.XiaomiPushReceiver"/>
       <component-filter name="com.bankcomm.Bankcomm/com.tencent.tmf.push.impl.TMFNCBroadcastReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.hms.support.api.push.PushReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.bankcomm.Bankcomm/com.heytap.mcssdk.AppPushService"/>
@@ -31,5 +34,9 @@
       <component-filter name="com.bankcomm.Bankcomm/com.heytap.mcssdk.PushService"/>
       <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.push.service.XMJobService"/>
       <component-filter name="com.bankcomm.Bankcomm/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.bankcomm.Bankcomm/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

@@ -10,6 +10,7 @@
       <component-filter name="com.gwdang.app/com.sina.weibo.sdk.share.ShareStoryActivity"/>
       <component-filter name="com.gwdang.app/com.sina.weibo.sdk.share.ShareTransActivity"/>
       <component-filter name="com.gwdang.app/com.sina.weibo.sdk.web.WebActivity"/>
+      <component-filter name="com.gwdang.app/com.huawei.hms.activity.EnableServiceActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.gwdang.app/org.android.agoo.huawei.HuaweiPushReceiver"/>
@@ -23,6 +24,9 @@
       <component-filter name="com.gwdang.app/com.taobao.accs.ServiceReceiver"/>
       <component-filter name="com.gwdang.app/com.taobao.accs.EventReceiver"/>
       <component-filter name="com.gwdang.app/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.gwdang.app/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.gwdang.app/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.gwdang.app/com.meizu.cloud.pushsdk.MzPushSystemReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.gwdang.app/com.umeng.message.UmengIntentService"/>
@@ -45,5 +49,10 @@
       <component-filter name="com.gwdang.app/com.taobao.accs.data.MsgDistributeService"/>
       <component-filter name="com.gwdang.app/com.gwdang.app.floatball.services.FloatBallService"/>
       <component-filter name="com.gwdang.app/com.gwdang.app.floatball.services.GWDFloatBallService"/>
+      <component-filter name="com.gwdang.app/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.gwdang.app/org.android.agoo.huawei.HuaweiPushMessageService"/>
+      <component-filter name="com.gwdang.app/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.gwdang.app/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.gwdang.app/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

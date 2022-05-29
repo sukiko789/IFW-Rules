@@ -19,6 +19,9 @@
       <component-filter name="com.chinamworld.bocmbci/com.donkingliang.imageselector.ImageSelectorActivity"/>
       <component-filter name="com.chinamworld.bocmbci/com.donkingliang.imageselector.PreviewActivity"/>
       <component-filter name="com.chinamworld.bocmbci/com.donkingliang.imageselector.ClipImageActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.FlymePushReceiver"/>
@@ -31,6 +34,9 @@
       <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.base.widget.windowHead.NotificationClickReceiver"/>
       <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.HmsPushSubReceiver"/>
       <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.common.appwidget.BocAppWidgetProvider"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.chinamworld.bocmbci/com.meizu.cloud.pushsdk.MzPushSystemReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.chinamworld.bocmbci/com.vivo.push.sdk.service.CommandClientService"/>
@@ -44,5 +50,6 @@
       <component-filter name="com.chinamworld.bocmbci/com.huawei.hms.support.api.push.service.HmsMsgService"/>
       <component-filter name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.communication.push.service.BocPushService"/>
       <component-filter name="com.chinamworld.bocmbci/com.igexin.sdk.HmsPushMessageService"/>
+      <component-filter name="com.chinamworld.bocmbci/com.huawei.agconnect.core.ServiceDiscovery"/>
    </service>
 </rules>

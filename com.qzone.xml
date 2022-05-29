@@ -6,6 +6,15 @@
       <component-filter name="com.qzone/com.tencent.midas.qq.APMidasQQWalletActivity"/>
       <component-filter name="com.qzone/com.tencent.midas.wx.APMidasWXPayActivity"/>
       <component-filter name="com.qzone/com.tencent.midas.jsbridge.APWebJSBridgeActivity"/>
+      <component-filter name="com.qzone/com.qq.e.ads.LandscapeADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.LandscapeADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.ads.PortraitADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.PortraitADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.RewardvideoLandscapeADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.RewardvideoPortraitADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.TransPortraitADActivity"/>
+      <component-filter name="com.qzone/com.qq.e.tg.WebAdActivity"/>
+      <component-filter name="com.qzone/com.tencent.smtt.sdk.VideoActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.qzone/com.tencent.base.os.clock.AlarmClockReceiver"/>

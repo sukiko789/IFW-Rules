@@ -1,0 +1,72 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.AdsActivity"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.downloadlib.activity.JumpKllkActivity"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_Activity"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity_T"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity_T"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Landscape_Activity"/>
+      <component-filter name="com.cainiao.wireless/com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.downloadlib.activity.TTDelegateActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.components.agoo.impl.AgooBusinessReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.taobao.agoo.AgooCommondReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.taobao.android.jarviswe.receiver.BehaviXIPVReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.recommend.rerank.DAILaunchedReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.taobao.android.jarviswe.receiver.DAILaunchedReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.alibaba.emas.datalab.controller.DaiReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.alibaba.emas.datalab.controller.DaiUpdateReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.android.phone.mobilesdk.permission.utils.FakeReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.job.JobTriggerReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.widget.widgetprovider.widget.LogisticsWidgetLargest"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.widget.widgetprovider.widget.LogisticsWidgetMedium"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.widget.widgetprovider.widget.LogisticsWidgetSmall"/>
+      <component-filter name="com.cainiao.wireless/org.android.agoo.mezu.MeizuPushReceiver"/>
+      <component-filter name="com.cainiao.wireless/org.android.agoo.xiaomi.MiPushBroadcastReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.MyPushMsgReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.components.agoo.NotificationDismissReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.components.hybrid.weex.NotificationReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.taobao.orange.receiver.OrangeReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.taobao.accs.ServiceReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.ali.user.open.receiver.SessionSyncReceiver"/>
+      <component-filter name="com.cainiao.wireless/com.cainiao.wireless.components.update.UpdateAppReceiver"/>
+      <component-filter name="com.cainiao.wireless/org.android.agoo.vivo.VivoReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.cainiao.wireless/com.alibaba.analytics.AnalyticsService"/>
+      <component-filter name="com.cainiao.wireless/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.cainiao.wireless/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.appdownloader.RetryJobSchedulerService"/>
+      <component-filter name="com.cainiao.wireless/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.cainiao.wireless/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.cainiao.wireless/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInlite5"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInlite4"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInlite3"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInlite2"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInlite1"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+      <component-filter name="com.cainiao.wireless/com.alipay.mobile.common.logging.process.LogServiceInMainProcess"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"/>
+      <component-filter name="com.cainiao.wireless/org.android.agoo.huawei.HuaweiRcvService"/>
+      <component-filter name="com.cainiao.wireless/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+      <component-filter name="com.cainiao.wireless/com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+      <component-filter name="com.cainiao.wireless/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.cainiao.wireless/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.cainiao.wireless/com.vivo.push.sdk.service.CommandClientService"/>
+   </service>
+</rules>

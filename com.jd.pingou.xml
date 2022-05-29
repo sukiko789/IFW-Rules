@@ -1,13 +1,86 @@
 <rules>
    <activity block="true" log="false">
       <component-filter name="com.jd.pingou/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.jd.pingou/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.jd.pingou/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.jd.pingou/com.jd.push.huawei.lib.MyBridgeActivity"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.jd.pingou/com.jd.push.vivo.broadcast.VivoClearReceiver"/>
       <component-filter name="com.jd.pingou/com.jd.push.vivo.broadcast.VivoInitReceiver"/>
       <component-filter name="com.jd.pingou/com.jd.push.vivo.broadcast.VivoReceiver"/>
+      <component-filter name="com.jd.pingou/com.jd.push.huawei.broadcast.EMHuaweiPushReceiver"/>
+      <component-filter name="com.jd.pingou/com.jd.push.huawei.broadcast.HuaweiClearReceiver"/>
+      <component-filter name="com.jd.pingou/com.jd.push.huawei.broadcast.HuaweiInitReceiver"/>
+      <component-filter name="com.jd.pingou/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.jd.pingou/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.jd.pingou/com.meizu.cloud.pushsdk.SystemReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.jd.pingou/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.lib.service.TinkerPatchForeService"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.lib.service.TinkerPatchService"/>
+      <component-filter name="com.jd.pingou/com.tencent.tinker.lib.service.TinkerPatchService$InnerService"/>
+      <component-filter name="com.jd.pingou/com.tencent.smtt.export.external.DexClassLoaderProviderService"/>
+      <component-filter name="com.jd.pingou/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.jd.pingou/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.jd.pingou/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.jd.pingou/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.jd.pingou/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.jd.pingou/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.jd.pingou/com.heytap.mcssdk.PushService"/>
    </service>
 </rules>

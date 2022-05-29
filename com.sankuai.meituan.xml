@@ -30,6 +30,8 @@
       <component-filter name="com.sankuai.meituan/com.meizu.cloud.pushsdk.SystemReceiver"/>
       <component-filter name="com.sankuai.meituan/com.meituan.android.time.TimeChangeReceiver"/>
       <component-filter name="com.sankuai.meituan/com.dianping.vivopush.VIVOReceiverImpl"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.hms.support.api.push.PushReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.sankuai.meituan/com.meituan.android.quickpass.manage.lib.service.APDUIntentService"/>
@@ -60,5 +62,8 @@
       <component-filter name="com.sankuai.meituan/com.meituan.android.bike.business.track.TrackIntentService"/>
       <component-filter name="com.sankuai.meituan/com.xiaomi.push.service.XMJobService"/>
       <component-filter name="com.sankuai.meituan/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.sankuai.meituan/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.sankuai.meituan/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.sankuai.meituan/com.huawei.hms.support.api.push.service.HmsMsgService"/>
    </service>
 </rules>

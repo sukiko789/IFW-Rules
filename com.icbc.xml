@@ -1,4 +1,10 @@
 <rules>
+   <activity block="true" log="false">
+      <component-filter name="com.icbc/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.icbc/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.icbc/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.icbc/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+   </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.icbc/com.huawei.android.pushagent.PushEventReceiver"/>
       <component-filter name="com.icbc/com.huawei.android.pushagent.PushBootReceiver"/>
@@ -6,8 +12,23 @@
       <component-filter name="com.icbc/com.xiaomi.push.service.receivers.PingReceiver"/>
       <component-filter name="com.icbc/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
       <component-filter name="com.icbc/com.icbc.im.receiver.VIVOPushMessageReceiver"/>
+      <component-filter name="com.icbc/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.icbc/com.huawei.hms.support.api.push.PushReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.icbc/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.icbc/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.icbc/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.icbc/com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+      <component-filter name="com.icbc/com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+      <component-filter name="com.icbc/com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+      <component-filter name="com.icbc/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"/>
+      <component-filter name="com.icbc/com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+      <component-filter name="com.icbc/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.icbc/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.icbc/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.icbc/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.icbc/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.icbc/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

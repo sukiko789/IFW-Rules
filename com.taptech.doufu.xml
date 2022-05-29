@@ -98,5 +98,7 @@
       <component-filter name="com.taptech.doufu/com.xiaomi.push.service.XMJobService"/>
       <component-filter name="com.taptech.doufu/com.xiaomi.push.service.XMPushService"/>
       <component-filter name="com.taptech.doufu/com.umeng.message.XiaomiIntentService"/>
+      <component-filter name="com.taptech.doufu/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.taptech.doufu/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

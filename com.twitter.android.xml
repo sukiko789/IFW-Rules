@@ -1,17 +1,18 @@
 <rules>
-<activity block="true" log="false">
-  <component-filter name="com.twitter.android/com.twitter.android.analytics.TweetAnalyticsWebViewActivity"/>
-  <component-filter name="com.twitter.android/com.twitter.android.dogfood.BugReporterActivity"/>
-  <component-filter name="com.twitter.android/com.twitter.android.ads.AdsCompanionWebViewActivity"/>
-</activity>
-<service block="true" log="false">
-  <component-filter name="com.twitter.android/com.google.android.gms.measurement.AppMeasurementService"/>
-  <component-filter name="com.twitter.android/com.google.android.gms.measurement.AppMeasurementJobService"/>
-  <component-filter name="com.twitter.android/com.openback.service.OpenBackService"/>
-</service>
-<broadcast block="true" log="false">
-  <component-filter name="com.twitter.android/com.twitter.analytics.tracking.InstallationReferrer$OemIntentReceiver"/>
-  <component-filter name="com.twitter.android/com.google.android.gms.measurement.AppMeasurementReceiver"/>
-  <component-filter name="com.twitter.android/com.openback.receiver.OpenBackReceiver"/>
-</broadcast>
+   <activity block="true" log="false">
+      <component-filter name="com.twitter.android/com.twitter.android.analytics.TweetAnalyticsWebViewActivity"/>
+      <component-filter name="com.twitter.android/com.twitter.android.dogfood.BugReporterActivity"/>
+      <component-filter name="com.twitter.android/com.twitter.android.ads.AdsCompanionWebViewActivity"/>
+      <component-filter name="com.twitter.android/com.twitter.revenue.AdsInfoWebViewActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.twitter.android/com.twitter.analytics.tracking.InstallationReferrer$OemIntentReceiver"/>
+      <component-filter name="com.twitter.android/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.twitter.android/com.openback.receiver.OpenBackReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.twitter.android/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.twitter.android/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.twitter.android/com.openback.service.OpenBackService"/>
+   </service>
 </rules>

@@ -19,10 +19,20 @@
       <component-filter name="com.qqgame.happymj/com.qq.e.tg.TransPortraitADActivity"/>
       <component-filter name="com.qqgame.happymj/com.qq.e.tg.WebAdActivity"/>
       <component-filter name="com.qqgame.happymj/com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity"/>
+      <component-filter name="com.qqgame.happymj/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.qqgame.happymj/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.qqgame.happymj/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.InnerTpnsActivity"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.TpnsActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.qqgame.happymj/com.tencent.android.tpush.XGPushReceiver"/>
       <component-filter name="com.qqgame.happymj/com.tencent.special.httpdns.Cache$ConnectReceiver"/>
+      <component-filter name="com.qqgame.happymj/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.qqgame.happymj/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.qqgame.happymj/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.qqgame.happymj/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.qqgame.happymj/com.huawei.hms.support.api.push.PushReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.qqgame.happymj/com.tencent.bigdata.mqttchannel.services.MqttService"/>
@@ -34,5 +44,14 @@
       <component-filter name="com.qqgame.happymj/com.tencent.msdk.notice.RollFloatService"/>
       <component-filter name="com.qqgame.happymj/com.tencent.qqgamemi.QMiService"/>
       <component-filter name="com.qqgame.happymj/com.tencent.component.plugin.server.PluginService"/>
+      <component-filter name="com.qqgame.happymj/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.qqgame.happymj/com.heytap.mcssdk.PushService"/>
+      <component-filter name="com.qqgame.happymj/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.qqgame.happymj/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.qqgame.happymj/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.qqgame.happymj/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.qqgame.happymj/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.qqgame.happymj/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.qqgame.happymj/com.tencent.tpns.mqttchannel.services.MqttService"/>
    </service>
 </rules>

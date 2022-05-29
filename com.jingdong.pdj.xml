@@ -73,6 +73,9 @@
       <component-filter name="com.jingdong.pdj/com.jd.push.huawei.lib.MyBridgeActivity"/>
       <component-filter name="com.jingdong.pdj/com.huawei.hms.activity.BridgeActivity"/>
       <component-filter name="com.jingdong.pdj/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.jingdong.pdj/com.jd.push.lib.broadcastreceiver.EMHuaweiPushReceiver"/>
@@ -102,6 +105,10 @@
       <component-filter name="com.jingdong.pdj/com.jd.push.miui.broadcast.MiuiReceiver"/>
       <component-filter name="com.jingdong.pdj/jd.push.NotificationService"/>
       <component-filter name="com.jingdong.pdj/com.igexin.sdk.VivoPushMessageReceiver"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.jingdong.pdj/com.igexin.sdk.FlymePushReceiver"/>
+      <component-filter name="com.jingdong.pdj/com.igexin.sdk.MiuiPushReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.jingdong.pdj/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
@@ -129,5 +136,11 @@
       <component-filter name="com.jingdong.pdj/com.jingdong.jdpush_new.JDSPushService$subService"/>
       <component-filter name="com.jingdong.pdj/com.jingdong.pdj.plunginmta.MtaService"/>
       <component-filter name="com.jingdong.pdj/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.jingdong.pdj/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.jingdong.pdj/com.tencent.smtt.export.external.DexClassLoaderProviderService"/>
+      <component-filter name="com.jingdong.pdj/com.igexin.sdk.HmsPushMessageService"/>
+      <component-filter name="com.jingdong.pdj/com.igexin.sdk.OppoAppPushService"/>
+      <component-filter name="com.jingdong.pdj/com.igexin.sdk.OppoPushService"/>
    </service>
 </rules>

@@ -1,35 +1,50 @@
 <rules>
-<activity block="true" log="false">
-  <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
-  <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.share.WbShareResultActivity"/>
-  <component-filter name="com.xiaomi.shop/com.tencent.connect.common.AssistActivity"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop.wxapi.WXPayEntryActivity"/>
-  <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.APayEntranceActivity"/>
-  <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.share.WbShareTransActivity"/>
-  <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.H5PayActivity"/>
-  <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.H5OpenAuthActivity"/>
-  <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.component.WeiboSdkBrowser"/>
-  <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.AlipayResultActivity"/>
-  <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.PayResultActivity"/>
-  <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
-  <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.H5AuthActivity"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop.wxapi.WXEntryActivity"/>
-</activity>
-<service block="true" log="false">
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.service.AppUpdateService"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.aliveapi.PerformanceRequestService"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.service.SplashDownloadIntentService"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.service.PluginUpdateService"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.alive.AliveRequestService"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService"/>
-  <component-filter name="com.xiaomi.shop/com.baidu.location.f"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService"/>
-</service>
-<broadcast block="true" log="false">
-  <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushReceiver"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.market.sdk.DownloadCompleteReceiver"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver"/>
-  <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
-</broadcast>
+   <activity block="true" log="false">
+      <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+      <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.share.WbShareResultActivity"/>
+      <component-filter name="com.xiaomi.shop/com.tencent.connect.common.AssistActivity"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop.wxapi.WXPayEntryActivity"/>
+      <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.APayEntranceActivity"/>
+      <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.H5OpenAuthActivity"/>
+      <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.component.WeiboSdkBrowser"/>
+      <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.AlipayResultActivity"/>
+      <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.PayResultActivity"/>
+      <component-filter name="com.xiaomi.shop/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.xiaomi.shop/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop.wxapi.WXEntryActivity"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.xiaomi.shop/com.vivo.push.sdk.LinkProxyClientActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushReceiver"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.market.sdk.DownloadCompleteReceiver"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.assemble.control.FTOSPushMessageReceiver"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop.appwidget.MiShopAppWidgetProvider"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.service.SplashDownloadIntentService"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.alive.AliveRequestService"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.xiaomi.shop/com.baidu.location.f"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.service.AppUpdateService"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.assemble.control.HmsPushService"/>
+      <component-filter name="com.xiaomi.shop/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.xiaomi.shop/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.xiaomi.shop/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.xiaomi.shop/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.aliveapi.PerformanceRequestService"/>
+      <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.service.PluginUpdateService"/>
+   </service>
 </rules>

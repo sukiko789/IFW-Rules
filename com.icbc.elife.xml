@@ -19,5 +19,7 @@
       <component-filter name="com.icbc.elife/com.huawei.android.pushagent.PushService"/>
       <component-filter name="com.icbc.elife/com.xiaomi.push.service.XMJobService"/>
       <component-filter name="com.icbc.elife/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.icbc.elife/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.icbc.elife/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

@@ -2,13 +2,27 @@
    <activity block="true" log="false">
       <component-filter name="com.jd.jdlite/com.vivo.push.sdk.LinkProxyClientActivity"/>
       <component-filter name="com.jd.jdlite/com.jd.jdlite.ad.ADActivity"/>
+      <component-filter name="com.jd.jdlite/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.jd.jdlite/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
+      <component-filter name="com.jd.jdlite/com.jd.push.huawei.lib.MyBridgeActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.jd.jdlite/com.jd.push.vivo.broadcast.VivoReceiver"/>
       <component-filter name="com.jd.jdlite/com.jd.push.vivo.broadcast.VivoInitReceiver"/>
       <component-filter name="com.jd.jdlite/com.jd.push.vivo.broadcast.VivoClearReceiver"/>
+      <component-filter name="com.jd.jdlite/com.jd.push.huawei.broadcast.EMHuaweiPushReceiver"/>
+      <component-filter name="com.jd.jdlite/com.jd.push.huawei.broadcast.HuaweiClearReceiver"/>
+      <component-filter name="com.jd.jdlite/com.jd.push.huawei.broadcast.HuaweiInitReceiver"/>
+      <component-filter name="com.jd.jdlite/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.jd.jdlite/com.xiaomi.push.service.receivers.PingReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.jd.jdlite/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.jd.jdlite/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.jd.jdlite/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.jd.jdlite/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.jd.jdlite/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.jd.jdlite/com.heytap.mcssdk.AppPushService"/>
+      <component-filter name="com.jd.jdlite/com.heytap.mcssdk.PushService"/>
    </service>
 </rules>

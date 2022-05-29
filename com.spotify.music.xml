@@ -11,12 +11,14 @@
       <component-filter name="com.spotify.music/com.spotify.music.features.ads.cmp.CMPActivity"/>
       <component-filter name="com.spotify.music/com.spotify.ads.browser.inapp.InAppBrowserActivity"/>
       <component-filter name="com.spotify.music/com.spotify.music.samsungpersonalization.customization.TpoContextActivity"/>
+      <component-filter name="com.spotify.music/com.spotify.adsdisplay.browser.inapp.InAppBrowserActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.spotify.music/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
       <component-filter name="com.spotify.music/com.google.android.gms.measurement.AppMeasurementReceiver"/>
       <component-filter name="com.spotify.music/com.spotify.ads.browser.inapp.external.ShareSheetCallback"/>
       <component-filter name="com.spotify.music/com.spotify.music.samsungpersonalization.customization.TpoContextChangedBroadcastReceiver"/>
+      <component-filter name="com.spotify.music/com.spotify.adsdisplay.browser.inapp.external.ShareSheetCallback"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.spotify.music/com.google.android.gms.measurement.AppMeasurementService"/>

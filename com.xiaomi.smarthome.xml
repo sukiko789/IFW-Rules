@@ -58,6 +58,7 @@
       <component-filter name="com.xiaomi.smarthome/com.facebook.CustomTabMainActivity"/>
       <component-filter name="com.xiaomi.smarthome/com.sdu.didi.openapi.DiDiWebActivity"/>
       <component-filter name="com.xiaomi.smarthome/com.facebook.FacebookActivity"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.ad.view.BottomPopAdActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.xiaomi.smarthome/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
@@ -66,6 +67,8 @@
       <component-filter name="com.xiaomi.smarthome/com.ximalaya.ting.android.opensdk.player.receive.PlayerReceiver"/>
       <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver"/>
       <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.scene.geofence.manager.MIUIGeoFenceBroadcastReceiver"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.xiaomi.smarthome/com.google.android.gms.measurement.AppMeasurementJobService"/>
@@ -76,5 +79,6 @@
       <component-filter name="com.xiaomi.smarthome/com.xiaomi.assemble.control.COSAppPushMessageService"/>
       <component-filter name="com.xiaomi.smarthome/com.xiaomi.assemble.control.COSPushMessageService"/>
       <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService"/>
    </service>
 </rules>

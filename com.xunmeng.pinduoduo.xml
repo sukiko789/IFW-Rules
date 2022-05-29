@@ -3,6 +3,9 @@
       <component-filter name="com.xunmeng.pinduoduo/cn.jpush.android.service.ModifyActivity"/>
       <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.push.xgPushActivity"/>
       <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.XGPushActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.sdk.MActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.shortcut.uninstall.PreUninstallActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.XGPushReceiver"/>
@@ -48,5 +51,7 @@
       <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.service.XGPushServiceV4"/>
       <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.rpc.XGRemoteService"/>
       <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.service.XMPreloadService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.volantis.tinkerhelper.PDDTinkerResultService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.service.VivoPreloadService"/>
    </service>
 </rules>

@@ -95,5 +95,6 @@
       <component-filter name="me.ele/com.alibaba.triver.ipc.client.IpcMsgClientService$IpcMsgClientService3"/>
       <component-filter name="me.ele/com.alibaba.triver.ipc.client.IpcMsgClientService$IpcMsgClientService4"/>
       <component-filter name="me.ele/com.alipay.mobile.transfer.aidlservice.FetchLoginInfoService"/>
+      <component-filter name="me.ele/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
    </service>
 </rules>

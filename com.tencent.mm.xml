@@ -210,5 +210,7 @@
       <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand2IPCService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand3IPCService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand4IPCService"/>
+      <component-filter name="com.tencent.mm/com.tencent.smtt.sandbox.SandboxedProcessService0"/>
+      <component-filter name="com.tencent.mm/com.tencent.smtt.sandbox.SandboxedProcessService1"/>
    </service>
 </rules>

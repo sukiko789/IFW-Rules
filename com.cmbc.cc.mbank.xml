@@ -64,6 +64,10 @@
       <component-filter name="com.cmbc.cc.mbank/com.vivo.push.sdk.LinkProxyClientActivity"/>
       <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.GActivity"/>
       <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.GetuiActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.FlymePushReceiver"/>
@@ -76,6 +80,9 @@
       <component-filter name="com.cmbc.cc.mbank/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
       <component-filter name="com.cmbc.cc.mbank/com.xiaomi.push.service.receivers.PingReceiver"/>
       <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.cmbc.cc.mbank/com.meizu.cloud.pushsdk.MzPushSystemReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.cmbc.cc.mbank/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
@@ -97,5 +104,9 @@
       <component-filter name="com.cmbc.cc.mbank/com.xiaomi.push.service.XMPushService"/>
       <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.HmsPushMessageService"/>
       <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.OppoAppPushService"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.cmbc.cc.mbank/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.cmbc.cc.mbank/com.tencent.smtt.export.external.DexClassLoaderProviderService"/>
+      <component-filter name="com.cmbc.cc.mbank/com.igexin.sdk.GService"/>
    </service>
 </rules>

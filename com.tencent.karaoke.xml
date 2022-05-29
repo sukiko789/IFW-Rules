@@ -255,5 +255,6 @@
       <component-filter name="com.tencent.karaoke/com.tencent.android.tpush.service.XGVipPushService"/>
       <component-filter name="com.tencent.karaoke/com.tencent.android.tpush.rpc.XGRemoteService"/>
       <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.family.task.FamilyPublishTaskService"/>
+      <component-filter name="com.tencent.karaoke/com.tencent.tpns.mqttchannel.services.MqttService"/>
    </service>
 </rules>

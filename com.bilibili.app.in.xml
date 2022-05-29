@@ -94,6 +94,7 @@
       <component-filter name="com.bilibili.app.in/com.bilibili.ad.adview.download.setting.ADDownloadSettingActivity"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.ad.adview.imax.v2.component.form.AdFormActivity"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.ad.adview.imax.v2.AdIMaxV2Activity"/>
+      <component-filter name="com.bilibili.app.in/com.huawei.caas.messageservice.JumpActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.bilibili.app.in/com.bilibili.ad.adview.web.apkdownload.ApkMgr$ApkDownloadReceiver"/>

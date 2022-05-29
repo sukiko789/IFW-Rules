@@ -64,6 +64,7 @@
       <component-filter name="com.jingdong.app.mall/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
       <component-filter name="com.jingdong.app.mall/com.jd.lib.productdetail.PdAgreementForHuaWeiActivity"/>
       <component-filter name="com.jingdong.app.mall/com.jd.lib.productdetail.PdAuthorizationForHuaWeiActivity"/>
+      <component-filter name="com.jingdong.app.mall/com.tencent.smtt.sdk.VideoActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.jingdong.app.mall/com.jingdong.common.phonecharge.calendar.AlarmReceiver"/>
@@ -159,5 +160,7 @@
       <component-filter name="com.jingdong.app.mall/com.jdpaysdk.payment.quickpass.server.QuickPassNFCServer"/>
       <component-filter name="com.jingdong.app.mall/com.jd.lib.wxxsdk.WXXDownLoadService"/>
       <component-filter name="com.jingdong.app.mall/com.tencent.map.geolocation.s"/>
+      <component-filter name="com.jingdong.app.mall/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.jingdong.app.mall/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

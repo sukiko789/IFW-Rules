@@ -3,10 +3,36 @@
       <component-filter name="com.dv.adm/com.google.android.gms.ads.AdActivity"/>
       <component-filter name="com.dv.adm/com.facebook.ads.AudienceNetworkActivity"/>
       <component-filter name="com.dv.adm/com.appbrain.AppBrainActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.AgProtocolActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.activity.AgProtocolActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.HMSSDKInstallActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.InnerPPSActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.InnerPPSArActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.InnerPPSInterstitialAdActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.InnerPPSRewardActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.InstallActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.InterstitialAdActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.opendevice.open.OAIDSettingActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.PPSActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.PPSArActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.activity.PPSBridgeActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.PPSFullScreenNotifyActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.activity.PPSLauncherActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.activity.PPSNotificationActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.PPSRewardActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.opendevice.open.PrivacyActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.opendevice.open.SimplePrivacyActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.opendevice.open.WhyThisAdStatementActivity"/>
    </activity>
    <service block="true" log="false">
       <component-filter name="com.dv.adm/com.google.android.gms.ads.AdService"/>
       <component-filter name="com.dv.adm/com.appbrain.AppBrainService"/>
       <component-filter name="com.dv.adm/com.appbrain.AppBrainJobService"/>
+      <component-filter name="com.dv.adm/com.huawei.android.hms.ppskit.PpsCoreService"/>
+      <component-filter name="com.dv.adm/com.huawei.agconnect.core.ServiceDiscovery"/>
    </service>
 </rules>

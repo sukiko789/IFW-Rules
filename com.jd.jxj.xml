@@ -59,6 +59,9 @@
       <component-filter name="com.jd.jxj/com.sina.weibo.sdk.share.WbShareTransActivity"/>
       <component-filter name="com.jd.jxj/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
       <component-filter name="com.jd.jxj/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.jd.jxj/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.jd.jxj/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.jd.jxj/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.jd.jxj/com.jd.push.huawei.broadcast.EMHuaweiPushReceiver"/>
@@ -73,6 +76,10 @@
       <component-filter name="com.jd.jxj/com.jd.push.vivo.broadcast.VivoClearReceiver"/>
       <component-filter name="com.jd.jxj/com.jd.push.vivo.broadcast.VivoInitReceiver"/>
       <component-filter name="com.jd.jxj/com.jd.push.vivo.broadcast.VivoReceiver"/>
+      <component-filter name="com.jd.jxj/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.jd.jxj/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.jd.jxj/com.meizu.cloud.pushsdk.MzPushSystemReceiver"/>
+      <component-filter name="com.jd.jxj/com.meizu.cloud.pushsdk.SystemReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.jd.jxj/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
@@ -88,5 +95,10 @@
       <component-filter name="com.jd.jxj/com.jd.pushsdk.keeplive.schedulerjob.DaemonJobService"/>
       <component-filter name="com.jd.jxj/com.jingdong.sdk.jdcrashreport.CrashService"/>
       <component-filter name="com.jd.jxj/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.jd.jxj/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.jd.jxj/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.jd.jxj/com.meizu.cloud.pushsdk.NotificationService"/>
+      <component-filter name="com.jd.jxj/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.jd.jxj/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

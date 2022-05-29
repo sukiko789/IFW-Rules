@@ -5,6 +5,7 @@
       <component-filter name="com.taobao.idlefish/com.huawei.hms.activity.BridgeActivity"/>
       <component-filter name="com.taobao.idlefish/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
       <component-filter name="com.taobao.idlefish/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.taobao.idlefish/com.huawei.hms.activity.EnableServiceActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.taobao.idlefish/com.taobao.agoo.AgooCommondReceiver"/>
@@ -25,6 +26,9 @@
       <component-filter name="com.taobao.idlefish/com.taobao.weex.WXGlobalEventReceiver"/>
       <component-filter name="com.taobao.idlefish/org.android.agoo.huawei.HuaweiPushReceiver"/>
       <component-filter name="com.taobao.idlefish/org.android.agoo.vivo.PushMessageReceiverImpl"/>
+      <component-filter name="com.taobao.idlefish/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.taobao.idlefish/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.taobao.idlefish/com.meizu.cloud.pushsdk.MzPushSystemReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.taobao.idlefish/com.taobao.fleamarket.message.service.AccsTlogService"/>
@@ -66,5 +70,12 @@
       <component-filter name="com.taobao.idlefish/com.taobao.taolive.FaceDetectorService"/>
       <component-filter name="com.taobao.idlefish/com.google.firebase.iid.FirebaseInstanceIdService"/>
       <component-filter name="com.taobao.idlefish/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.taobao.idlefish/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.taobao.idlefish/org.android.agoo.huawei.HuaweiPushMessageService"/>
+      <component-filter name="com.taobao.idlefish/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.taobao.idlefish/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.taobao.idlefish/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
+      <component-filter name="com.taobao.idlefish/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.taobao.idlefish/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

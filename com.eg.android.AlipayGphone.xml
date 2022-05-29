@@ -128,13 +128,28 @@
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.android.phone.mobilesdk.permission.utils.FakeService"/>
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.appstoreapp.download.ExternalDownloadIntentService"/>
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.quinox.preload.ExcaliburService"/>
-      <component-filter name="com.eg.android.AlipayGphone/com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseRequestService"/>
-      <component-filter name="com.eg.android.AlipayGphone/com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseProcessService"/>
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.dexaop.perf.DumpService"/>
-      <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess"/>
-      <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.base.datatransfer.DataExportService"/>
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.berserker.service.ControllerService"/>
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.common.logging.process.LogServiceInToolsProcess"/>
       <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+      <component-filter name="com.eg.android.AlipayGphone/com.alipay.pushsdk.thirdparty.hw.HuaweiPushService"/>
+      <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.base.datatransfer.DataExportService"/>
+      <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess"/>
+      <component-filter name="com.eg.android.AlipayGphone/com.alipay.pushsdk.thirdparty.oppo.OPPOQPushService"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureServiceInMainProcess"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureServiceInMainProcess"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureServiceInLite5"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureServiceInLite5"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureServiceInLite4"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureServiceInLite4"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureServiceInLite3"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureServiceInLite2"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureServiceInLite3"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureServiceInLite2"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureServiceInLite1"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureServiceInLite1"/>
+      <component-filter name="com.eg.android.AlipayGphone/org.xwebrtc.ScreenCaptureService"/>
+      <component-filter name="com.eg.android.AlipayGphone/alipay.webrtc.ScreenCaptureService"/>
+      <component-filter name="com.eg.android.AlipayGphone/com.alipay.mobile.framework.service.test.RemoteTestService"/>
    </service>
 </rules>

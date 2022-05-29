@@ -15,6 +15,7 @@
       <component-filter name="com.taobao.etao/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
       <component-filter name="com.taobao.etao/com.huawei.hms.activity.BridgeActivity"/>
       <component-filter name="com.taobao.etao/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.taobao.etao/com.huawei.hms.activity.EnableServiceActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.taobao.etao/com.taobao.agoo.AgooCommondReceiver"/>
@@ -31,6 +32,8 @@
       <component-filter name="com.taobao.etao/com.alibaba.tcms.TcmsCommonBroadcastReceiver"/>
       <component-filter name="com.taobao.etao/org.android.agoo.huawei.HuaweiPushReceiver"/>
       <component-filter name="com.taobao.etao/com.taobao.weex.analyzer.core.LaunchAnalyzerReceiver"/>
+      <component-filter name="com.taobao.etao/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.taobao.etao/com.huawei.hms.support.api.push.PushReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.taobao.etao/com.alibaba.analytics.AnalyticsService"/>
@@ -43,5 +46,15 @@
       <component-filter name="com.taobao.etao/com.xiaomi.push.service.XMPushService"/>
       <component-filter name="com.taobao.etao/com.taobao.weex.analyzer.core.logcat.ats.ATSUploadService"/>
       <component-filter name="com.taobao.etao/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
+      <component-filter name="com.taobao.etao/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.taobao.etao/org.android.agoo.huawei.HuaweiPushMessageService"/>
+      <component-filter name="com.taobao.etao/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.taobao.etao/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.taobao.etao/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.taobao.etao/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.taobao.etao/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.taobao.etao/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
+      <component-filter name="com.taobao.etao/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.taobao.etao/com.heytap.msp.push.service.DataMessageCallbackService"/>
    </service>
 </rules>

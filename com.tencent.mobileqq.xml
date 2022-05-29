@@ -16,6 +16,7 @@
       <component-filter name="com.tencent.mobileqq/cooperation.qappcenter.QAppCenterPluginProxyActivityTools"/>
       <component-filter name="com.tencent.mobileqq/com.tencent.mobileqq.wxapi.WXPayEntryActivity"/>
       <component-filter name="com.tencent.mobileqq/com.tencent.mobileqq.wxapi.WXEntryActivity"/>
+      <component-filter name="com.tencent.mobileqq/com.tencent.smtt.sdk.VideoActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.tencent.mobileqq/cooperation.weiyun.WeiyunBroadcastReceiver"/>

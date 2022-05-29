@@ -6,6 +6,9 @@
       <component-filter name="com.unionpay/com.huawei.android.hms.agent.common.HMSAgentActivity"/>
       <component-filter name="com.unionpay/com.huawei.hms.activity.BridgeActivity"/>
       <component-filter name="com.unionpay/com.vivo.push.sdk.LinkProxyClientActivity"/>
+      <component-filter name="com.unionpay/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.unionpay/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.unionpay/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.unionpay/com.igexin.download.DownloadReceiver"/>
@@ -19,6 +22,8 @@
       <component-filter name="com.unionpay/com.igexin.sdk.MiuiPushReceiver"/>
       <component-filter name="com.unionpay/com.meizu.cloud.pushsdk.SystemReceiver"/>
       <component-filter name="com.unionpay/com.igexin.sdk.VivoPushMessageReceiver"/>
+      <component-filter name="com.unionpay/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.unionpay/com.huawei.hms.support.api.push.PushReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.unionpay/com.igexin.download.DownloadService"/>
@@ -32,5 +37,7 @@
       <component-filter name="com.unionpay/com.igexin.sdk.OppoAppPushService"/>
       <component-filter name="com.unionpay/com.igexin.sdk.OppoPushService"/>
       <component-filter name="com.unionpay/com.unionpay.push.UPGetuiPushService"/>
+      <component-filter name="com.unionpay/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.unionpay/com.igexin.sdk.HmsPushMessageService"/>
    </service>
 </rules>
