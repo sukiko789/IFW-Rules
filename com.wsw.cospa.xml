@@ -13,15 +13,14 @@
       <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
       <component-filter name="com.wsw.cospa/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
       <component-filter name="com.wsw.cospa/com.yalantis.ucrop.UCropActivity"/>
-      <component-filter name="com.wsw.cospa/com.luck.picture.lib.PictureExternalPreviewActivity"/>
       <component-filter name="com.wsw.cospa/com.luck.picture.lib.PicturePlayAudioActivity"/>
       <component-filter name="com.wsw.cospa/com.luck.picture.lib.PicturePreviewActivity"/>
       <component-filter name="com.wsw.cospa/com.luck.picture.lib.PictureSelectorActivity"/>
       <component-filter name="com.wsw.cospa/com.luck.picture.lib.PictureVideoPlayActivity"/>
       <component-filter name="com.wsw.cospa/cc.shinichi.library.view.ImagePreviewActivity"/>
       <component-filter name="com.wsw.cospa/com.wsw.cospa.activity.AliPayPacketActivity"/>
-      <component-filter name="com.wsw.cospa/com.wsw.cospa.activity.DonateActivity"/>
       <component-filter name="com.wsw.cospa/com.wsw.cospa.activity.FeedbackActivity"/>
+      <component-filter name="com.wsw.cospa/com.wsw.cospa.activity.DonateActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.wsw.cospa/com.ss.android.downloadlib.core.download.DownloadReceiver"/>

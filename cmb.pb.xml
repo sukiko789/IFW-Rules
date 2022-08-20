@@ -11,6 +11,7 @@
       <component-filter name="cmb.pb/com.huawei.hms.activity.EnableServiceActivity"/>
       <component-filter name="cmb.pb/com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"/>
       <component-filter name="cmb.pb/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="cmb.pb/com.xiaomi.mipush.sdk.NotificationClickedActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="cmb.pb/com.cmb.compim.logic.white.push.HWPushReceiverV1"/>

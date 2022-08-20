@@ -6,6 +6,60 @@
       <component-filter name="com.xunmeng.pinduoduo/com.vivo.push.sdk.LinkProxyClientActivity"/>
       <component-filter name="com.xunmeng.pinduoduo/com.igexin.sdk.MActivity"/>
       <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.shortcut.uninstall.PreUninstallActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.sdk.PushActivity"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.sdk.GActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.xunmeng.pinduoduo/com.tencent.android.tpush.XGPushReceiver"/>
@@ -17,6 +71,9 @@
       <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.popup.ClipboardChangeReceiver"/>
       <component-filter name="com.xunmeng.pinduoduo/com.aimi.android.common.push.xiaomi.MiPushReceiver"/>
       <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.sdk.PushReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.download.DownloadReceiver"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.xiaomi.push.service.receivers.PingReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.xunmeng.pinduoduo/com.vivo.push.sdk.service.CommandClientService"/>
@@ -53,5 +110,11 @@
       <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.service.XMPreloadService"/>
       <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.volantis.tinkerhelper.PDDTinkerResultService"/>
       <component-filter name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.service.VivoPreloadService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.lib.service.TinkerPatchForeService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.lib.service.TinkerPatchService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.lib.service.TinkerPatchService$InnerService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.tencent.smtt.export.external.DexClassLoaderProviderService"/>
+      <component-filter name="com.xunmeng.pinduoduo/com.igexin.download.DownloadService"/>
    </service>
 </rules>

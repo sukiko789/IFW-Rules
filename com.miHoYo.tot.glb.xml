@@ -1,0 +1,28 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.miHoYo.tot.glb/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.miHoYo.tot.glb/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.miHoYo.tot.glb/com.facebook.FacebookActivity"/>
+      <component-filter name="com.miHoYo.tot.glb/com.android.billingclient.api.ProxyBillingActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.miHoYo.tot.glb/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="com.miHoYo.tot.glb/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.miHoYo.tot.glb/com.combosdk.module.push.impl.localpush.internal.NotificationReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.combosdk.module.push.impl.MiHoYoFirebaseMessagingService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.combosdk.module.download.ReceiveClickService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.combosdk.module.push.impl.localpush.internal.ReceiverAlarmService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+      <component-filter name="com.miHoYo.tot.glb/com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"/>
+   </service>
+</rules>

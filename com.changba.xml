@@ -174,6 +174,12 @@
       <component-filter name="com.changba/com.changba.plugin.push.platform.xiaomi.XiaoMiPushReceiver"/>
       <component-filter name="com.changba/com.changba.plugin.push.platform.vivo.VivoPushMessageReceiver"/>
       <component-filter name="com.changba/com.changba.plugin.push.platform.huawei.HuaweiPushReceiver"/>
+      <component-filter name="com.changba/com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver"/>
+      <component-filter name="com.changba/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.changba/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.changba/com.umeng.union.UMBoardReceiver"/>
+      <component-filter name="com.changba/com.umeng.message.UmengNotificationReceiver"/>
+      <component-filter name="com.changba/com.changba.plugin.push.NotificationBroadcastReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.changba/com.amap.api.location.APSService"/>
@@ -196,14 +202,10 @@
       <component-filter name="com.changba/com.xiaomi.mipush.sdk.MessageHandleService"/>
       <component-filter name="com.changba/com.eguan.monitor.service.MonitorService"/>
       <component-filter name="com.changba/com.taobao.accs.data.MsgDistributeService"/>
-      <component-filter name="com.changba/com.changba.store.MyBagService"/>
       <component-filter name="com.changba/com.changba.module.push.oppo.OppoPushMsgService"/>
-      <component-filter name="com.changba/com.changba.module.playerservice.PlayerService"/>
       <component-filter name="com.changba/com.xiaomi.mipush.sdk.PushMessageHandler"/>
       <component-filter name="com.changba/com.q.m.QS"/>
       <component-filter name="com.changba/com.changba.upload.service.QiniuUploadJobService"/>
-      <component-filter name="com.changba/com.changba.aidl.SSOService"/>
-      <component-filter name="com.changba/com.changba.service.SyncIntentService"/>
       <component-filter name="com.changba/com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner"/>
       <component-filter name="com.changba/com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService"/>
       <component-filter name="com.changba/com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner"/>
@@ -216,8 +218,6 @@
       <component-filter name="com.changba/com.xiaomi.push.service.XMJobService"/>
       <component-filter name="com.changba/com.xiaomi.push.service.XMPushService"/>
       <component-filter name="com.changba/com.umeng.message.XiaomiIntentService"/>
-      <component-filter name="com.changba/com.changba.module.service.InitService"/>
-      <component-filter name="com.changba/com.changba.im.IMService"/>
       <component-filter name="com.changba/com.taobao.accs.internal.AccsJobService"/>
       <component-filter name="com.changba/com.huawei.hms.support.api.push.service.HmsMsgService"/>
       <component-filter name="com.changba/com.coloros.mcssdk.PushService"/>
@@ -225,5 +225,10 @@
       <component-filter name="com.changba/com.tencent.tinker.lib.service.TinkerPatchService"/>
       <component-filter name="com.changba/com.tencent.tinker.lib.service.TinkerPatchService$InnerService"/>
       <component-filter name="com.changba/com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService"/>
+      <component-filter name="com.changba/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.changba/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.changba/com.xiaochang.easylive.live.screenrecord.ElRecordScreenService"/>
+      <component-filter name="com.changba/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.changba/com.changba.module.report.ReportOOMLogService"/>
    </service>
 </rules>

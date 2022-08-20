@@ -9,6 +9,7 @@
       <component-filter name="com.unionpay/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
       <component-filter name="com.unionpay/com.huawei.hms.activity.EnableServiceActivity"/>
       <component-filter name="com.unionpay/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.unionpay/com.huawei.hms.support.api.push.TransActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.unionpay/com.igexin.download.DownloadReceiver"/>

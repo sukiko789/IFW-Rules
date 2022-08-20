@@ -1,0 +1,58 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.ads.AdActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.adview.AppLovinFullscreenActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.adview.AppLovinInterstitialActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.sdk.AppLovinWebViewActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.facebook.ads.AudienceNetworkActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.ironsource.sdk.controller.ControllerActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.firebase.auth.internal.FederatedSignInActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.firebase.auth.internal.GenericIdpActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.games.bridge.GenericResolutionActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.ironsource.sdk.controller.InterstitialActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.mediation.MaxDebuggerActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.mediation.MaxDebuggerAdUnitsListActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.mediation.MaxDebuggerDetailActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.mediation.MaxDebuggerMultiAdActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.android.billingclient.api.ProxyBillingActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.tapjoy.TJAdUnitActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.tapjoy.TJContentActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.auth.api.signin.internal.SignInHubActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.firebase.auth.internal.RecaptchaActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.ironsource.sdk.controller.OpenUrlActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.games.bridge.NativeBridgeActivity"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.common.api.GoogleApiActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.unity.androidnotifications.UnityNotificationManager"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.tapjoy.TapjoyReceiver"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.RescheduleReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.ads.AdService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.impl.sdk.utils.AppKilledService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.applovin.impl.adview.activity.FullscreenAdService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.room.MultiInstanceInvalidationService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/androidx.work.impl.background.systemjob.SystemJobService"/>
+      <component-filter name="com.TechTreeGames.ZenIdle/com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"/>
+   </service>
+</rules>

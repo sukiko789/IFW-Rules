@@ -14,6 +14,10 @@
       <component-filter name="com.qzone/com.qq.e.tg.RewardvideoPortraitADActivity"/>
       <component-filter name="com.qzone/com.qq.e.tg.TransPortraitADActivity"/>
       <component-filter name="com.qzone/com.qq.e.tg.WebAdActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.vip.ui.GameCenterPayActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.gamecenter.ui.GameCenterHomeActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.gamecenter.ui.GameCenterBaseFragment"/>
+      <component-filter name="com.qzone/com.qzonex.module.gameengine.ui.GameActivity"/>
       <component-filter name="com.qzone/com.tencent.smtt.sdk.VideoActivity"/>
    </activity>
    <broadcast block="true" log="false">
@@ -39,9 +43,7 @@
       <component-filter name="com.qzone/com.heytap.mcssdk.PushService"/>
       <component-filter name="com.qzone/com.xiaomi.mipush.sdk.PushMessageHandler"/>
       <component-filter name="com.qzone/com.xiaomi.push.service.XMPushService"/>
-      <component-filter name="com.qzone/com.qzonex.module.maxvideo.MaxVideoService"/>
       <component-filter name="com.qzone/com.qzonex.proxy.localalbum.business.NewPhotoNotificationService"/>
-      <component-filter name="com.qzone/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService"/>
       <component-filter name="com.qzone/com.qzonex.component.wns.push.QzonePushService"/>
       <component-filter name="com.qzone/com.tencent.miniqqmusic.basic.audio.QQPlayerService"/>
       <component-filter name="com.qzone/com.wns.daemon.foreservice.FakeForeGroundService"/>

@@ -27,12 +27,49 @@
       <component-filter name="com.dv.adm/com.huawei.opendevice.open.PrivacyActivity"/>
       <component-filter name="com.dv.adm/com.huawei.opendevice.open.SimplePrivacyActivity"/>
       <component-filter name="com.dv.adm/com.huawei.opendevice.open.WhyThisAdStatementActivity"/>
+      <component-filter name="com.dv.adm/com.yandex.mobile.ads.common.AdActivity"/>
+      <component-filter name="com.dv.adm/com.adcolony.sdk.AdColonyAdViewActivity"/>
+      <component-filter name="com.dv.adm/com.adcolony.sdk.AdColonyInterstitialActivity"/>
+      <component-filter name="com.dv.adm/com.unity3d.services.ads.adunit.AdUnitActivity"/>
+      <component-filter name="com.dv.adm/com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"/>
+      <component-filter name="com.dv.adm/com.unity3d.services.ads.adunit.AdUnitTransparentActivity"/>
+      <component-filter name="com.dv.adm/com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.adview.AppLovinFullscreenActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.sdk.AppLovinWebViewActivity"/>
+      <component-filter name="com.dv.adm/com.amazon.device.ads.DTBAdActivity"/>
+      <component-filter name="com.dv.adm/com.amazon.device.ads.DTBInterstitialActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.PPSInstallAuthorActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"/>
+      <component-filter name="com.dv.adm/com.huawei.openalliance.ad.ppskit.activity.SplashFeedbackActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"/>
+      <component-filter name="com.dv.adm/com.appodeal.ads.TestActivity"/>
+      <component-filter name="com.dv.adm/com.appodeal.ads.VideoPlayerActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.mediation.MaxDebuggerMultiAdActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.mediation.MaxDebuggerDetailActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.mediation.MaxDebuggerAdUnitsListActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"/>
+      <component-filter name="com.dv.adm/com.applovin.mediation.MaxDebuggerActivity"/>
    </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.dv.adm/com.appodeal.ads.AppodealPackageAddedReceiver"/>
+   </broadcast>
    <service block="true" log="false">
       <component-filter name="com.dv.adm/com.google.android.gms.ads.AdService"/>
       <component-filter name="com.dv.adm/com.appbrain.AppBrainService"/>
       <component-filter name="com.dv.adm/com.appbrain.AppBrainJobService"/>
       <component-filter name="com.dv.adm/com.huawei.android.hms.ppskit.PpsCoreService"/>
       <component-filter name="com.dv.adm/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.dv.adm/com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+      <component-filter name="com.dv.adm/com.applovin.impl.adview.activity.FullscreenAdService"/>
+      <component-filter name="com.dv.adm/com.applovin.impl.sdk.utils.AppKilledService"/>
    </service>
 </rules>
