@@ -8,6 +8,46 @@
       <component-filter name="com.duolingo/com.facebook.ads.AudienceNetworkActivity"/>
       <component-filter name="com.duolingo/com.duolingo.sessionend.ads.PlusPromoVideoActivity"/>
       <component-filter name="com.duolingo/com.duolingo.ads.PodcastPromoActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.DiskAnalysisActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.onboarding.DebugPlacementTestActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.DebugActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.signuplogin.AddPhoneActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.profile.contactsync.AddPhoneActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.BackendTutorialActivity"/>
+      <component-filter name="com.duolingo/com.facebook.CustomTabActivity"/>
+      <component-filter name="com.duolingo/com.facebook.CustomTabMainActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.DesignGuidelinesActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.explanations.ExplanationListDebugActivity"/>
+      <component-filter name="com.duolingo/com.facebook.FacebookActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.profile.facebookfriends.FacebookFriendsOnSignInPromptActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.profile.facebookfriends.FacebookFriendsSearchOnSignInActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.familyplan.FamilyPlanPlusActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.familyplan.FamilyPlanLandingActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.familyplan.FamilyPlanInvalidActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.familyplan.FamilyPlanConfirmActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.feedback.FeedbackFormActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.leagues.LeaguesResultDebugActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.familyplan.ManageFamilyPlanActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.management.ManageSubscriptionActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.MessagesDebugActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.mistakesinbox.MistakesInboxPreviewActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.mvvm.ui.MvvmExampleActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.dashboard.PlusActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.management.PlusCancelSurveyActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.management.PlusFeatureListActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.onboarding.PlusOnboardingNotificationsActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.onboarding.PlusOnboardingSlidesActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.rewards.RewardsDebugActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.session.SessionDebugActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.debug.sessionend.SessionEndDebugActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.SuperRebrandPlusConversionActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.wxapi.WXEntryActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.wxapi.WXPayEntryActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.wechat.WeChatFollowInstructionsActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.wechat.WeChatReceiverActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.registration.WelcomeRegistrationActivity"/>
+      <component-filter name="com.duolingo/com.duolingo.plus.onboarding.WelcomeToPlusActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.duolingo/com.google.android.gms.measurement.AppMeasurementReceiver"/>
@@ -15,6 +55,15 @@
       <component-filter name="com.duolingo/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
       <component-filter name="com.duolingo/zendesk.support.DeepLinkingBroadcastReceiver"/>
       <component-filter name="com.duolingo/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
+      <component-filter name="com.duolingo/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"/>
+      <component-filter name="com.duolingo/androidx.work.impl.diagnostics.DiagnosticsReceiver"/>
+      <component-filter name="com.duolingo/androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.RescheduleReceiver"/>
    </broadcast>
    <service block="true" log="false">
       <component-filter name="com.duolingo/com.google.android.gms.ads.AdService"/>
@@ -22,5 +71,13 @@
       <component-filter name="com.duolingo/com.google.android.gms.measurement.AppMeasurementService"/>
       <component-filter name="com.duolingo/com.duolingo.notifications.NotificationIntentService"/>
       <component-filter name="com.duolingo/com.duolingo.notifications.NotificationUtils$NotificationIntentServiceProxy"/>
+      <component-filter name="com.duolingo/com.duolingo.notifications.NotificationIntentServiceProxy"/>
+      <component-filter name="com.duolingo/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="com.duolingo/com.duolingo.notifications.FcmIntentService"/>
+      <component-filter name="com.duolingo/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+      <component-filter name="com.duolingo/androidx.work.impl.foreground.SystemForegroundService"/>
+      <component-filter name="com.duolingo/androidx.work.impl.background.systemjob.SystemJobService"/>
+      <component-filter name="com.duolingo/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
    </service>
 </rules>
