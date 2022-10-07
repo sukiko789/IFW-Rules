@@ -1,0 +1,59 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.eno.android/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.eno.android/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.eno.android/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.eno.android/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.eno.android/com.aliyun.ams.emas.push.NotificationActivity"/>
+      <component-filter name="com.eno.android/com.hundsun.user.activity.PushCheckActivity"/>
+      <component-filter name="com.eno.android/com.alipay.sdk.app.PayResultActivity"/>
+      <component-filter name="com.eno.android/com.alipay.sdk.app.H5PayActivity"/>
+      <component-filter name="com.eno.android/com.alipay.sdk.app.H5OpenAuthActivity"/>
+      <component-filter name="com.eno.android/com.alipay.sdk.app.H5AuthActivity"/>
+      <component-filter name="com.eno.android/com.alipay.sdk.app.AlipayResultActivity"/>
+      <component-filter name="com.eno.android/com.alipay.sdk.app.APayEntranceActivity"/>
+      <component-filter name="com.eno.android/com.hundsun.trade.other.refinance.convention.ConventionReturnActivity"/>
+      <component-filter name="com.eno.android/com.sina.weibo.sdk.share.WbShareToStoryActivity"/>
+      <component-filter name="com.eno.android/com.sina.weibo.sdk.share.WbShareTransActivity"/>
+      <component-filter name="com.eno.android/com.sina.weibo.sdk.component.WeiboSdkBrowser"/>
+      <component-filter name="com.eno.android/com.sina.weibo.sdk.web.WeiboSdkWebActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.eno.android/com.hundsun.obmbase.util.AppRegister"/>
+      <component-filter name="com.eno.android/com.taobao.accs.EventReceiver"/>
+      <component-filter name="com.eno.android/com.hundsun.common.message.LocalReceiverCJHB"/>
+      <component-filter name="com.eno.android/com.alibaba.sdk.android.push.MiPushBroadcastReceiver"/>
+      <component-filter name="com.eno.android/com.hundsun.winner.message.MyMessageReceiver"/>
+      <component-filter name="com.eno.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.eno.android/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.eno.android/com.alibaba.sdk.android.push.impl.PushMessageReceiverImpl"/>
+      <component-filter name="com.eno.android/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.eno.android/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.eno.android/com.taobao.accs.ServiceReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.eno.android/com.taobao.accs.internal.AccsJobService"/>
+      <component-filter name="com.eno.android/com.aliyun.ams.emas.push.AgooInnerService"/>
+      <component-filter name="com.eno.android/org.android.agoo.accs.AgooService"/>
+      <component-filter name="com.eno.android/com.hundsun.common.upgrade.AppUpgradeService"/>
+      <component-filter name="com.eno.android/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.eno.android/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.eno.android/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.eno.android/com.taobao.accs.ChannelService$KernelService"/>
+      <component-filter name="com.eno.android/com.taobao.accs.ChannelService"/>
+      <component-filter name="com.eno.android/com.hundsun.audio.BackService"/>
+      <component-filter name="com.eno.android/com.hundsun.obmbase.service.DownLoadService"/>
+      <component-filter name="com.eno.android/com.lzy.okserver.download.DownloadService"/>
+      <component-filter name="com.eno.android/com.hundsun.locationgmu.defaultclient.HSLocationService"/>
+      <component-filter name="com.eno.android/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.eno.android/com.alibaba.sdk.android.push.huawei.HuaweiPushMessageService"/>
+      <component-filter name="com.eno.android/com.alibaba.sdk.android.push.channel.KeepChannelService"/>
+      <component-filter name="com.eno.android/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.eno.android/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.eno.android/com.aliyun.ams.emas.push.MsgService"/>
+      <component-filter name="com.eno.android/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.eno.android/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.eno.android/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.eno.android/com.xiaomi.push.service.XMPushService"/>
+   </service>
+</rules>

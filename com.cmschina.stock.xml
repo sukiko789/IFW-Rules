@@ -1,0 +1,47 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.cmschina.stock/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.cmschina.stock/cms.services.ai.recognition.ui.BaiduASRDigitalDialog"/>
+      <component-filter name="com.cmschina.stock/com.cmschina.module.pushsupport.FakePushActivity"/>
+      <component-filter name="com.cmschina.stock/com.cmschina.stock.ai.FakeSpeechAIActivity"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.core.loading.impl.LoadingPage"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.quinox.preload.PreloadFodderActivity"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.quinox.activity.StubActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.cmschina.stock/com.cms.pay.wx.AppRegister"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.logmonitor.ClientMonitorExtReceiver"/>
+      <component-filter name="com.cmschina.stock/com.tdx.tdxthirdpush.xiaomiPush.DemoMessageReceiver"/>
+      <component-filter name="com.cmschina.stock/com.tdx.tdxthirdpush.tdxhuaweipush.HuaweiPushReceiver"/>
+      <component-filter name="com.cmschina.stock/com.xiaomi.push.service.receivers.NetworkStatusReceiver"/>
+      <component-filter name="com.cmschina.stock/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.cmschina.stock/com.huawei.hms.support.api.push.PushEventReceiver"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.logmonitor.TraceStubReceiver"/>
+      <component-filter name="com.cmschina.stock/com.alipay.android.phone.mobilecommon.dynamicrelease.SyncConfigReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.cmschina.stock/com.alipay.android.phone.mobilesdk.apm.service.APMInnerService"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.logmonitor.ClientMonitorService"/>
+      <component-filter name="com.cmschina.stock/es.voghdev.pdfviewpager.library.service.CopyAssetService"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInlite3"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInlite2"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInlite1"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInToolsProcess"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInMainProcess"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.quinox.preload.ExcaliburService"/>
+      <component-filter name="com.cmschina.stock/com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseRequestService"/>
+      <component-filter name="com.cmschina.stock/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.cmschina.stock/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.cmschina.stock/com.baidu.speech.VoiceRecognitionService"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.android.security.upgrade.download.normal.UpgradeExternalDownloadIntentService"/>
+      <component-filter name="com.cmschina.stock/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.quinox.preload.PreloadService"/>
+      <component-filter name="com.cmschina.stock/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.quinox.preload.MainPldService"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInlite5"/>
+      <component-filter name="com.cmschina.stock/com.alipay.mobile.common.logging.process.LogServiceInlite4"/>
+      <component-filter name="com.cmschina.stock/com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseProcessService"/>
+   </service>
+</rules>

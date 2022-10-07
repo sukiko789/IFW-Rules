@@ -1,0 +1,37 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.activity.BridgeActivity"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.activity.EnableServiceActivity"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.updatesdk.support.pm.PackageInstallerActivity"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbpush.vendorSdk.huawei.cmbITGMH1"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbActivity.usermodule.relation.info.huawei.cmbRIPLCL"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.vivo.push.sdk.cmbGGQYW"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbActivity.cmbReceiver.NotifyClickReceiver"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.xiaomi.push.service.receivers.PingReceiver"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.support.api.push.PushMsgReceiver"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.support.api.push.PushReceiver"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbpush.vendorSdk.vivo.VivoPushReceiver"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbpush.vendorSdk.xiaomi.XiaomiMsgReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.xiaomi.push.service.XMPushService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.project.foundation.InvokeStartAppInterfaceService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.vivo.push.sdk.service.CommandClientService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.hms.support.api.push.service.HmsMsgService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.xiaomi.mipush.sdk.MessageHandleService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.huawei.agconnect.core.ServiceDiscovery"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.xiaomi.push.service.XMJobService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbpush.vendorSdk.oppo.OppoPushServiceBelow10"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbpush.vendorSdk.oppo.OppoPushServiceAbove10"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbpush.vendorSdk.huawei.HuaweiPushService"/>
+      <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.upgrade.DownloadService"/>
+   </service>
+</rules>

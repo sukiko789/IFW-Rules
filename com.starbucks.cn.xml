@@ -31,13 +31,21 @@
       <component-filter name="com.starbucks.cn/cn.jpush.android.service.DActivity"/>
       <component-filter name="com.starbucks.cn/cn.jpush.android.service.JNotifyActivity"/>
       <component-filter name="com.starbucks.cn/cn.jpush.android.ui.JThirdPushActivity"/>
-      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.webview.UccWebViewActivity"/>
-      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.ui.UccActivity"/>
-      <component-filter name="com.starbucks.cn/com.ali.user.open.tbauth.ui.TbAuthWebViewActivity"/>
-      <component-filter name="com.starbucks.cn/com.ali.user.open.tbauth.ui.TbAuthActivity"/>
-      <component-filter name="com.starbucks.cn/com.ali.user.open.tbauth.ui.ICBUAuthActivity"/>
-      <component-filter name="com.starbucks.cn/com.ali.user.open.core.webview.BaseWebViewActivity"/>
       <component-filter name="com.starbucks.cn/com.starbucks.cn.ui.LaunchAdActivity"/>
+      <component-filter name="com.starbucks.cn/cn.freemud.fmpaysdk.YLbackActivity"/>
+      <component-filter name="com.starbucks.cn/cn.sharesdk.sina.weibo.WeiboShareActivity"/>
+      <component-filter name="com.starbucks.cn/com.sina.weibo.sdk.web.WebActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.webview.WebViewDialogActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.webview.WebViewTransparentActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.ui.UccActivity"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.ucc.webview.UccWebViewActivity"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.account.ui.feedback.log.UploadLogActivity"/>
+      <component-filter name="com.starbucks.cn/com.sina.weibo.sdk.share.ShareTransActivity"/>
+      <component-filter name="com.starbucks.cn/com.sina.weibo.sdk.share.ShareStoryActivity"/>
+      <component-filter name="com.starbucks.cn/com.sina.weibo.sdk.share.ShareResultActivity"/>
+      <component-filter name="com.starbucks.cn/com.sina.weibo.sdk.share.ShareChatActivity"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.baselib.push.PushDeepLinkProxyActivity"/>
+      <component-filter name="com.starbucks.cn/com.journeyapps.barcodescanner.CaptureActivity"/>
    </activity>
    <broadcast block="true" log="true">
       <component-filter name="com.starbucks.cn/cn.jpush.android.service.AlarmReceiver"/>
@@ -58,6 +66,8 @@
       <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.PushMsgReceiver"/>
       <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.PushReceiver"/>
       <component-filter name="com.starbucks.cn/cn.jpush.android.service.SchedulerReceiver"/>
+      <component-filter name="com.starbucks.cn/com.starbucks.cn.account.common.receiver.MiniPromotionNotificationReceiver"/>
+      <component-filter name="com.starbucks.cn/com.ali.user.open.receiver.SessionSyncReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="com.starbucks.cn/com.google.android.gms.analytics.AnalyticsJobService"/>
@@ -78,11 +88,11 @@
       <component-filter name="com.starbucks.cn/com.huawei.hms.support.api.push.service.HmsMsgService"/>
       <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementService"/>
       <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementJobService"/>
-      <component-filter name="com.starbucks.cn/com.starbucks.cn.core.service.AppVersionJobIntentService"/>
-      <component-filter name="com.starbucks.cn/com.taobao.uc.service.SandboxedPrivilegedProcessService0"/>
-      <component-filter name="com.starbucks.cn/com.taobao.uc.service.SandboxedProcessService0"/>
       <component-filter name="com.starbucks.cn/com.starbucks.cn.core.service.HotUpdateJobIntentService"/>
       <component-filter name="com.starbucks.cn/com.starbucks.cn.delivery.service.HotUpdateComboJobIntentService"/>
       <component-filter name="com.starbucks.cn/com.starbucks.cn.delivery.service.DeliveryHotUpdateJobIntentService"/>
+      <component-filter name="com.starbucks.cn/com.taobao.uc.service.SandboxedProcessService0"/>
+      <component-filter name="com.starbucks.cn/com.taobao.uc.service.SandboxedPrivilegedProcessService0"/>
+      <component-filter name="com.starbucks.cn/com.taobao.uc.service.GpuProcessService0"/>
    </service>
 </rules>

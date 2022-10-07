@@ -133,7 +133,6 @@
       <component-filter name="com.bilibili.app.in/com.bilibili.adcommon.apkdownload.panel.ADPanelService"/>
       <component-filter name="com.bilibili.app.in/com.google.android.gms.measurement.AppMeasurementJobService"/>
       <component-filter name="com.bilibili.app.in/com.google.android.gms.measurement.AppMeasurementService"/>
-      <component-filter name="com.bilibili.app.in/com.bilibili.comm.bbc.service.BbcClientManagerService"/>
       <component-filter name="com.bilibili.app.in/com.google.firebase.components.ComponentDiscoveryService"/>
       <component-filter name="com.bilibili.app.in/com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.game.service.DownloadService"/>
@@ -143,7 +142,6 @@
       <component-filter name="com.bilibili.app.in/com.bilibili.lib.hotfix.service.HotfixResultService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.bplus.im.abroad.message.notice.IMCallbackService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.bplus.im.abroad.message.IMPushService"/>
-      <component-filter name="com.bilibili.app.in/com.bilibili.lib.infoeyes.InfoEyesRemoteService"/>
       <component-filter name="com.bilibili.app.in/com.evernote.android.job.JobRescheduleService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.lib.neuron.internal.NeuronRemoteService"/>
       <component-filter name="com.bilibili.app.in/com.evernote.android.job.v14.PlatformAlarmService"/>
@@ -160,12 +158,21 @@
       <component-filter name="com.bilibili.app.in/tv.danmaku.bili.update.UpdateService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.opd.app.bizcommon.hybridruntime.preload.WebViewPreloadService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.preload.WebViewPreloadService"/>
-      <component-filter name="com.bilibili.app.in/com.bilibili.lib.infoeyes.InfoEyesLocalService"/>
-      <component-filter name="com.bilibili.app.in/com.bilibili.lib.neuron.internal.NeuronLocalService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.adcommon.apkdownload.ADDownloadService"/>
       <component-filter name="com.bilibili.app.in/com.huawei.updatesdk.service.deamon.download.DownloadService"/>
       <component-filter name="com.bilibili.app.in/com.google.android.play.core.assetpacks.AssetPackExtractionService"/>
       <component-filter name="com.bilibili.app.in/com.hpplay.sdk.source.process.LelinkSdkService"/>
       <component-filter name="com.bilibili.app.in/com.bilibili.adcommon.sdk.rewardvideo.RewardVideoAdListenerService"/>
+      <component-filter name="com.bilibili.app.in/com.bilibili.ad.preload.AdWebViewPreloadService"/>
+      <component-filter name="com.bilibili.app.in/com.heytap.msp.push.service.DataMessageCallbackService"/>
+      <component-filter name="com.bilibili.app.in/com.heytap.msp.push.service.CompatibleDataMessageCallbackService"/>
+      <component-filter name="com.bilibili.app.in/com.alibaba.cloudgame.plugin.accs.CGAliyunAccsCallBackService"/>
+      <component-filter name="com.bilibili.app.in/com.mall.devkit.DevkitFloatingService"/>
+      <component-filter name="com.bilibili.app.in/com.taobao.accs.data.MsgDistributeService"/>
+      <component-filter name="com.bilibili.app.in/com.bilibili.biligame.track.service.TrackService"/>
+      <component-filter name="com.bilibili.app.in/com.bilibili.comm.bbc.service.BbcClientManagerService"/>
+      <component-filter name="com.bilibili.app.in/com.bilibili.lib.infoeyes.InfoEyesRemoteService"/>
+      <component-filter name="com.bilibili.app.in/com.bilibili.lib.infoeyes.InfoEyesLocalService"/>
+      <component-filter name="com.bilibili.app.in/com.bilibili.lib.neuron.internal.NeuronLocalService"/>
    </service>
 </rules>

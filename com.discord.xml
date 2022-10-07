@@ -1,0 +1,14 @@
+<rules>
+   <activity block="true" log="false">
+      <component-filter name="com.discord/com.yalantis.ucrop.UCropActivity"/>
+   </activity>
+   <broadcast block="true" log="false">
+      <component-filter name="com.discord/com.adjust.sdk.AdjustReferrerReceiver"/>
+      <component-filter name="com.discord/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+      <component-filter name="com.discord/com.google.android.gms.analytics.AnalyticsReceiver"/>
+   </broadcast>
+   <service block="true" log="false">
+      <component-filter name="com.discord/com.google.android.gms.analytics.AnalyticsJobService"/>
+      <component-filter name="com.discord/com.google.android.gms.analytics.AnalyticsService"/>
+   </service>
+</rules>

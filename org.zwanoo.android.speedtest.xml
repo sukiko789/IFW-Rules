@@ -5,9 +5,33 @@
    <broadcast block="true" log="true">
       <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.analytics.AnalyticsReceiver"/>
       <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.tagmanager.InstallReferrerReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.measurement.AppMeasurementReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/zendesk.support.DeepLinkingBroadcastReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.ookla.speedtestengine.reporting.LocationMonitor$LocationReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.mapbox.common.location.LocationUpdatesReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.ookla.speedtest.safetimer.SafeTimerManager$AlarmReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
    </broadcast>
    <service block="true" log="true">
       <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.analytics.AnalyticsJobService"/>
       <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.analytics.AnalyticsService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.measurement.AppMeasurementJobService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.measurement.AppMeasurementService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.ookla.speedtestengine.reporting.bgreports.BGReportJobServiceImpl"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.wireguard.android.segregation.BackendVpnService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.firebase.components.ComponentDiscoveryService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.ookla.mobile4.app.data.fcm.FcmService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.firebase.messaging.FirebaseMessagingService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.gms.tagmanager.InstallReferrerService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.gentlebreeze.vpn.module.strongswan.api.service.StrongSwanService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.ookla.mobile4.app.data.SubmitFeedbackService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.gentlebreeze.vpn.module.strongswan.api.service.VPNModuleStrongSwanVpnStateService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.gentlebreeze.vpn.module.openvpn.api.service.VPNModuleOpenVPNService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.mapbox.android.telemetry.MapboxTelemetryService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.ookla.mobile4.app.data.ratings.SubmitRatingService"/>
+      <component-filter name="org.zwanoo.android.speedtest/com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"/>
    </service>
 </rules>

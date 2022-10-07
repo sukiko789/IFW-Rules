@@ -19,6 +19,10 @@
       <component-filter name="com.qzone/com.qzonex.module.gamecenter.ui.GameCenterBaseFragment"/>
       <component-filter name="com.qzone/com.qzonex.module.gameengine.ui.GameActivity"/>
       <component-filter name="com.qzone/com.tencent.smtt.sdk.VideoActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.lockscreen.ui.LockScreenUnlockActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.lockscreen.ui.LockScreenActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.gamecenter.ui.MyGameActivity"/>
+      <component-filter name="com.qzone/com.qzonex.module.browser.ui.QzoneApkDownloadActivity"/>
    </activity>
    <broadcast block="true" log="false">
       <component-filter name="com.qzone/com.tencent.base.os.clock.AlarmClockReceiver"/>
@@ -33,8 +37,6 @@
       <component-filter name="com.qzone/com.qzonex.app.QZoneApplication$EventNotifier$QzoneBootReceiver"/>
       <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonMainProcessReceiver"/>
       <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonSubProcessReceive"/>
-      <component-filter name="com.qzone/com.qzonex.component.process.WebProcessReceiver2"/>
-      <component-filter name="com.qzone/com.qzonex.component.process.WebProcessReceiver"/>
       <component-filter name="com.qzone/com.qzonex.component.process.PluginProcessReceiver"/>
    </broadcast>
    <service block="true" log="false">
@@ -49,5 +51,11 @@
       <component-filter name="com.qzone/com.wns.daemon.foreservice.FakeForeGroundService"/>
       <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonSubProcessService"/>
       <component-filter name="com.qzone/com.qzone.wnsdaemon.WnsdaemonMainProcessService"/>
+      <component-filter name="com.qzone/tmsdk.common.KcBaseService"/>
+      <component-filter name="com.qzone/com.tencent.afc.component.lbs.ipc.LbsRealService"/>
+      <component-filter name="com.qzone/com.qzone.adapter.oscarcamera.OscarCameraCommonService"/>
+      <component-filter name="com.qzone/com.qzonex.component.process.PluginProcessService"/>
+      <component-filter name="com.qzone/com.qzonex.module.maxvideo.MaxVideoService"/>
+      <component-filter name="com.qzone/com.qzone.module.camera.CameraInitService"/>
    </service>
 </rules>

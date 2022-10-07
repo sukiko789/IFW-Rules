@@ -119,7 +119,6 @@
       <component-filter name="com.tencent.mm/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"/>
       <component-filter name="com.tencent.mm/com.google.android.gms.measurement.AppMeasurementReceiver"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.performance.elf.ElfCallUpReceiver"/>
-      <component-filter name="com.tencent.mm/com.google.firebase.iid.FirebaseInstanceIdReceiver"/>
       <component-filter name="com.tencent.mm/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.setting.SwitchAccountReceiver"/>
       <component-filter name="com.tencent.mm/com.tencent.matrix.report.MatrixReportBroadcast"/>
@@ -166,8 +165,6 @@
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.game.wepkg.ipc.WepkgMainProcessService"/>
       <component-filter name="com.tencent.mm/com.google.android.gms.measurement.AppMeasurementService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.crash.CuploaderProcessServicer"/>
-      <component-filter name="com.tencent.mm/com.google.firebase.iid.FirebaseInstanceIdService"/>
-      <component-filter name="com.tencent.mm/com.google.firebase.messaging.FirebaseMessagingService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.multitalk.model.MultiTalkingForegroundService"/>
       <component-filter name="com.tencent.mm/com.google.android.gms.auth.api.signin.RevocationBoundService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.sport.model.SportForegroundService"/>
@@ -213,7 +210,6 @@
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.gamelive.service.GameLiveForegroundService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.game.gamewebview.ipc.GameWebViewMainProcessService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.booter.KeepAliveService"/>
-      <component-filter name="com.tencent.mm/com.tencent.mm.plugin.webview.luggage.ipc.LuggageMainProcessService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.hp.mmdiff.MMDiffInstallApkService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.hp.mmdiff.MMDiffPatchResultService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.emoji.magicemoji.service.MagicEmojiServiceContext"/>
@@ -234,10 +230,8 @@
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.appbrand.keepalive.AppBrandKeepAliveService2"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.appbrand.keepalive.AppBrandKeepAliveService3"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.plugin.appbrand.keepalive.AppBrandKeepAliveService4"/>
+      <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand2IPCService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand4IPCService"/>
       <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand3IPCService"/>
-      <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand2IPCService"/>
-      <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand0IPCService"/>
-      <component-filter name="com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.Appbrand1IPCService"/>
    </service>
 </rules>
